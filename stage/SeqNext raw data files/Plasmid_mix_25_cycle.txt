@@ -1,0 +1,4 @@
+Index	Gene	Transcript	Name	Location	Pos.	Type	Nuc Change	Coverage	AA Change	Condition	Hint	web Ref.	c. HGVS	p. HGVS	mut Entry	mut Effect	TValidation	MValidation	Weighting	Filter Step
+1	EGFR		EGFR	seq	2241	C	T -> A (het)	55% (12)   [55% (6) / 55% (6)]					n.2241T>A						distinct	
+2	EGFR		EGFR	seq	3063	C	T -> C (homo)	100% (24)   [100% (12) / 100% (12)]					n.3063T>C						distinct	
+3	VEGF_full_length_206_FAS		VEGF_full_length_206_FASTA	seq	1245	C	C -> A (het)	20% (20)   [20% (10) / 20% (10)]					n.1245C>A						distinct	

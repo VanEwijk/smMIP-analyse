@@ -1,0 +1,205 @@
+Gene;Transcript ID;Name;Location;Pos.;Type;Coverage;Nuc Change;AA Change;Hint;c.HGVS;p.HGVS;mut Entry;mut Effect;Weighting
+ACACA;ENST00000353139;ACACA-E01-E56;E29;47 (3611)   [chr17:g.35762779 (HomoSapiens)];C;6% (6)   [6% (3) / 6% (3)];A -> C (het);Q -> P (1204);;c.3611A>C;p.Gln1204Pro;;;other
+ACACA;ENST00000353139;ACACA-E01-E56;E30;2..+1 (3685..3707) / 24bp   [chr17:g.35762682_35762705 (HomoSapiens)];D;6% (6)   [6% (3) / 6% (3)];GGGAACATCCCTACGCTAAACAGA (het);splicing;;c.3685_3707+1delGGGAACATCCCTACGCTAAACAGA;;;;other
+ACLY;ENST00000353196;ACLY-E01-E28;E2;1 / 4bp   [chr17:g.40075132_40075133 (HomoSapiens)];I;29% (28)   [29% (14) / 29% (14)];ACAG (het);5' UTR;;c.-23-1_-23insACAG;;;;distinct
+ACO2;ENST00000216254;ACO2-E01-E18;E5;145 (670)   [chr22:g.41865820 (HomoSapiens)];C;77% (20)   [77% (10) / 77% (10)];C -> T (het);L -> L (224);;c.670C>T;p.=;;;distinct
+ACSS2;ENST00000360596;ACSS2-E01-E18;E2;98 (276)   [chr20:g.33464724 (HomoSapiens)];C;100% (334)   [100% (170) / 100% (164)];C -> T (homo);F -> F (92);;c.276C>T;p.=;;;distinct
+ACSS2;ENST00000360596;ACSS2-E01-E18;E14;1 (1549) / 30bp   [chr20:g.33465996_33465997 (HomoSapiens)];I;6% (8)   [6% (4) / 6% (4)];CTGCTTAGGACTGAAACTTCATGGTTGGAG (het); -> LLRTETSWLE (517);;c.1549-1_1549insCTGCTTAGGACTGAAACTTCATGGTTGGAG;p.Leu516_Val517insLeuLeuArgThrGluThrSerTrpLeuGlu;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E2;69 (63)   [chr7:g.5570086 (HomoSapiens)];C;8% (17)   [8% (9) / 8% (8)];C -> T (het);F -> F (21);;c.63C>T;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E2;70..99 (64..93) / 30bp   [chr7:g.5570056_5570085 (HomoSapiens)];D;6% (12)   [6% (6) / 6% (6)];GCGGGCGACGATGCCCCCCGGGCCGTCTTC (het);AGDDAPRAVF ->  (22..31);;c.64_93delGCGGGCGACGATGCCCCCCGGGCCGTCTTC;p.Ala22_Phe31del;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E2;69 (63)   [chr7:g.5570086 (HomoSapiens)];C;8% (16)   [7% (8) / 8% (8)];C -> G (het);F -> L (21);;c.63C>G;p.Phe21Leu;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E2;81 (75)   [chr7:g.5570074 (HomoSapiens)];C;7% (14)   [7% (7) / 7% (7)];T -> C (het);D -> D (25);;c.75T>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E3;30 (153)   [chr7:g.5569996 (HomoSapiens)];C;7% (14)   [7% (7) / 7% (7)];T -> C (het);D -> D (51);;c.153T>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E3;36 (159)   [chr7:g.5569990 (HomoSapiens)];C;7% (14)   [7% (7) / 7% (7)];T -> C (het);Y -> Y (53);;c.159T>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E3;129 (252)   [chr7:g.5569897 (HomoSapiens)];C;6% (516)   [6% (257) / 6% (259)];A -> G (het);K -> K (84);;c.252A>G;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E4;195 (558)   [chr7:g.5569591 (HomoSapiens)];C;36% (191)   [36% (94) / 36% (97)];T -> C (het);T -> T (186);;c.558T>C;p.=;;;distinct
+ACTB;ENST00000331789;ACTB-E01-E06;E4;219 (582)   [chr7:g.5569567 (HomoSapiens)];C;35% (189)   [36% (94) / 35% (95)];C -> T (het);T -> T (194);;c.582C>T;p.=;;;distinct
+ACTB;ENST00000331789;ACTB-E01-E06;E4;225 (588)   [chr7:g.5569561 (HomoSapiens)];C;35% (187)   [35% (93) / 35% (94)];C -> A (het);R -> R (196);;c.588C>A;p.=;;;distinct
+ACTB;ENST00000331789;ACTB-E01-E06;E4;267 (630)   [chr7:g.5569519 (HomoSapiens)];C;36% (189)   [36% (94) / 35% (95)];T -> C (het);R -> R (210);;c.630T>C;p.=;;;distinct
+ACTB;ENST00000331789;ACTB-E01-E06;E4;273 (636)   [chr7:g.5569513 (HomoSapiens)];C;36% (193)   [37% (96) / 36% (97)];T -> C (het);I -> I (212);;c.636T>C;p.=;;;distinct
+ACTB;ENST00000331789;ACTB-E01-E06;E5;161 (963)   [chr7:g.5569186 (HomoSapiens)];C;5% (89)   [5% (45) / 5% (44)];A -> G (het);A -> A (321);;c.963A>G;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E5;170 (972)   [chr7:g.5569177 (HomoSapiens)];C;6% (95)   [6% (47) / 6% (48)];A -> C (het);T -> T (324);;c.972A>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;6 (990)   [chr7:g.5569159 (HomoSapiens)];C;5% (86)   [5% (43) / 5% (43)];T -> C (het);I -> I (330);;c.990T>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;9 (993)   [chr7:g.5569156 (HomoSapiens)];C;5% (84)   [5% (43) / 5% (41)];T -> A (het);A -> A (331);;c.993T>A;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;12 (996)   [chr7:g.5569153 (HomoSapiens)];C;5% (90)   [5% (45) / 5% (45)];T -> C (het);P -> P (332);;c.996T>C;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;15 (999)   [chr7:g.5569150 (HomoSapiens)];C;5% (90)   [5% (45) / 5% (45)];T -> A (het);P -> P (333);;c.999T>A;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;30 (1014)   [chr7:g.5569135 (HomoSapiens)];C;5% (85)   [5% (42) / 5% (43)];C -> G (het);S -> S (338);;c.1014C>G;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;42 (1026)   [chr7:g.5569123 (HomoSapiens)];C;6% (91)   [6% (46) / 5% (45)];C -> T (het);G -> G (342);;c.1026C>T;p.=;;;other
+ACTB;ENST00000331789;ACTB-E01-E06;E6;60 (1044)   [chr7:g.5569105 (HomoSapiens)];C;5% (89)   [6% (45) / 5% (44)];G -> A (het);S -> S (348);;c.1044G>A;p.=;;;other
+ADPGK;ENST00000311669;ADPGK-E01-E07;E7;117 (1056)   [chr15:g.73074977 (HomoSapiens)];C;22% (52)   [22% (26) / 22% (26)];C -> G (het);G -> G (352);;c.1056C>G;p.=;;;distinct
+ADPGK;ENST00000311669;ADPGK-E01-E07;E7;1 (940) / 3bp   [chr15:g.73075093_73075094 (HomoSapiens)];I (Dup);48% (14)   [47% (7) / 50% (7)];CAG (het); -> Q (314);;c.940-3_940-1dupCAG;p.Gln313dup;;;distinct
+ADPGK;ENST00000311669;ADPGK-E01-E07;E7;117 (1056) / 1bp   [chr15:g.73074977_73074978 (HomoSapiens)];I (Dup);8% (18)   [8% (9) / 8% (9)];G (het);[STOP] AA 356 (E7/127);RF changed;c.1055dupG;p.Met353Hisfs*4;;;other
+AR;ENST00000374690;AR-E01-E08;E7;104 (2553)   [chrX:g.66767541 (HomoSapiens)];C;19% (8)   [19% (4) / 19% (4)];A -> G (het);T -> T (851);;c.2553A>G;p.=;;;distinct
+ATP5C1;ENST00000356708;ATP5C1-E01-E10;E2;13 (69)   [chr10:g.7830239 (HomoSapiens)];C;32% (317)   [32% (159) / 31% (158)];A -> G (het);R -> R (23);;c.69A>G;p.=;;;distinct
+ATP5C1;ENST00000356708;ATP5C1-E01-E10;E8;9..13 (802..806) / 5bp   [chr10:g.7830972_7830976 (HomoSapiens)];Indel;10% (18)   [10% (9) / 10% (9)];ATTGA -> GAA (het);[STOP] AA 288 (E8/69);RF changed;c.802_805delinsGA;p.Ile268Glufs*21;;;distinct
+ATP5C1;ENST00000356708;ATP5C1-E01-E10;E8;9 (802)   [chr10:g.7830972 (HomoSapiens)];C;16% (28)   [16% (14) / 16% (14)];A -> G (het);I -> V (268);;c.802A>G;p.Ile268Val;;;distinct
+AXL;;AXL;seq;2605;C;7% (16)   [7% (8) / 7% (8)];A -> G (het);;;n.2605A>G;;;;other
+CA12;ENST00000344366;CA12-E01-E10;E9;1 (875) / 33bp   [chr15:g.63673045_63673046 (HomoSapiens)];I;94% (4137)   [94% (2071) / 94% (2066)];TGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG (het);G -> VQVCTAAGLSLG (292);;c.875-1_875insTGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG;p.Gln291_Gly292insValGlnValCysThrAlaAlaGlyLeuSerLeu;;;distinct
+CA9;ENST00000378357;CA9-E01-E11;E1;201 (97)   [chr9:g.35674053 (HomoSapiens)];C;67% (16)   [67% (8) / 67% (8)];G -> A (het);V -> M (33);;c.97G>A;p.Val33Met;;;distinct
+CYCS;ENST00000305786;CYCS-E01-E03;E2;26 (18)   [chr7:g.25164793 (HomoSapiens)];C;6% (7)   [7% (4) / 6% (3)];A -> G (het);K -> K (6);;c.18A>G;p.=;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;42..46 (34..38) / 5bp   [chr7:g.25164773_25164777 (HomoSapiens)];Indel;9% (10)   [9% (5) / 9% (5)];ATTAT -> GTTCA (het);IM -> VQ (12..13);;c.34_38delinsGTTCA;p.Ile12_Met13delinsValGln;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;54 (46)   [chr7:g.25164765 (HomoSapiens)];C;9% (10)   [9% (5) / 9% (5)];T -> G (het);S -> A (16);;c.46T>G;p.Ser16Ala;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;97..101 (89..93) / 5bp   [chr7:g.25164718_25164722 (HomoSapiens)];Indel;10% (24)   [10% (12) / 11% (12)];GGCCA -> AGCAT (het);GP -> EH (30..31);;c.89_93delinsAGCAT;p.Gly30_Pro31delinsGluHis;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;62 (54)   [chr7:g.25164757 (HomoSapiens)];C;7% (8)   [7% (4) / 7% (4)];C -> A (het);C -> [STOP] (18);;c.54C>A;p.Cys18Ter;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;121..123 (113..115) / 3bp   [chr7:g.25164696_25164698 (HomoSapiens)];Indel;6% (8)   [6% (4) / 7% (4)];GGC -> TGG (het);GR -> VG (38..39);;c.113_115delinsTGG;p.Gly38_Arg39delinsValGly;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;71 (63)   [chr7:g.25164748 (HomoSapiens)];C;9% (10)   [9% (5) / 9% (5)];T -> G (het);V -> V (21);;c.63T>G;p.=;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;141..142 (133..134) / 2bp   [chr7:g.25164677_25164678 (HomoSapiens)];Indel;13% (16)   [12% (8) / 14% (8)];CC -> GT (het);P -> V (45);;c.133_134delinsGT;p.Pro45Val;;;distinct
+CYCS;ENST00000305786;CYCS-E01-E03;E2;89 (81)   [chr7:g.25164730 (HomoSapiens)];C;10% (24)   [10% (12) / 11% (12)];C -> T (het);H -> H (27);;c.81C>T;p.=;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;141..142 (133..134) / 2bp   [chr7:g.25164677_25164678 (HomoSapiens)];Indel;10% (12)   [9% (6) / 11% (6)];CC -> AT (het);P -> I (45);;c.133_134delinsAT;p.Pro45Ile;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;119 (111)   [chr7:g.25164700 (HomoSapiens)];C;17% (21)   [15% (10) / 19% (11)];T -> C (het);F -> F (37);;c.111T>C;p.=;;;distinct
+CYCS;ENST00000305786;CYCS-E01-E03;E2;160..161 (152..153) / 2bp   [chr7:g.25164658_25164659 (HomoSapiens)];Indel;8% (10)   [7% (5) / 9% (5)];CC -> AT (het);A -> D (51);;c.152_153delinsAT;p.Ala51Asp;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;124 (116)   [chr7:g.25164695 (HomoSapiens)];C;21% (26)   [19% (13) / 23% (13)];G -> A (het);R -> Q (39);;c.116G>A;p.Arg39Gln;;;distinct
+CYCS;ENST00000305786;CYCS-E01-E03;E2;160..165 (152..157) / 6bp   [chr7:g.25164654_25164659 (HomoSapiens)];Indel;6% (7)   [6% (4) / 5% (3)];CCGCCA -> AGGCCC (het);AAN -> EAH (51..53);;c.152_157delinsAGGCCC;p.Ala51_Asn53delinsGluAlaHis;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;133 (125)   [chr7:g.25164686 (HomoSapiens)];C;10% (12)   [9% (6) / 11% (6)];G -> A (het);G -> D (42);;c.125G>A;p.Gly42Asp;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;148 (140)   [chr7:g.25164671 (HomoSapiens)];C;27% (34)   [25% (17) / 30% (17)];A -> T (het);Y -> F (47);;c.140A>T;p.Tyr47Phe;;;distinct
+CYCS;ENST00000305786;CYCS-E01-E03;E2;155 (147)   [chr7:g.25164664 (HomoSapiens)];C;6% (8)   [6% (4) / 7% (4)];C -> T (het);Y -> Y (49);;c.147C>T;p.=;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E3;7 (176)   [chr7:g.25164635 (HomoSapiens)];C;6% (35)   [6% (18) / 6% (17)];T -> C (het);I -> T (59);;c.176T>C;p.Ile59Thr;;;other
+CYCS;ENST00000305786;CYCS-E01-E03;E2;160 (152)   [chr7:g.25164659 (HomoSapiens)];C;12% (15)   [10% (7) / 14% (8)];C -> A (het);A -> D (51);;c.152C>A;p.Ala51Asp;;;distinct
+EGFR;;EGFR;seq;2715;C;50% (103)   [50% (51) / 50% (52)];G -> A (het);;;n.2715G>A;;;;distinct
+EGFR;;EGFR;seq;3063;C;100% (281)   [100% (139) / 100% (142)];T -> C (homo);;;n.3063T>C;;;;distinct
+EGLN1;ENST00000366641;EGLN1-E01-E05;E5;62 (1278)   [chr1:g.231556357 (HomoSapiens)];C;29% (52)   [29% (26) / 29% (26)];C -> A (het);F -> L (426);;c.1278C>A;p.Phe426Leu;;;distinct
+EGLN1;ENST00000366641;EGLN1-E01-E05;E5;104 / 1bp   [chr1:g.231556315_231556316 (HomoSapiens)];I (Dup);29% (52)   [29% (26) / 29% (26)];A (het);3' UTR;;c.*38dupA;;;;distinct
+EGLN1;ENST00000366641;EGLN1-E01-E05;E5;44..48 (1260..1264) / 5bp   [chr1:g.231556371_231556375 (HomoSapiens)];Indel;28% (50)   [28% (25) / 28% (25)];GGTCG -> AGTCA (het);SVG -> SVS (420..422);;c.1260_1264delinsAGTCA;p.Gly422Ser;;;distinct
+EGLN1;ENST00000366641;EGLN1-E01-E05;E5;122   [chr1:g.231556297 (HomoSapiens)];C;29% (52)   [29% (26) / 29% (26)];C -> T (het);3' UTR;;c.*57C>T;;;;distinct
+EGLN1;ENST00000366641;EGLN1-E01-E05;E5;109..111 / 3bp   [chr1:g.231556308_231556310 (HomoSapiens)];Indel;29% (52)   [29% (26) / 29% (26)];AAC -> GACGC (het);3' UTR;;c.*44_*45delinsGACG;;;;distinct
+EPCAM;ENST00000263735;EPCAM-E01-E09;E3;160 (344)   [chr2:g.47596988 (HomoSapiens)];C;63% (40)   [63% (20) / 63% (20)];T -> C (het);M -> T (115);;c.344T>C;p.Met115Thr;;;distinct
+ERBB3;;ERBB3;seq;3387;C;8% (14)   [8% (7) / 8% (7)];C -> G (het);;;n.3387C>G;;;;other
+FBP1;ENST00000375326;FBP1-E01-E07;E5;86 (653)   [chr9:g.97400940 (HomoSapiens)];C;100% (352)   [100% (176) / 100% (176)];G -> A (homo);R -> K (218);;c.653G>A;p.Arg218Lys;;;distinct
+FH;ENST00000366560;FH-E01-E10;E8;87 (1195)   [chr1:g.241681828 (HomoSapiens)];C;10% (20)   [10% (10) / 10% (10)];A -> G (het);S -> G (399);;c.1195A>G;p.Ser399Gly;;;distinct
+FH;ENST00000366560;FH-E01-E10;E8;60..80 (1168..1188) / 21bp   [chr1:g.241681835_241681855 (HomoSapiens)];Indel;10% (20)   [10% (10) / 10% (10)];AACCATGTTGCTGTCACTGTC -> TTTTGTGTGGCAGTAACCGTT (het);NHVAVTV -> FCVAVTV (390..396);;c.1168_1188delinsTTTTGTGTGGCAGTAACCGTT;p.Asn390_His391delinsPheCys;;;distinct
+FH;ENST00000366560;FH-E01-E10;E8;95 (1203)   [chr1:g.241681820 (HomoSapiens)];C;10% (20)   [10% (10) / 10% (10)];A -> C (het);G -> G (401);;c.1203A>C;p.=;;;distinct
+FH;ENST00000366560;FH-E01-E10;E8;108 (1216)   [chr1:g.241681807 (HomoSapiens)];C;10% (20)   [10% (10) / 10% (10)];A -> G (het);N -> D (406);;c.1216A>G;p.Asn406Asp;;;distinct
+FH;ENST00000366560;FH-E01-E10;E8;127 (1235)   [chr1:g.241681788 (HomoSapiens)];C;7% (32)   [7% (16) / 7% (16)];T -> A (het);M -> K (412);;c.1235T>A;p.Met412Lys;;;other
+FOLH1;ENST00000256999;FOLH1-E01-E19;E3;106 (330)   [chr11:g.49229632 (HomoSapiens)];C;9% (103)   [9% (52) / 8% (51)];A -> G (het);L -> L (110);;c.330A>G;p.=;;;other
+G6PD;ENST00000393562;G6PD-E01-E13;E6;1 (576) / 3bp   [chrX:g.153774510_153774511 (HomoSapiens)];I;11% (94)   [11% (47) / 11% (47)];CAG (het);I -> IR (192);;c.576-1_576insCAG;p.Ile192_Gly193insArg;;;distinct
+GAD1;ENST00000358196;GAD1-E01-E17;E5;132 (436)   [chr2:g.171674057 (HomoSapiens)];C;10% (8)   [10% (4) / 10% (4)];C -> T (het);Q -> [STOP] (146);;c.436C>T;p.Gln146Ter;;;distinct
+GCLC;ENST00000229416;GCLC-E01-E16;E15;18 (1599)   [chr6:g.53407845 (HomoSapiens)];C;12% (60)   [12% (30) / 12% (30)];A -> C (het);G -> G (533);;c.1599A>C;p.=;;;distinct
+GFPT1;ENST00000357308;GFPT1-E01-E20;E6;98 (506)   [chr2:g.69613698 (HomoSapiens)];C;22% (54)   [22% (27) / 22% (27)];G -> A (het);S -> N (169);;c.506G>A;p.Ser169Asn;;;distinct
+GLUD2;ENST00000328078;GLUD2-E01;E1;923 (846)   [chrX:g.120182384 (HomoSapiens)];C;91% (289)   [91% (145) / 91% (144)];C -> T (het);N -> N (282);;c.846C>T;p.=;;;distinct
+GOT2;ENST00000245206;GOT2-E01-E10;E3;2 (248)   [chr16:g.58767885 (HomoSapiens)];C;8% (24)   [8% (12) / 8% (12)];C -> A (het);A -> E (83);;c.248C>A;p.Ala83Glu;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E2;137..139 (226..228) / 3bp   [chr16:g.58767905_58767907 (HomoSapiens)];Indel;8% (24)   [8% (12) / 8% (12)];GTT -> ATG (het);V -> M (76);;c.226_228delinsATG;p.Val76Met;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E3;19 (265)   [chr16:g.58767868 (HomoSapiens)];C;8% (24)   [8% (12) / 8% (12)];G -> A (het);A -> T (89);;c.265G>A;p.Ala89Thr;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E2;144..153 (233..242) / 10bp   [chr16:g.58767891_58767900 (HomoSapiens)];Indel;7% (22)   [8% (12) / 7% (10)];CTAGCGTCCG -> TTAATGTCAA (het);PSVR -> LNVN (78..81);;c.233_242delinsTTAATGTCAA;p.Pro78_Arg81delinsLeuAsnValAsn;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E3;36 (282)   [chr16:g.58767851 (HomoSapiens)];C;8% (24)   [8% (12) / 8% (12)];G -> A (het);K -> K (94);;c.282G>A;p.=;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E3;57 (303)   [chr16:g.58767830 (HomoSapiens)];C;7% (22)   [8% (12) / 7% (10)];A -> T (het);G -> G (101);;c.303A>T;p.=;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E3;74 (320)   [chr16:g.58767813 (HomoSapiens)];C;8% (24)   [8% (12) / 8% (12)];A -> C (het);K -> T (107);;c.320A>C;p.Lys107Thr;;;other
+GOT2;ENST00000245206;GOT2-E01-E10;E5;127 (562)   [chr16:g.58767571 (HomoSapiens)];C;59% (84)   [59% (42) / 59% (42)];G -> A (het);G -> S (188);;c.562G>A;p.Gly188Ser;;;distinct
+GOT2;ENST00000245206;GOT2-E01-E10;E9;18 (1037)   [chr16:g.58767096 (HomoSapiens)];C;56% (70)   [56% (35) / 56% (35)];T -> G (het);V -> G (346);;c.1037T>G;p.Val346Gly;;;distinct
+GOT2;ENST00000245206;GOT2-E01-E10;E2;139 (228)   [chr16:g.58767905 (HomoSapiens)];C;51% (157)   [51% (79) / 51% (78)];T -> G (het);V -> V (76);;c.228T>G;p.=;;;distinct
+GPI;ENST00000356487;GPI-E01-E18;E16;56 (1454)   [chr19:g.34857625 (HomoSapiens)];C;5% (24)   [5% (12) / 5% (12)];T -> C (het);F -> S (485);;c.1454T>C;p.Phe485Ser;;;other
+GPI;ENST00000588991;GPI-E01-E19;E17;22 (1420)   [chr19:g.34857351 (HomoSapiens)];C;17% (16)   [17% (8) / 17% (8)];A -> G (het);T -> A (474);;c.1420A>G;p.Thr474Ala;;;distinct
+HK2;ENST00000290573;HK2-E01-E18;E5;29 (524)   [chr2:g.75062231 (HomoSapiens)];C;12% (6)   [12% (3) / 12% (3)];T -> A (het);F -> Y (175);;c.524T>A;p.Phe175Tyr;;;distinct
+HK2;ENST00000290573;HK2-E01-E18;E16;79 (2298)   [chr2:g.75064005 (HomoSapiens)];C;50% (162)   [49% (79) / 51% (83)];A -> G (het);L -> L (766);;c.2298A>G;p.=;;;distinct
+KDR;ENST00000263923;KDR-E01-E30;E7;91 (889)   [chr4:g.55990572 (HomoSapiens)];C;58% (145)   [58% (72) / 58% (73)];G -> A (het);V -> I (297);;c.889G>A;p.Val297Ile;;;distinct
+LDHB;ENST00000396076;LDHB-E01-E08;E4;14 (261)   [chr12:g.21810135 (HomoSapiens)];C;100% (3018)   [100% (1506) / 100% (1512)];T -> C (homo);T -> T (87);;c.261T>C;p.=;;;distinct
+LDHB;ENST00000396076;LDHB-E01-E08;E1;326 / 1bp   [chr12:g.21810403 (HomoSapiens)];D;40% (8)   [40% (4) / 40% (4)];T (het);5' UTR;;c.-8delT;;;;distinct
+LDHB;ENST00000396076;LDHB-E01-E08;E1;320..321 / 2bp   [chr12:g.21810408_21810409 (HomoSapiens)];Indel;40% (8)   [40% (4) / 40% (4)];TG -> CTC (het);5' UTR;;c.-14_-13delinsCTC;;;;distinct
+MAPK8;;MAPK8_TB;seq;1371 / 5bp;I;94% (30)   [94% (15) / 94% (15)];CACAG (het);;;n.1370_1371insCACAG;;;;distinct
+MDH2;;MDH2_TB;seq;155..185 / 31bp;D;8% (50)   [8% (25) / 8% (25)];CTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC (het);;;n.155_185delCTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC;;;;other
+MERTK;;MERTK;seq;1673;C;100% (209)   [100% (104) / 100% (105)];A -> G (homo);;;n.1673A>G;;;;distinct
+MERTK;;MERTK;seq;3037;C;46% (76)   [46% (38) / 46% (38)];G -> A (het);;;n.3037G>A;;;;distinct
+MET control intron 19_FA;;MET control intron 19_FASTA;seq;8948;C;72% (50)   [25% (1) / 75% (49)];A -> C (het);;;n.8948A>C;;;;distinct
+MYC;ENST00000377970;MYC-E01-E03;E2;47 (587)   [chr8:g.128748916 (HomoSapiens)];C;64% (279)   [64% (140) / 64% (139)];A -> G (het);N -> S (196);;c.587A>G;p.Asn196Ser;;;distinct
+MYC;ENST00000377970;MYC-E01-E03;E2;2..4 (542..544) / 3bp   [chr8:g.128748871_128748873 (HomoSapiens)];D;10% (44)   [10% (22) / 10% (22)];AGC (het);QP -> P (181..182);;c.542_544delAGC;p.Gln181del;;;distinct
+NQO1;ENST00000320623;NQO1-E01-E06;E5;75 (492)   [chr16:g.69759851 (HomoSapiens)];C;20% (14)   [20% (7) / 20% (7)];C -> G (het);D -> E (164);;c.492C>G;p.Asp164Glu;;;distinct
+PARP1;ENST00000366794;PARP1-E01-E23;E17;8 (2285)   [chr1:g.226593346 (HomoSapiens)];C;43% (76)   [43% (38) / 43% (38)];T -> C (het);V -> A (762);;c.2285T>C;p.Val762Ala;;;distinct
+PDGFRB;ENST00000261799;PDGFRB-E01-E23;E4;60 (424)   [chr5:g.149534530 (HomoSapiens)];C;13% (50)   [13% (25) / 13% (25)];A -> G (het);I -> V (142);;c.424A>G;p.Ile142Val;;;distinct
+PDK1;ENST00000392571;PDK1-E01-E12;E10;1 (1006) / 35bp   [chr2:g.173421883_173421884 (HomoSapiens)];I;6% (40)   [6% (20) / 6% (20)];GATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG (het);[STOP] AA 348 (E10/37);RF changed;c.1006-1_1006insGATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG;p.Met336Aspfs*13;;;other
+PDK1;;PDK1-E01-E12;;;;;;;;;;;;
+PGD;ENST00000270776;PGD-E01-E13;E3;36 (120)   [chr1:g.10459294 (HomoSapiens)];C;59% (239)   [59% (118) / 58% (121)];T -> C (het);D -> D (40);;c.120T>C;p.=;;;distinct
+PGD;ENST00000270776;PGD-E01-E13;E8;78 (732)   [chr1:g.10459906 (HomoSapiens)];C;54% (65)   [53% (32) / 54% (33)];C -> T (het);D -> D (244);;c.732C>T;p.=;;;distinct
+PLXND1;;PLXND1;seq;2084..2093 / 10bp;D;7% (16)   [7% (8) / 7% (8)];AACCTCCTGC (het);;;n.2084_2093delAACCTCCTGC;;;;other
+RPIA;ENST00000283646;RPIA-E01-E09;E9;1 (839) / 70bp   [chr2:g.88992054_88992055 (HomoSapiens)];I;8% (8)   [8% (4) / 8% (4)];CACCATTTGTTGAATAGGGTGTCCTTTCCCCCTTGATATTTTTGTTTGCTTTGTTGAAGATCAGTTGGCT (het);[STOP] AA 285 (E9/15);RF changed;c.839-1_839insCACCATTTGTTGAATAGGGTGTCCTTTCCCCCTTGATATTTTTGTTTGCTTTGTTGAAGATCAGTTGGCT;p.Val281Profs*5;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E1;71 (33)   [chr5:g.218503 (HomoSapiens)];C;50% (12)   [50% (6) / 50% (6)];G -> A (het);L -> L (11);;c.33G>A;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E1;95 (57) / 6bp   [chr5:g.218526_218527 (HomoSapiens)];I (Dup);33% (8)   [33% (4) / 33% (4)];GCTGGC (het);A -> ALA (19);;c.51_56dupGCTGGC;p.Leu18_Ala19dup;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E6;1..2 (627..628) / 2bp   [chr5:g.219097_219098 (HomoSapiens)];D;20% (74)   [20% (37) / 20% (37)];AG (het);[STOP] AA 271 (E7/60);RF changed;c.627_628delAG;p.Gly210Leufs*62;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E2;51..58 (114..121) / 8bp   [chr5:g.218584_218591 (HomoSapiens)];Indel;50% (12)   [50% (6) / 50% (6)];TGGGAACA -> AGGAACG (het);[STOP] AA 57 (E3/19);RF changed;c.114_121delinsAGGAACG;p.Asp38Glufs*20;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E1;101 (63)   [chr5:g.218533 (HomoSapiens)];C;33% (8)   [33% (4) / 33% (4)];G -> T (het);A -> A (21);;c.63G>T;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E3;72 (222) / 1bp   [chr5:g.218691_218692 (HomoSapiens)];I (Dup);15% (240)   [16% (128) / 14% (112)];T (het);[STOP] AA 82 (E3/94);RF changed;c.221dupT;p.Leu74Phefs*9;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;128..129 (1244..1245) / 2bp   [chr5:g.219714_219715 (HomoSapiens)];D;17% (50)   [17% (25) / 17% (25)];TT (het);[STOP] AA 431 (E10/3);RF changed;c.1244_1245delTT;p.Phe415Trpfs*17;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E3;159..+1 (309..312) / 5bp   [chr5:g.218779_218783 (HomoSapiens)];Indel;40% (30)   [56% (15) / 31% (15)];ACAGC -> GCAGG (het);splicing;;c.309_312+1delinsGCAGG;;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E2;34 (97)   [chr5:g.218567 (HomoSapiens)];C;50% (12)   [50% (6) / 50% (6)];T -> G (het);F -> V (33);;c.97T>G;p.Phe33Val;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E10;83 (1371) / 3bp   [chr5:g.219840_219841 (HomoSapiens)];I (Dup);16% (251)   [16% (126) / 16% (125)];AAG (het);S -> RS (457);;c.1368_1370dupAAG;p.Gly456_Ser457insArg;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E4;141..142 (453..454) / 2bp   [chr5:g.218923_218924 (HomoSapiens)];Indel;35% (196)   [36% (99) / 35% (97)];GC -> AA (het);SL -> SI (151..152);;c.453_454delinsAA;p.Leu152Ile;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E3;93 (243)   [chr5:g.218713 (HomoSapiens)];C;97% (172)   [94% (94) / 100% (78)];T -> C (het);S -> S (81);;c.243T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E5;63..64 (540..541) / 2bp   [chr5:g.219010_219011 (HomoSapiens)];Indel;13% (265)   [13% (132) / 13% (133)];TG -> CA (het);NG -> NR (180..181);;c.540_541delinsCA;p.Gly181Arg;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E3;101 (251)   [chr5:g.218721 (HomoSapiens)];C;97% (172)   [94% (94) / 100% (78)];G -> A (het);G -> E (84);;c.251G>A;p.Gly84Glu;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E6;49..50 (675..676) / 2bp   [chr5:g.219145_219146 (HomoSapiens)];Indel;22% (73)   [23% (37) / 22% (36)];TG -> CA (het);TG -> TS (225..226);;c.675_676delinsCA;p.Gly226Ser;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E3;106 (256)   [chr5:g.218726 (HomoSapiens)];C;97% (171)   [94% (93) / 100% (78)];A -> G (het);N -> D (86);;c.256A>G;p.Asn86Asp;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;75..77 (1191..1193) / 3bp   [chr5:g.219661_219663 (HomoSapiens)];Indel;17% (48)   [17% (24) / 17% (24)];GGT -> TGC (het);SV -> SA (397..398);;c.1191_1193delinsTGC;p.Val398Ala;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E4;66 (378)   [chr5:g.218848 (HomoSapiens)];C;39% (247)   [40% (122) / 38% (125)];T -> C (het);G -> G (126);;c.378T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;90..93 (1206..1209) / 4bp   [chr5:g.219676_219679 (HomoSapiens)];Indel;40% (116)   [40% (57) / 41% (59)];CCGC -> TCGG (het);NR -> NR (402..403);;c.1206_1209delinsTCGG;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E4;72 (384)   [chr5:g.218854 (HomoSapiens)];C;39% (249)   [40% (122) / 38% (127)];G -> C (het);Q -> H (128);;c.384G>C;p.Gln128His;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;86..87 (1493..1494) / 2bp   [chr5:g.219963_219964 (HomoSapiens)];Indel;21% (83)   [21% (42) / 21% (41)];TA -> GG (het);L -> R (498);;c.1493_1494delinsGG;p.Leu498Arg;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E4;94 (406)   [chr5:g.218876 (HomoSapiens)];C;18% (102)   [18% (51) / 18% (51)];G -> A (het);G -> R (136);;c.406G>A;p.Gly136Arg;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;105..109 (1512..1516) / 5bp   [chr5:g.219982_219986 (HomoSapiens)];Indel;6% (45)   [6% (23) / 6% (22)];CGACC -> TGACT (het);FDR -> FDW (504..506);;c.1512_1516delinsTGACT;p.Arg506Trp;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E4;106 (418)   [chr5:g.218888 (HomoSapiens)];C;18% (98)   [18% (49) / 18% (49)];C -> G (het);R -> G (140);;c.418C>G;p.Arg140Gly;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;72..77 (1591..1596) / 6bp   [chr5:g.220061_220066 (HomoSapiens)];Indel;9% (47)   [9% (24) / 8% (23)];ATCTAC -> GTCAAT (het);IY -> VN (531..532);;c.1591_1596delinsGTCAAT;p.Ile531_Tyr532delinsValAsn;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E4;132 (444)   [chr5:g.218914 (HomoSapiens)];C;36% (199)   [36% (100) / 36% (99)];T -> C (het);T -> T (148);;c.444T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;89..90 (1608..1609) / 2bp   [chr5:g.220078_220079 (HomoSapiens)];Indel;18% (36)   [18% (18) / 18% (18)];AC -> GG (het);AR -> AG (536..537);;c.1608_1609delinsGG;p.Arg537Gly;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E4;155 (467)   [chr5:g.218937 (HomoSapiens)];C;13% (333)   [13% (168) / 13% (165)];T -> C (het);L -> S (156);;c.467T>C;p.Leu156Ser;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;89..91 (1608..1610) / 3bp   [chr5:g.220078_220080 (HomoSapiens)];Indel;7% (14)   [7% (7) / 7% (7)];ACG -> GCA (het);AR -> AQ (536..537);;c.1608_1610delinsGCA;p.Arg537Gln;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E4;162 (474)   [chr5:g.218944 (HomoSapiens)];C;27% (667)   [27% (334) / 27% (333)];A -> G (het);G -> G (158);;c.474A>G;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;113..117 (1632..1636) / 5bp   [chr5:g.220102_220106 (HomoSapiens)];Indel;19% (37)   [18% (18) / 19% (19)];TGCCA -> CGCCG (het);HAR -> HAG (544..546);;c.1632_1636delinsCGCCG;p.Arg546Gly;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E5;7 (484)   [chr5:g.218954 (HomoSapiens)];C;14% (268)   [14% (134) / 14% (134)];C -> A (het);R -> R (162);;c.484C>A;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;113..114 (1632..1633) / 2bp   [chr5:g.220102_220103 (HomoSapiens)];Indel;6% (12)   [6% (6) / 6% (6)];TG -> CA (het);HA -> HT (544..545);;c.1632_1633delinsCA;p.Ala545Thr;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E5;23 (500)   [chr5:g.218970 (HomoSapiens)];C;24% (468)   [24% (234) / 24% (234)];A -> G (het);Y -> C (167);;c.500A>G;p.Tyr167Cys;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E13;18..22 (1668..1672) / 5bp   [chr5:g.220138_220142 (HomoSapiens)];Indel;9% (30)   [9% (15) / 9% (15)];CGATT -> TGATC (het);YDY -> YDH (556..558);;c.1668_1672delinsTGATC;p.Tyr558His;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E5;57 (534)   [chr5:g.219004 (HomoSapiens)];C;14% (268)   [14% (134) / 14% (134)];G -> A (het);M -> I (178);;c.534G>A;p.Met178Ile;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E5;82 (559)   [chr5:g.219029 (HomoSapiens)];C;10% (198)   [10% (99) / 10% (99)];A -> T (het);I -> F (187);;c.559A>T;p.Ile187Phe;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E5;84 (561)   [chr5:g.219031 (HomoSapiens)];C;14% (270)   [14% (135) / 14% (135)];C -> T (het);I -> I (187);;c.561C>T;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E6;1 (627)   [chr5:g.219097 (HomoSapiens)];C;7% (26)   [7% (13) / 7% (13)];A -> G (het);G -> G (209);;c.627A>G;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E6;8 (634)   [chr5:g.219104 (HomoSapiens)];C;8% (28)   [8% (14) / 8% (14)];G -> T (het);G -> W (212);;c.634G>T;p.Gly212Trp;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E6;15 (641)   [chr5:g.219111 (HomoSapiens)];C;8% (28)   [8% (14) / 8% (14)];C -> A (het);T -> N (214);;c.641C>A;p.Thr214Asn;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E6;22 (648)   [chr5:g.219118 (HomoSapiens)];C;23% (74)   [23% (37) / 23% (37)];C -> G (het);F -> L (216);;c.648C>G;p.Phe216Leu;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E6;100 (726)   [chr5:g.219196 (HomoSapiens)];C;37% (234)   [37% (118) / 37% (116)];A -> C (het);L -> L (242);;c.726A>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E6;121 (747)   [chr5:g.219217 (HomoSapiens)];C;52% (160)   [53% (81) / 52% (79)];T -> C (het);P -> P (249);;c.747T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E7;4 (755)   [chr5:g.219225 (HomoSapiens)];C;53% (162)   [53% (81) / 53% (81)];T -> C (het);I -> T (252);;c.755T>C;p.Ile252Thr;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;74 (1190)   [chr5:g.219660 (HomoSapiens)];C;11% (31)   [11% (15) / 11% (16)];C -> T (het);S -> L (397);;c.1190C>T;p.Ser397Leu;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;86 (1202)   [chr5:g.219672 (HomoSapiens)];C;18% (50)   [18% (25) / 17% (25)];C -> T (het);A -> V (401);;c.1202C>T;p.Ala401Val;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;111 (1227)   [chr5:g.219697 (HomoSapiens)];C;9% (26)   [10% (14) / 9% (12)];C -> A (het);L -> L (409);;c.1227C>A;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E9;111 (1227)   [chr5:g.219697 (HomoSapiens)];C;8% (24)   [8% (12) / 9% (12)];C -> G (het);L -> L (409);;c.1227C>G;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E9;118 (1234)   [chr5:g.219704 (HomoSapiens)];C;41% (118)   [41% (59) / 42% (59)];C -> T (het);L -> L (412);;c.1234C>T;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;134 (1250)   [chr5:g.219720 (HomoSapiens)];C;47% (136)   [48% (68) / 47% (68)];G -> A (het);R -> Q (417);;c.1250G>A;p.Arg417Gln;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;154 (1270)   [chr5:g.219740 (HomoSapiens)];C;23% (451)   [23% (227) / 23% (224)];G -> A (het);E -> K (424);;c.1270G>A;p.Glu424Lys;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E9;155 (1271)   [chr5:g.219741 (HomoSapiens)];C;7% (139)   [7% (69) / 7% (70)];A -> C (het);E -> A (424);;c.1271A>C;p.Glu424Ala;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E9;162 (1278)   [chr5:g.219748 (HomoSapiens)];C;7% (143)   [7% (71) / 7% (72)];A -> G (het);S -> S (426);;c.1278A>G;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E10;29 (1317)   [chr5:g.219787 (HomoSapiens)];C;5% (91)   [5% (45) / 5% (46)];C -> T (het);N -> N (439);;c.1317C>T;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E10;49 (1337)   [chr5:g.219807 (HomoSapiens)];C;5% (91)   [5% (45) / 5% (46)];T -> C (het);M -> T (446);;c.1337T>C;p.Met446Thr;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E10;54 (1342)   [chr5:g.219812 (HomoSapiens)];C;7% (223)   [7% (113) / 7% (110)];C -> G (het);L -> V (448);;c.1342C>G;p.Leu448Val;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E11;5 (1412)   [chr5:g.219882 (HomoSapiens)];C;16% (246)   [16% (123) / 16% (123)];T -> C (het);M -> T (471);;c.1412T>C;p.Met471Thr;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;40 (1447)   [chr5:g.219917 (HomoSapiens)];C;74% (288)   [74% (148) / 73% (140)];G -> T (het);V -> L (483);;c.1447G>T;p.Val483Leu;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;93 (1500)   [chr5:g.219970 (HomoSapiens)];C;41% (304)   [42% (155) / 40% (149)];C -> T (het);H -> H (500);;c.1500C>T;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;56 (1575)   [chr5:g.220045 (HomoSapiens)];C;9% (47)   [9% (24) / 8% (23)];G -> A (het);L -> L (525);;c.1575G>A;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E12;108 (1627)   [chr5:g.220097 (HomoSapiens)];C;36% (72)   [36% (36) / 36% (36)];G -> A (het);A -> T (543);;c.1627G>A;p.Ala543Thr;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;124 (1643)   [chr5:g.220113 (HomoSapiens)];C;36% (72)   [36% (36) / 36% (36)];A -> G (het);D -> G (548);;c.1643A>G;p.Asp548Gly;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E13;5 (1655)   [chr5:g.220125 (HomoSapiens)];C;31% (102)   [31% (51) / 31% (51)];G -> A (het);R -> Q (552);;c.1655G>A;p.Arg552Gln;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E13;67 (1717)   [chr5:g.220187 (HomoSapiens)];C;6% (8)   [6% (4) / 6% (4)];C -> T (het);H -> Y (573);;c.1717C>T;p.His573Tyr;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E13;102 (1752)   [chr5:g.220222 (HomoSapiens)];C;11% (14)   [11% (7) / 11% (7)];T -> C (het);V -> V (584);;c.1752T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E14;24 (1788)   [chr5:g.220258 (HomoSapiens)];C;7% (18)   [7% (9) / 7% (9)];G -> A (het);V -> V (596);;c.1788G>A;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E14;66 (1830)   [chr5:g.220300 (HomoSapiens)];C;7% (18)   [7% (9) / 7% (9)];G -> C (het);P -> P (610);;c.1830G>C;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E3;159 (309)   [chr5:g.218779 (HomoSapiens)];C;9% (6)   [11% (3) / 7% (3)];A -> G (het);A -> A (103);;c.309A>G;p.=;;;other
+SDHA;ENST00000510361;SDHA-E01-E14;E4;1 (313)   [chr5:g.218783 (HomoSapiens)];C;27% (22)   [30% (8) / 25% (14)];C -> G (het);L -> V (105);;c.313C>G;p.Leu105Val;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;87 (1494)   [chr5:g.219964 (HomoSapiens)];C;52% (205)   [53% (105) / 52% (100)];A -> G (het);L -> L (498);;c.1494A>G;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E11;105 (1512)   [chr5:g.219982 (HomoSapiens)];C;35% (259)   [36% (132) / 35% (127)];C -> T (het);F -> F (504);;c.1512C>T;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;89 (1608)   [chr5:g.220078 (HomoSapiens)];C;36% (72)   [36% (36) / 36% (36)];A -> G (het);A -> A (536);;c.1608A>G;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E12;113 (1632)   [chr5:g.220102 (HomoSapiens)];C;37% (73)   [37% (37) / 36% (36)];T -> C (het);H -> H (544);;c.1632T>C;p.=;;;distinct
+SDHA;ENST00000510361;SDHA-E01-E14;E13;22 (1672)   [chr5:g.220142 (HomoSapiens)];C;10% (33)   [10% (16) / 10% (17)];T -> C (het);Y -> H (558);;c.1672T>C;p.Tyr558His;;;other
+SDHB;ENST00000375499;SDHB-E01-E08;E6;40 (580)   [chr1:g.17379935 (HomoSapiens)];C;7% (14)   [7% (7) / 7% (7)];A -> T (het);T -> S (194);;c.580A>T;p.Thr194Ser;;;other
+SLC16A1;ENST00000538576;SLC16A1-E01-E05;E5;242 (1470)   [chr1:g.113496384 (HomoSapiens)];C;77% (295)   [77% (148) / 77% (147)];T -> A (het);D -> E (490);;c.1470T>A;p.Asp490Glu;;;distinct
+SLC16A7;ENST00000552432;SLC16A7-E01-E06;E5;252 (613)   [chr12:g.59990739 (HomoSapiens)];C;12% (6)   [12% (3) / 12% (3)];T -> A (het);S -> T (205);;c.613T>A;p.Ser205Thr;;;distinct
+SLC16A7;ENST00000552432;SLC16A7-E01-E06;E3;1 / 20bp   [chr12:g.59990116_59990117 (HomoSapiens)];I;97% (86)   [96% (43) / 98% (43)];GTTACTTGAATTTCCACTAG (homo);5' UTR;;c.-10-1_-10insGTTACTTGAATTTCCACTAG;;;;distinct
+SLC25A11;ENST00000225665;SLC25A11-E01-E08;E4;29 (484)   [chr17:g.4842722 (HomoSapiens)];C;19% (24)   [19% (12) / 19% (12)];A -> C (het);K -> Q (162);;c.484A>C;p.Lys162Gln;;;distinct
+SLC25A5;ENST00000317881;SLC25A5-E01-E04;E2;103 (214)   [chrX:g.118602692 (HomoSapiens)];C;22% (624)   [21% (310) / 22% (314)];C -> G (het);R -> G (72);;c.214C>G;p.Arg72Gly;;;distinct
+SLC25A5;ENST00000317881;SLC25A5-E01-E04;E2;310 (421)   [chrX:g.118602899 (HomoSapiens)];C;27% (210)   [27% (105) / 27% (105)];C -> T (het);L -> L (141);;c.421C>T;p.=;;;distinct
+SLC25A5;ENST00000317881;SLC25A5-E01-E04;E3;101 (699)   [chrX:g.118603177 (HomoSapiens)];C;100% (108)   [100% (54) / 100% (54)];T -> C (homo);T -> T (233);;c.699T>C;p.=;;;distinct
+SLC7A5;ENST00000261622;SLC7A5-E01-E10;E1;384 (318)   [chr16:g.87902711 (HomoSapiens)];C;81% (52)   [81% (26) / 81% (26)];C -> G (het);L -> L (106);;c.318C>G;p.=;;;distinct
+SOD1;ENST00000270142;SOD1-E01-E05;E2;38 (110)   [chr21:g.33032192 (HomoSapiens)];C;7% (35)   [7% (18) / 6% (17)];A -> G (het);K -> R (37);;c.110A>G;p.Lys37Arg;;;other
+SOD2;ENST00000538183;SOD2-E01-E05;E2;24 (47)   [chr6:g.160114153 (HomoSapiens)];C;44% (1078)   [44% (539) / 44% (539)];T -> C (het);V -> A (16);;c.47T>C;p.Val16Ala;;;distinct
+SOD2;ENST00000538183;SOD2-E01-E05;E5;55 (578)   [chr6:g.160113622 (HomoSapiens)];C;6% (98)   [6% (49) / 6% (49)];A -> C (het);Y -> S (193);;c.578A>C;p.Tyr193Ser;;;other
+TGFA;ENST00000295400;TGFA-E01-E06;E3;1..3 (95..97) / 3bp   [chr2:g.70780803_70780805 (HomoSapiens)];D;42% (59)   [43% (30) / 42% (29)];CAG (het);AD -> D (32..33);;c.95_97delCAG;p.Ala32del;;;distinct
+TP53;ENST00000269305;TP53-E01-E11;E4;119 (215)   [chr17:g.7590452 (HomoSapiens)];C;100% (30)   [100% (15) / 100% (15)];C -> G (homo);P -> R (72);;c.215C>G;p.Pro72Arg;PA1;;
+TUBB;ENST00000327892;TUBB-E01-E04;E4;167 (444)   [chr6:g.30688727 (HomoSapiens)];C;6% (118)   [6% (59) / 6% (59)];C -> T (het);G -> G (148);;c.444C>T;p.=;;;other
+TUBB;ENST00000327892;TUBB-E01-E04;E4;197 (474)   [chr6:g.30688757 (HomoSapiens)];C;6% (118)   [6% (59) / 6% (59)];A -> G (het);E -> E (158);;c.474A>G;p.=;;;other
+TUBB;ENST00000327892;TUBB-E01-E04;E4;218 (495)   [chr6:g.30688778 (HomoSapiens)];C;6% (118)   [6% (59) / 6% (59)];T -> C (het);N -> N (165);;c.495T>C;p.=;;;other
+VHL;ENST00000256474;VHL-E01-E03_TB;E2;118 (458) / 1bp   [chr3:g.10183988_10183989 (HomoSapiens)];I (Dup);28% (46)   [28% (23) / 28% (23)];C (het);[STOP] AA 173 (E3/54);RF changed;c.457dupC;p.Leu153Profs*21;;;distinct

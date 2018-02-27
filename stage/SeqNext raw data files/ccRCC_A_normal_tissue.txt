@@ -1,0 +1,506 @@
+Index	Gene	Transcript	Name	Location	Pos.	Type	Nuc Change	Coverage	AA Change	Condition	Hint	web Ref.	c. HGVS	p. HGVS	mut Entry	mut Effect	TValidation	MValidation	Weighting	Filter Step
+1	ABAT	ENST00000425191	ABAT-E01-E16	E12	43 (859)   [chr16:g.8815691 (HomoSapiens)]	C	G -> A (het)	1% (6)   [1% (3) / 1% (3)]	V -> M (287)				c.859G>A	p.Val287Met					other	
+2	ACACA	ENST00000353139	ACACA-E01-E56	E2	7 (45)   [chr17:g.35766345 (HomoSapiens)]	C	C -> T (het)	68% (17)   [67% (8) / 69% (9)]	F -> F (15)				c.45C>T	p.=					distinct	
+3	ACACA	ENST00000353139	ACACA-E01-E56	E30	2..+1 (3685..3707) / 24bp   [chr17:g.35762682_35762705 (HomoSapiens)]	D	GGGAACATCCCTACGCTAAACAGA (het)	11% (14)   [11% (7) / 11% (7)]	splicing				c.3685_3707+1delGGGAACATCCCTACGCTAAACAGA						distinct	
+4	ACACB	ENST00000377848	ACACB-E01-E52	E46	1 (6361) / 13bp   [chr12:g.109583570_109583571 (HomoSapiens)]	I	CTCTGTGTTCCAG (het)	5% (66)   [5% (33) / 5% (33)]	[STOP] AA 2173 (E47/21)		RF changed		c.6361-1_6361insCTCTGTGTTCCAG	p.Ile2121Leufs*53					distinct	
+5	ACLY	ENST00000353196	ACLY-E01-E28	E2	1 / 4bp   [chr17:g.40075132_40075133 (HomoSapiens)]	I	ACAG (het)	39% (28)   [39% (14) / 39% (14)]	5' UTR				c.-23-1_-23insACAG						distinct	
+6	ACO2	ENST00000216254	ACO2-E01-E18	E9	13 (1045)   [chr22:g.41866195 (HomoSapiens)]	C	A -> G (het)	17% (10)   [17% (5) / 17% (5)]	I -> V (349)				c.1045A>G	p.Ile349Val					distinct	
+7	ACO2	ENST00000216254	ACO2-E01-E18	E16	25 (1978)   [chr22:g.41867128 (HomoSapiens)]	C	A -> G (het)	4% (40)   [4% (20) / 4% (20)]	I -> V (660)				c.1978A>G	p.Ile660Val					distinct	
+8	ACSS2	ENST00000360596	ACSS2-E01-E18	E2	98 (276)   [chr20:g.33464724 (HomoSapiens)]	C	C -> T (het)	53% (655)   [53% (332) / 53% (323)]	F -> F (92)				c.276C>T	p.=					distinct	
+9	ACSS2	ENST00000360596	ACSS2-E01-E18	E6	1..13 (644..656) / 13bp   [chr20:g.33465092_33465104 (HomoSapiens)]	D	ATGCCTTCTACAG (het)	2% (10)   [2% (5) / 2% (5)]	[STOP] AA 220 (E6/15)		RF changed		c.644_656delATGCCTTCTACAG	p.Ala216Glyfs*5					other	
+10	ACSS2	ENST00000360596	ACSS2-E01-E18	E14	1 (1549) / 30bp   [chr20:g.33465996_33465997 (HomoSapiens)]	I	CTGCTTAGGACTGAAACTTCATGGTTGGAG (het)	3% (36)   [3% (18) / 3% (18)]	 -> LLRTETSWLE (517)				c.1549-1_1549insCTGCTTAGGACTGAAACTTCATGGTTGGAG	p.Leu516_Val517insLeuLeuArgThrGluThrSerTrpLeuGlu					distinct	
+11	ACTB	ENST00000331789	ACTB-E01-E06	E2	69 (63) / 1bp   [chr7:g.5570086 (HomoSapiens)]	D	C (het)	2% (14)   [2% (7) / 2% (7)]	[STOP] AA 43 (E3/4)		RF changed		c.63delC	p.Phe21Leufs*23					other	
+12	ACTB	ENST00000331789	ACTB-E01-E06	E2	69..75 (63..69) / 7bp   [chr7:g.5570080_5570086 (HomoSapiens)]	Indel	CGCGGGC -> TGCTGGG (het)	12% (112)   [12% (56) / 12% (56)]	FAG -> FAG (21..23)				c.63_69delinsTGCTGGG	p.=					distinct	
+13	ACTB	ENST00000331789	ACTB-E01-E06	E2	69 (63)   [chr7:g.5570086 (HomoSapiens)]	C	C -> T (het)	17% (154)   [17% (77) / 17% (77)]	F -> F (21)				c.63C>T	p.=					distinct	
+14	ACTB	ENST00000331789	ACTB-E01-E06	E2	70..99 (64..93) / 30bp   [chr7:g.5570056_5570085 (HomoSapiens)]	D	GCGGGCGACGATGCCCCCCGGGCCGTCTTC (het)	1% (10)   [1% (5) / 1% (5)]	AGDDAPRAVF ->  (22..31)				c.64_93delGCGGGCGACGATGCCCCCCGGGCCGTCTTC	p.Ala22_Phe31del					other	
+15	ACTB	ENST00000331789	ACTB-E01-E06	E2	78..84 (72..78) / 7bp   [chr7:g.5570071_5570077 (HomoSapiens)]	Indel	CGATGCC -> TGACGCG (het)	14% (128)   [14% (64) / 14% (64)]	DDA -> DDA (24..26)				c.72_78delinsTGACGCG	p.=					distinct	
+16	ACTB	ENST00000331789	ACTB-E01-E06	E2	81..84 (75..78) / 4bp   [chr7:g.5570071_5570074 (HomoSapiens)]	Indel	TGCC -> CGCT (het)	12% (114)   [12% (57) / 12% (57)]	DA -> DA (25..26)				c.75_78delinsCGCT	p.=					distinct	
+17	ACTB	ENST00000331789	ACTB-E01-E06	E2	90..93 (84..87) / 4bp   [chr7:g.5570062_5570065 (HomoSapiens)]	Indel	GGCC -> CGCT (het)	14% (128)   [14% (64) / 14% (64)]	RA -> RA (28..29)				c.84_87delinsCGCT	p.=					distinct	
+18	ACTB	ENST00000331789	ACTB-E01-E06	E2	90 (84)   [chr7:g.5570065 (HomoSapiens)]	C	G -> A (het)	13% (116)   [13% (58) / 13% (58)]	R -> R (28)				c.84G>A	p.=					distinct	
+19	ACTB	ENST00000331789	ACTB-E01-E06	E2	93 (87)   [chr7:g.5570062 (HomoSapiens)]	C	C -> T (het)	3% (28)   [3% (14) / 3% (14)]	A -> A (29)				c.87C>T	p.=					distinct	
+20	ACTB	ENST00000331789	ACTB-E01-E06	E2	96..102 (90..96) / 7bp   [chr7:g.5570053_5570059 (HomoSapiens)]	Indel	CTTCCCC -> GTTTCCT (het)	12% (114)   [12% (57) / 12% (57)]	VFP -> VFP (30..32)				c.90_96delinsGTTTCCT	p.=					distinct	
+21	ACTB	ENST00000331789	ACTB-E01-E06	E2	102 (96)   [chr7:g.5570053 (HomoSapiens)]	C	C -> G (het)	14% (128)   [14% (64) / 14% (64)]	P -> P (32)				c.96C>G	p.=					distinct	
+22	ACTB	ENST00000331789	ACTB-E01-E06	E2	111 (105)   [chr7:g.5570044 (HomoSapiens)]	C	G -> C (het)	12% (114)   [12% (57) / 12% (57)]	V -> V (35)				c.105G>C	p.=					distinct	
+23	ACTB	ENST00000331789	ACTB-E01-E06	E2	114 (108)   [chr7:g.5570041 (HomoSapiens)]	C	G -> C (het)	14% (130)   [14% (65) / 14% (65)]	G -> G (36)				c.108G>C	p.=					distinct	
+24	ACTB	ENST00000331789	ACTB-E01-E06	E2	120..121 (114..115) / 2bp   [chr7:g.5570034_5570035 (HomoSapiens)]	Indel	CA -> GC (het)	14% (128)   [14% (64) / 14% (64)]	PR -> PR (38..39)				c.114_115delinsGC	p.=					distinct	
+25	ACTB	ENST00000331789	ACTB-E01-E06	E2	123 (117)   [chr7:g.5570032 (HomoSapiens)]	C	G -> A (het)	13% (116)   [13% (58) / 13% (58)]	R -> R (39)				c.117G>A	p.=					distinct	
+26	ACTB	ENST00000331789	ACTB-E01-E06	E2	126 (120)   [chr7:g.5570029 (HomoSapiens)]	C	C -> G (het)	3% (24)   [3% (12) / 3% (12)]	H -> Q (40)				c.120C>G	p.His40Gln					other	
+27	ACTB	ENST00000331789	ACTB-E01-E06	E3	3..6 (126..129) / 4bp   [chr7:g.5570020_5570023 (HomoSapiens)]	Indel	CGTG -> AGTT (het)	14% (126)   [14% (63) / 14% (63)]	GV -> GV (42..43)				c.126_129delinsAGTT	p.=					distinct	
+28	ACTB	ENST00000331789	ACTB-E01-E06	E3	4 (127)   [chr7:g.5570022 (HomoSapiens)]	C	G -> A (het)	3% (32)   [4% (16) / 4% (16)]	V -> M (43)				c.127G>A	p.Val43Met					distinct	
+29	ACTB	ENST00000331789	ACTB-E01-E06	E3	6 (129)   [chr7:g.5570020 (HomoSapiens)]	C	G -> C (het)	12% (114)   [12% (57) / 13% (57)]	V -> V (43)				c.129G>C	p.=					distinct	
+30	ACTB	ENST00000331789	ACTB-E01-E06	E3	11 (134)   [chr7:g.5570015 (HomoSapiens)]	C	T -> G (het)	3% (26)   [3% (13) / 3% (13)]	V -> G (45)				c.134T>G	p.Val45Gly					other	
+31	ACTB	ENST00000331789	ACTB-E01-E06	E3	15 (138)   [chr7:g.5570011 (HomoSapiens)]	C	C -> T (het)	14% (128)   [14% (64) / 14% (64)]	G -> G (46)				c.138C>T	p.=					distinct	
+32	ACTB	ENST00000331789	ACTB-E01-E06	E3	19..20 (142..143) / 2bp   [chr7:g.5570006_5570007 (HomoSapiens)]	Indel	GG -> CA (het)	3% (24)   [3% (12) / 3% (12)]	G -> H (48)				c.142_143delinsCA	p.Gly48His					other	
+33	ACTB	ENST00000331789	ACTB-E01-E06	E3	21 (144)   [chr7:g.5570005 (HomoSapiens)]	C	T -> C (het)	13% (116)   [13% (58) / 13% (58)]	G -> G (48)				c.144T>C	p.=					distinct	
+34	ACTB	ENST00000331789	ACTB-E01-E06	E3	27..30 (150..153) / 4bp   [chr7:g.5569996_5569999 (HomoSapiens)]	Indel	GGAT -> AGAG (het)	3% (24)   [3% (12) / 3% (12)]	KD -> KE (50..51)				c.150_153delinsAGAG	p.Asp51Glu					other	
+35	ACTB	ENST00000331789	ACTB-E01-E06	E3	30 (153)   [chr7:g.5569996 (HomoSapiens)]	C	T -> C (het)	27% (248)   [27% (124) / 27% (124)]	D -> D (51)				c.153T>C	p.=					distinct	
+36	ACTB	ENST00000331789	ACTB-E01-E06	E3	36..48 (159..171) / 13bp   [chr7:g.5569978_5569990 (HomoSapiens)]	Indel	TGTGGGCGACGAG -> CGTAGGTGATGAA (het)	14% (126)   [14% (63) / 14% (63)]	YVGDE -> YVGDE (53..57)				c.159_171delinsCGTAGGTGATGAA	p.=					distinct	
+37	ACTB	ENST00000331789	ACTB-E01-E06	E3	36 (159)   [chr7:g.5569990 (HomoSapiens)]	C	T -> C (het)	13% (116)   [13% (58) / 13% (58)]	Y -> Y (53)				c.159T>C	p.=					distinct	
+38	ACTB	ENST00000331789	ACTB-E01-E06	E3	43..45 (166..168) / 3bp   [chr7:g.5569981_5569983 (HomoSapiens)]	Indel	GAC -> AAG (het)	3% (24)   [3% (12) / 3% (12)]	D -> K (56)				c.166_168delinsAAG	p.Asp56Lys					other	
+39	ACTB	ENST00000331789	ACTB-E01-E06	E3	122..142 (245..265) / 21bp   [chr7:g.5569884_5569904 (HomoSapiens)]	D	TGGAGAAAATCTGGCACCACA (het)	1% (146)   [1% (73) / 1% (73)]	MEKIWHHT -> T (82..89)				c.245_265delTGGAGAAAATCTGGCACCACA	p.Met82_His88del					other	
+40	ACTB	ENST00000331789	ACTB-E01-E06	E3	129 (252)   [chr7:g.5569897 (HomoSapiens)]	C	A -> G (het)	9% (1347)   [9% (676) / 9% (671)]	K -> K (84)				c.252A>G	p.=					distinct	
+41	ACTB	ENST00000331789	ACTB-E01-E06	E3	153 (276)   [chr7:g.5569873 (HomoSapiens)]	C	T -> C (het)	7% (1047)   [7% (524) / 7% (523)]	N -> N (92)				c.276T>C	p.=					distinct	
+42	ACTB	ENST00000331789	ACTB-E01-E06	E3	161 (284)   [chr7:g.5569865 (HomoSapiens)]	C	G -> A (het)	1% (159)   [1% (80) / 1% (79)]	R -> H (95)				c.284G>A	p.Arg95His					other	
+43	ACTB	ENST00000331789	ACTB-E01-E06	E3	162 (285)   [chr7:g.5569864 (HomoSapiens)]	C	T -> C (het)	7% (1085)   [7% (543) / 7% (542)]	R -> R (95)				c.285T>C	p.=					distinct	
+44	ACTB	ENST00000331789	ACTB-E01-E06	E3	168..171 (291..294) / 4bp   [chr7:g.5569855_5569858 (HomoSapiens)]	Indel	TCCC -> CCCG (het)	7% (1042)   [7% (522) / 7% (520)]	AP -> AP (97..98)				c.291_294delinsCCCG	p.=					distinct	
+45	ACTB	ENST00000331789	ACTB-E01-E06	E3	183 (306)   [chr7:g.5569843 (HomoSapiens)]	C	C -> A (het)	7% (1036)   [7% (518) / 7% (518)]	P -> P (102)				c.306C>A	p.=					distinct	
+46	ACTB	ENST00000331789	ACTB-E01-E06	E3	184 (307)   [chr7:g.5569842 (HomoSapiens)]	C	G -> A (het)	2% (262)   [2% (130) / 2% (132)]	V -> M (103)				c.307G>A	p.Val103Met					other	
+47	ACTB	ENST00000331789	ACTB-E01-E06	E3	223..225 (346..348) / 3bp   [chr7:g.5569801_5569803 (HomoSapiens)]	Indel	CGC -> AGA (het)	7% (1083)   [7% (540) / 8% (543)]	R -> R (116)				c.346_348delinsAGA	p.=					distinct	
+48	ACTB	ENST00000331789	ACTB-E01-E06	E4	195 (558)   [chr7:g.5569591 (HomoSapiens)]	C	T -> C (het)	90% (2535)   [90% (1267) / 90% (1268)]	T -> T (186)				c.558T>C	p.=					distinct	
+49	ACTB	ENST00000331789	ACTB-E01-E06	E4	219 (582)   [chr7:g.5569567 (HomoSapiens)]	C	C -> T (het)	90% (2527)   [90% (1262) / 90% (1265)]	T -> T (194)				c.582C>T	p.=					distinct	
+50	ACTB	ENST00000331789	ACTB-E01-E06	E4	225 (588)   [chr7:g.5569561 (HomoSapiens)]	C	C -> A (het)	90% (2531)   [90% (1265) / 90% (1266)]	R -> R (196)				c.588C>A	p.=					distinct	
+51	ACTB	ENST00000331789	ACTB-E01-E06	E4	267 (630)   [chr7:g.5569519 (HomoSapiens)]	C	T -> C (het)	90% (2534)   [90% (1267) / 90% (1267)]	R -> R (210)				c.630T>C	p.=					distinct	
+52	ACTB	ENST00000331789	ACTB-E01-E06	E4	273 (636)   [chr7:g.5569513 (HomoSapiens)]	C	T -> C (het)	90% (2538)   [90% (1269) / 90% (1269)]	I -> I (212)				c.636T>C	p.=					distinct	
+53	ACTB	ENST00000331789	ACTB-E01-E06	E5	158 (960)   [chr7:g.5569189 (HomoSapiens)]	C	G -> A (het)	2% (24)   [2% (12) / 2% (12)]	L -> L (320)				c.960G>A	p.=					other	
+54	ACTB	ENST00000331789	ACTB-E01-E06	E5	161 (963)   [chr7:g.5569186 (HomoSapiens)]	C	A -> G (het)	14% (141)   [14% (71) / 14% (70)]	A -> A (321)				c.963A>G	p.=					distinct	
+55	ACTB	ENST00000331789	ACTB-E01-E06	E5	170 (972)   [chr7:g.5569177 (HomoSapiens)]	C	A -> C (het)	16% (161)   [16% (81) / 16% (80)]	T -> T (324)				c.972A>C	p.=					distinct	
+56	ACTB	ENST00000331789	ACTB-E01-E06	E6	6..15 (990..999) / 10bp   [chr7:g.5569150_5569159 (HomoSapiens)]	Indel	TGCTCCTCCT -> CGCACCCCCA (het)	13% (135)   [14% (68) / 13% (67)]	IAPP -> IAPP (330..333)				c.990_999delinsCGCACCCCCA	p.=					distinct	
+57	ACTB	ENST00000331789	ACTB-E01-E06	E6	9 (993)   [chr7:g.5569156 (HomoSapiens)]	C	T -> C (het)	2% (20)   [2% (10) / 2% (10)]	A -> A (331)				c.993T>C	p.=					other	
+58	ACTB	ENST00000331789	ACTB-E01-E06	E6	15 (999)   [chr7:g.5569150 (HomoSapiens)]	C	T -> G (het)	2% (18)   [2% (9) / 2% (9)]	P -> P (333)				c.999T>G	p.=					other	
+59	ACTB	ENST00000331789	ACTB-E01-E06	E6	24 (1008)   [chr7:g.5569141 (HomoSapiens)]	C	G -> A (het)	2% (18)   [2% (9) / 2% (9)]	K -> K (336)				c.1008G>A	p.=					other	
+60	ACTB	ENST00000331789	ACTB-E01-E06	E6	30..33 (1014..1017) / 4bp   [chr7:g.5569132_5569135 (HomoSapiens)]	Indel	CGTG -> TGTC (het)	2% (18)   [2% (9) / 2% (9)]	SV -> SV (338..339)				c.1014_1017delinsTGTC	p.=					other	
+61	ACTB	ENST00000331789	ACTB-E01-E06	E6	30 (1014)   [chr7:g.5569135 (HomoSapiens)]	C	C -> G (het)	14% (140)   [14% (70) / 14% (70)]	S -> S (338)				c.1014C>G	p.=					distinct	
+62	ACTB	ENST00000331789	ACTB-E01-E06	E6	42 (1026)   [chr7:g.5569123 (HomoSapiens)]	C	C -> T (het)	16% (157)   [16% (78) / 16% (79)]	G -> G (342)				c.1026C>T	p.=					distinct	
+63	ACTB	ENST00000331789	ACTB-E01-E06	E6	60 (1044)   [chr7:g.5569105 (HomoSapiens)]	C	G -> T (het)	2% (18)   [2% (9) / 2% (9)]	S -> S (348)				c.1044G>T	p.=					other	
+64	ACTB	ENST00000331789	ACTB-E01-E06	E6	60 (1044)   [chr7:g.5569105 (HomoSapiens)]	C	G -> A (het)	14% (144)   [14% (72) / 14% (72)]	S -> S (348)				c.1044G>A	p.=					distinct	
+65	ADPGK	ENST00000311669	ADPGK-E01-E07	E4	24 (546)   [chr15:g.73075487 (HomoSapiens)]	C	T -> C (het)	56% (524)   [56% (262) / 56% (262)]	G -> G (182)				c.546T>C	p.=					distinct	
+66	ADPGK	ENST00000311669	ADPGK-E01-E07	E4	29 (551)   [chr15:g.73075482 (HomoSapiens)]	C	A -> G (het)	57% (526)   [57% (263) / 57% (263)]	K -> R (184)				c.551A>G	p.Lys184Arg					distinct	
+67	ADPGK	ENST00000311669	ADPGK-E01-E07	E7	1 (940) / 3bp   [chr15:g.73075093_73075094 (HomoSapiens)]	I (Dup)	CAG (het)	37% (32)   [37% (16) / 37% (16)]	 -> Q (314)				c.940-3_940-1dupCAG	p.Gln313dup					distinct	
+68	ADPGK	ENST00000311669	ADPGK-E01-E07	E7	117 (1056) / 1bp   [chr15:g.73074977_73074978 (HomoSapiens)]	I (Dup)	G (het)	8% (24)   [8% (12) / 8% (12)]	[STOP] AA 356 (E7/127)		RF changed		c.1055dupG	p.Met353Hisfs*4					distinct	
+69	ADPGK	ENST00000311669	ADPGK-E01-E07	E7	117 (1056)   [chr15:g.73074977 (HomoSapiens)]	C	C -> G (het)	32% (94)   [32% (47) / 32% (47)]	G -> G (352)				c.1056C>G	p.=					distinct	
+70	ALDOA	ENST00000338110	ALDOA-E01-E14	E13	106 (905)   [chr16:g.30066402 (HomoSapiens)]	C	A -> T (het)	2% (32)   [2% (16) / 2% (16)]	Y -> F (302)				c.905A>T	p.Tyr302Phe					other	
+71	AR	ENST00000374690	AR-E01-E08	E7	104 (2553)   [chrX:g.66767541 (HomoSapiens)]	C	A -> G (het)	19% (12)   [19% (6) / 19% (6)]	T -> T (851)				c.2553A>G	p.=					distinct	
+72	ARHGAP26	ENST00000274498	ARHGAP26-E01-E23	E11	2 (1030)   [chr5:g.142151356 (HomoSapiens)]	C	C -> A (het)	2% (8)   [2% (4) / 2% (4)]	P -> T (344)				c.1030C>A	p.Pro344Thr					other	
+73	ARHGAP26	ENST00000274498	ARHGAP26-E01-E23	E11	2 (1030)   [chr5:g.142151356 (HomoSapiens)]	C	C -> G (het)	2% (6)   [2% (3) / 2% (3)]	P -> A (344)				c.1030C>G	p.Pro344Ala					other	
+74	ATG4A	ENST00000372232	ATG4A-E01-E13	E8	85 (632)   [chrX:g.107335688 (HomoSapiens)]	C	A -> C (het)	2% (5)   [2% (3) / 2% (2)]	K -> T (211)				c.632A>C	p.Lys211Thr					other	
+75	ATP5A1		ATP5A1_TB	seq	1913	C	G -> A (het)	2% (174)   [2% (87) / 2% (87)]					n.1913G>A						other	
+76	ATP5A1		ATP5A1_TB	seq	1913	C	G -> T (het)	1% (104)   [1% (52) / 1% (52)]					n.1913G>T						other	
+77	ATP5C1	ENST00000356708	ATP5C1-E01-E10	E2	13 (69)   [chr10:g.7830239 (HomoSapiens)]	C	A -> G (het)	30% (253)   [30% (127) / 30% (126)]	R -> R (23)				c.69A>G	p.=					distinct	
+78	ATP5C1	ENST00000356708	ATP5C1-E01-E10	E4	52 (275)   [chr10:g.7830445 (HomoSapiens)]	C	T -> A (het)	2% (174)   [2% (87) / 2% (87)]	L -> H (92)				c.275T>A	p.Leu92His					other	
+79	ATP5C1	ENST00000356708	ATP5C1-E01-E10	E8	9..13 (802..806) / 5bp   [chr10:g.7830972_7830976 (HomoSapiens)]	Indel	ATTGA -> GAA (het)	15% (144)   [15% (72) / 15% (72)]	[STOP] AA 288 (E8/69)		RF changed		c.802_805delinsGA	p.Ile268Glufs*21					distinct	
+80	ATP5C1	ENST00000356708	ATP5C1-E01-E10	E8	9 (802)   [chr10:g.7830972 (HomoSapiens)]	C	A -> G (het)	16% (150)   [16% (75) / 16% (75)]	I -> V (268)				c.802A>G	p.Ile268Val					distinct	
+81	BCAT1	ENST00000538118	BCAT1-E01-E11	E4	1 (277) / 69bp   [chr12:g.25054623_25054624 (HomoSapiens)]	I	AGTCAGTCTCTTGAACACGGGTTGTTTTCTTTTGGTTACCCTCTAAGATTTTTTCTCTTTGATCTCCAG (het)	16% (10)   [16% (5) / 16% (5)]	 -> SQSLEHGLFSFGYPLRFFLFDLQ (93)				c.277-1_277insAGTCAGTCTCTTGAACACGGGTTGTTTTCTTTTGGTTACCCTCTAAGATTTTTTCTCTTTGATCTCCAG	p.Glu92_Leu93insSerGlnSerLeuGluHisGlyLeuPheSerPheGlyTyrProLeuArgPhePheLeuPheAspLeuGln					distinct	
+82	BCAT2	ENST00000402551	BCAT2-E01-E12	E8	77 (652)   [chr19:g.49313012 (HomoSapiens)]	C	C -> G (het)	3% (8)   [3% (4) / 3% (4)]	P -> A (218)				c.652C>G	p.Pro218Ala					distinct	
+83	BCAT2	ENST00000402551	BCAT2-E01-E12	E10	20 (824)   [chr19:g.49312840 (HomoSapiens)]	C	A -> G (het)	21% (70)   [21% (35) / 21% (35)]	E -> G (275)				c.824A>G	p.Glu275Gly					distinct	
+84	BRAF	ENST00000288602	BRAF-E01-E18	E14	6 (1700)   [chr7:g.140622804 (HomoSapiens)]	C	T -> G (het)	6% (12)   [6% (6) / 6% (6)]	L -> [STOP] (567)				c.1700T>G	p.Leu567Ter					distinct	
+85	BRAF	ENST00000288602	BRAF-E01-E18	E14	20 (1714)   [chr7:g.140622790 (HomoSapiens)]	C	A -> G (het)	6% (12)   [6% (6) / 6% (6)]	I -> V (572)				c.1714A>G	p.Ile572Val					distinct	
+86	BRAF	ENST00000288602	BRAF-E01-E18	E15	6 (1747)   [chr7:g.140622757 (HomoSapiens)]	C	T -> G (het)	6% (12)   [6% (6) / 6% (6)]	F -> V (583)				c.1747T>G	p.Phe583Val					distinct	
+87	BRAF	ENST00000288602	BRAF-E01-E18	E15	29..30 (1770..1771) / 2bp   [chr7:g.140622733_140622734 (HomoSapiens)]	Indel	AA -> GG (het)	6% (12)   [6% (6) / 6% (6)]	VK -> VE (590..591)				c.1770_1771delinsGG	p.Lys591Glu					distinct	
+88	BRAF	ENST00000288602	BRAF-E01-E18	E15	53 (1794)   [chr7:g.140622710 (HomoSapiens)]	C	T -> C (het)	10% (10)   [10% (5) / 10% (5)]	A -> A (598)				c.1794T>C	p.=					distinct	
+89	BRAF	ENST00000288602	BRAF-E01-E18	E15	66 (1807)   [chr7:g.140622697 (HomoSapiens)]	C	C -> T (het)	10% (10)   [10% (5) / 10% (5)]	R -> [STOP] (603)				c.1807C>T	p.Arg603Ter					distinct	
+90	BRAF	ENST00000288602	BRAF-E01-E18	E15	107..108 (1848..1849) / 2bp   [chr7:g.140622655_140622656 (HomoSapiens)]	Indel	CA -> TT (het)	10% (10)   [10% (5) / 10% (5)]	SI -> SF (616..617)				c.1848_1849delinsTT	p.Ile617Phe					distinct	
+91	BRAF	ENST00000288602	BRAF-E01-E18	E15	116 (1857)   [chr7:g.140622647 (HomoSapiens)]	C	G -> T (het)	10% (10)   [10% (5) / 10% (5)]	W -> C (619)				c.1857G>T	p.Trp619Cys					distinct	
+92	BRAF	ENST00000288602	BRAF-E01-E18	E16	34 (1894)   [chr7:g.140622610 (HomoSapiens)]	C	C -> T (het)	9% (10)   [9% (5) / 9% (5)]	P -> S (632)				c.1894C>T	p.Pro632Ser					distinct	
+93	CA12	ENST00000344366	CA12-E01-E10	E1	117 (2)   [chr15:g.63673918 (HomoSapiens)]	C	T -> C (het)	5% (92)   [5% (46) / 5% (46)]	M -> T (1)				c.2T>C	p.Met1Thrext-103					distinct	
+94	CA12	ENST00000344366	CA12-E01-E10	E9	1 (875) / 33bp   [chr15:g.63673045_63673046 (HomoSapiens)]	I	TGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG (homo)	96% (15123)   [96% (7561) / 96% (7562)]	G -> VQVCTAAGLSLG (292)				c.875-1_875insTGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG	p.Gln291_Gly292insValGlnValCysThrAlaAlaGlyLeuSerLeu					distinct	
+95	CAT	ENST00000241052	CAT-E01-E13	E4	82 (431)   [chr11:g.34460991 (HomoSapiens)]	C	A -> G (het)	2% (10)   [2% (5) / 2% (5)]	D -> G (144)				c.431A>G	p.Asp144Gly					other	
+96	CAT	ENST00000241052	CAT-E01-E13	E5	1..20 (481..500) / 20bp   [chr11:g.34461041_34461060 (HomoSapiens)]	D	TTTCCATCTTTTATCCACAG (het)	1% (8)   [1% (4) / 1% (4)]	[STOP] AA 184 (E5/70)		RF changed		c.481_500delTTTCCATCTTTTATCCACAG	p.Phe161Profs*24					other	
+97	CAT	ENST00000241052	CAT-E01-E13	E5	53 (533)   [chr11:g.34461093 (HomoSapiens)]	C	A -> G (het)	1% (6)   [1% (3) / 1% (3)]	D -> G (178)				c.533A>G	p.Asp178Gly					other	
+98	CBR1	ENST00000530908	CBR1-E01-E03	E1	394 (219)   [chr21:g.37442632 (HomoSapiens)]	C	G -> C (het)	53% (570)   [53% (285) / 53% (285)]	L -> L (73)				c.219G>C	p.=					distinct	
+99	CHKA	ENST00000356135	CHKA-E01-E11	E3	12 (474) / 1bp   [chr11:g.67888171 (HomoSapiens)]	D	C (het)	24% (56)   [24% (28) / 24% (28)]	[STOP] AA 196 (E4/10)		RF changed		c.474delC	p.Met159Trpfs*38					distinct	
+100	CHKA	ENST00000356135	CHKA-E01-E11	E4	95 (671)   [chr11:g.67887974 (HomoSapiens)]	C	T -> A (het)	5% (14)   [5% (7) / 5% (7)]	F -> Y (224)				c.671T>A	p.Phe224Tyr					distinct	
+101	CKB	ENST00000348956	CKB-E01-E08	E3	54 (247)   [chr14:g.103988844 (HomoSapiens)]	C	G -> C (het)	3% (12)   [3% (6) / 3% (6)]	E -> Q (83)				c.247G>C	p.Glu83Gln					other	
+102	CKB	ENST00000348956	CKB-E01-E08	E6	42 (695)   [chr14:g.103988396 (HomoSapiens)]	C	A -> G (het)	12% (218)   [12% (109) / 12% (109)]	E -> G (232)				c.695A>G	p.Glu232Gly					distinct	
+103	CKB	ENST00000348956	CKB-E01-E08	E8	2 (969) / 79bp   [chr14:g.103988122_103988123 (HomoSapiens)]	I	TGAGCAGGGCAGGTGCTGCGGCTTCCCGTGGCCTTTGGGCAGCCCTGTTTCCTCCGCCCTGACTTGCTGTCTCCCCAGG (het)	1% (211)   [1% (98) / 2% (113)]	[STOP] AA 366 (E8/129)		RF changed		c.968_969insTGAGCAGGGCAGGTGCTGCGGCTTCCCGTGGCCTTTGGGCAGCCCTGTTTCCTCCGCCCTGACTTGCTGTCTCCCCAGG	p.Gly324Glufs*43					other	
+104	CPT1A	ENST00000376618	CPT1A-E01-E19	E2	10   [chr11:g.68609233 (HomoSapiens)]	C	G -> T (het)	2% (10)   [2% (5) / 2% (5)]	5' UTR				c.-4G>T						other	
+105	CPT1A	ENST00000376618	CPT1A-E01-E19	E4	57 (338)   [chr11:g.68608892 (HomoSapiens)]	C	G -> T (het)	7% (20)   [7% (10) / 7% (10)]	G -> V (113)				c.338G>T	p.Gly113Val					distinct	
+106	CS	ENST00000351328	CS-E01-E11	E3	23..39 (116..132) / 17bp   [chr12:g.56693854_56693870 (HomoSapiens)]	Indel	ACCTGATACCTAAGGAG -> CTCCTTAGGTAT (het)	3% (16)   [3% (8) / 3% (8)]	[STOP] AA 41 (E3/28)		RF changed		c.116_132delinsCTCCTTAGGTAT	p.Asp39Alafs*3					distinct	
+107	CS	ENST00000351328	CS-E01-E11	E3	28..39 (121..132) / 12bp   [chr12:g.56693854_56693865 (HomoSapiens)]	Indel	ATACCTAAGGAG -> CTCCTTAGGTAT (het)	1% (6)   [1% (3) / 1% (3)]	IPKE -> LLRY (41..44)				c.121_132delinsCTCCTTAGGTAT	p.Ile41_Glu44delinsLeuLeuArgTyr					other	
+108	CS	ENST00000351328	CS-E01-E11	E3	44 (137)   [chr12:g.56693849 (HomoSapiens)]	C	C -> T (het)	5% (26)   [5% (13) / 5% (13)]	A -> V (46)				c.137C>T	p.Ala46Val					distinct	
+109	CS	ENST00000351328	CS-E01-E11	E3	50 (143)   [chr12:g.56693843 (HomoSapiens)]	C	T -> C (het)	2% (16)   [2% (8) / 2% (8)]	I -> T (48)				c.143T>C	p.Ile48Thr					other	
+110	CS	ENST00000351328	CS-E01-E11	E3	57 (150)   [chr12:g.56693836 (HomoSapiens)]	C	T -> C (het)	1% (14)   [1% (7) / 1% (7)]	T -> T (50)				c.150T>C	p.=					other	
+111	CS	ENST00000351328	CS-E01-E11	E8	87 (875)   [chr12:g.56693111 (HomoSapiens)]	C	C -> A (het)	1% (22)   [1% (11) / 1% (11)]	A -> D (292)				c.875C>A	p.Ala292Asp					other	
+112	CS	ENST00000351328	CS-E01-E11	E10	24 (1044)   [chr12:g.56692942 (HomoSapiens)]	C	A -> C (het)	2% (6)   [2% (3) / 2% (3)]	A -> A (348)				c.1044A>C	p.=					other	
+113	CS	ENST00000351328	CS-E01-E11	E11	71 (1301)   [chr12:g.56692685 (HomoSapiens)]	C	C -> T (het)	6% (224)   [6% (112) / 6% (112)]	A -> V (434)				c.1301C>T	p.Ala434Val					distinct	
+114	CYCS	ENST00000305786	CYCS-E01-E03	E2	26 (18)   [chr7:g.25164793 (HomoSapiens)]	C	A -> G (het)	1% (6)   [1% (3) / 1% (3)]	K -> K (6)				c.18A>G	p.=					other	
+115	CYCS	ENST00000305786	CYCS-E01-E03	E2	27 (19)   [chr7:g.25164792 (HomoSapiens)]	C	G -> A (het)	1% (6)   [1% (3) / 1% (3)]	G -> S (7)				c.19G>A	p.Gly7Ser					other	
+116	CYCS	ENST00000305786	CYCS-E01-E03	E2	42..46 (34..38) / 5bp   [chr7:g.25164773_25164777 (HomoSapiens)]	Indel	ATTAT -> GTTCA (het)	2% (10)   [2% (5) / 2% (5)]	IM -> VQ (12..13)				c.34_38delinsGTTCA	p.Ile12_Met13delinsValGln					other	
+117	CYCS	ENST00000305786	CYCS-E01-E03	E2	54 (46)   [chr7:g.25164765 (HomoSapiens)]	C	T -> G (het)	2% (10)   [2% (5) / 2% (5)]	S -> A (16)				c.46T>G	p.Ser16Ala					other	
+118	CYCS	ENST00000305786	CYCS-E01-E03	E2	62 (54)   [chr7:g.25164757 (HomoSapiens)]	C	C -> A (het)	1% (6)   [1% (3) / 1% (3)]	C -> [STOP] (18)				c.54C>A	p.Cys18Ter					other	
+119	CYCS	ENST00000305786	CYCS-E01-E03	E2	71 (63)   [chr7:g.25164748 (HomoSapiens)]	C	T -> G (het)	2% (10)   [2% (5) / 2% (5)]	V -> V (21)				c.63T>G	p.=					other	
+120	CYCS	ENST00000305786	CYCS-E01-E03	E2	89 (81)   [chr7:g.25164730 (HomoSapiens)]	C	C -> T (het)	7% (58)   [7% (29) / 7% (29)]	H -> H (27)				c.81C>T	p.=					distinct	
+121	CYCS	ENST00000305786	CYCS-E01-E03	E2	97..101 (89..93) / 5bp   [chr7:g.25164718_25164722 (HomoSapiens)]	Indel	GGCCA -> AGCAT (het)	7% (56)   [7% (28) / 7% (28)]	GP -> EH (30..31)				c.89_93delinsAGCAT	p.Gly30_Pro31delinsGluHis					distinct	
+122	CYCS	ENST00000305786	CYCS-E01-E03	E2	101 (93)   [chr7:g.25164718 (HomoSapiens)]	C	A -> T (het)	1% (12)   [1% (6) / 1% (6)]	P -> P (31)				c.93A>T	p.=					other	
+123	CYCS	ENST00000305786	CYCS-E01-E03	E2	119 (111)   [chr7:g.25164700 (HomoSapiens)]	C	T -> C (het)	14% (60)   [14% (30) / 15% (30)]	F -> F (37)				c.111T>C	p.=					distinct	
+124	CYCS	ENST00000305786	CYCS-E01-E03	E2	121..123 (113..115) / 3bp   [chr7:g.25164696_25164698 (HomoSapiens)]	Indel	GGC -> TGG (het)	1% (6)   [1% (3) / 2% (3)]	GR -> VG (38..39)				c.113_115delinsTGG	p.Gly38_Arg39delinsValGly					other	
+125	CYCS	ENST00000305786	CYCS-E01-E03	E2	124 (116)   [chr7:g.25164695 (HomoSapiens)]	C	G -> A (het)	14% (60)   [14% (30) / 15% (30)]	R -> Q (39)				c.116G>A	p.Arg39Gln					distinct	
+126	CYCS	ENST00000305786	CYCS-E01-E03	E2	133 (125)   [chr7:g.25164686 (HomoSapiens)]	C	G -> A (het)	1% (6)   [1% (3) / 1% (3)]	G -> D (42)				c.125G>A	p.Gly42Asp					other	
+127	CYCS	ENST00000305786	CYCS-E01-E03	E2	141..142 (133..134) / 2bp   [chr7:g.25164677_25164678 (HomoSapiens)]	Indel	CC -> GT (het)	13% (52)   [12% (26) / 13% (26)]	P -> V (45)				c.133_134delinsGT	p.Pro45Val					distinct	
+128	CYCS	ENST00000305786	CYCS-E01-E03	E2	141..142 (133..134) / 2bp   [chr7:g.25164677_25164678 (HomoSapiens)]	Indel	CC -> AT (het)	1% (6)   [1% (3) / 2% (3)]	P -> I (45)				c.133_134delinsAT	p.Pro45Ile					other	
+129	CYCS	ENST00000305786	CYCS-E01-E03	E2	141..150 (133..142) / 10bp   [chr7:g.25164669_25164678 (HomoSapiens)]	Indel	CCTGGATACT -> ATTGTATTCA (het)	2% (8)   [2% (4) / 2% (4)]	PGYS -> IVFT (45..48)				c.133_142delinsATTGTATTCA	p.Pro45_Ser48delinsIleValPheThr					other	
+130	CYCS	ENST00000305786	CYCS-E01-E03	E2	148 (140)   [chr7:g.25164671 (HomoSapiens)]	C	A -> T (het)	14% (58)   [14% (29) / 14% (29)]	Y -> F (47)				c.140A>T	p.Tyr47Phe					distinct	
+131	CYCS	ENST00000305786	CYCS-E01-E03	E2	155 (147)   [chr7:g.25164664 (HomoSapiens)]	C	C -> T (het)	1% (6)   [1% (3) / 1% (3)]	Y -> Y (49)				c.147C>T	p.=					other	
+132	CYCS	ENST00000305786	CYCS-E01-E03	E2	160..161 (152..153) / 2bp   [chr7:g.25164658_25164659 (HomoSapiens)]	Indel	CC -> AT (het)	2% (8)   [2% (4) / 2% (4)]	A -> D (51)				c.152_153delinsAT	p.Ala51Asp					other	
+133	CYCS	ENST00000305786	CYCS-E01-E03	E2	160..165 (152..157) / 6bp   [chr7:g.25164654_25164659 (HomoSapiens)]	Indel	CCGCCA -> AGGCCC (het)	1% (6)   [1% (3) / 2% (3)]	AAN -> EAH (51..53)				c.152_157delinsAGGCCC	p.Ala51_Asn53delinsGluAlaHis					other	
+134	CYCS	ENST00000305786	CYCS-E01-E03	E2	160 (152)   [chr7:g.25164659 (HomoSapiens)]	C	C -> A (het)	13% (52)   [12% (26) / 13% (26)]	A -> D (51)				c.152C>A	p.Ala51Asp					distinct	
+135	CYCS	ENST00000305786	CYCS-E01-E03	E2	170 (162)   [chr7:g.25164649 (HomoSapiens)]	C	G -> A (het)	2% (52)   [2% (26) / 2% (26)]	K -> K (54)				c.162G>A	p.=					other	
+136	CYCS	ENST00000305786	CYCS-E01-E03	E3	7 (176)   [chr7:g.25164635 (HomoSapiens)]	C	T -> C (het)	3% (66)   [3% (33) / 3% (33)]	I -> T (59)				c.176T>C	p.Ile59Thr					other	
+137	CYCS	ENST00000305786	CYCS-E01-E03	E3	135 (304) / 1bp   [chr7:g.25164507_25164508 (HomoSapiens)]	I (Dup)	A (het)	4% (36)   [4% (18) / 4% (18)]	[STOP] AA 104 (E3/141)		RF changed		c.303dupA	p.Ala102Serfs*3					distinct	
+138	D2HGDH	ENST00000321264	D2HGDH-E01-E10	E5	2..18 (492..508) / 17bp   [chr2:g.242674694_242674710 (HomoSapiens)]	D	AATTCTGGTTTGCCAGG (het)	14% (349)   [14% (174) / 14% (175)]	[STOP] AA 244 (E6/46)		RF changed		c.492_508delAATTCTGGTTTGCCAGG	p.Ile165Glyfs*80					distinct	
+139	D2HGDH	ENST00000321264	D2HGDH-E01-E10	E6	42 (726)   [chr2:g.242674928 (HomoSapiens)]	C	G -> A (het)	2% (58)   [2% (29) / 2% (29)]	L -> L (242)				c.726G>A	p.=					other	
+140	D2HGDH	ENST00000321264	D2HGDH-E01-E10	E8	1 (998) / 33bp   [chr2:g.242675199_242675200 (HomoSapiens)]	I	GAAGGACGGGAAGGAACTAAGTGGCCATTTTTG (het)	1% (16)   [1% (8) / 2% (8)]	E -> GRTGRN[STOP] (333)				c.998-1_998insGAAGGACGGGAAGGAACTAAGTGGCCATTTTTG	p.Glu333delinsGlyArgThrGlyArgAsnTer					other	
+141	D2HGDH	ENST00000321264	D2HGDH-E01-E10	E8	85 (1082)   [chr2:g.242675284 (HomoSapiens)]	C	C -> T (het)	50% (198)   [50% (99) / 50% (99)]	A -> V (361)				c.1082C>T	p.Ala361Val					distinct	
+142	D2HGDH	ENST00000321264	D2HGDH-E01-E10	E9	29 (1169)   [chr2:g.242675371 (HomoSapiens)]	C	C -> G (het)	9% (16)   [9% (8) / 9% (8)]	T -> R (390)				c.1169C>G	p.Thr390Arg					distinct	
+143	EGFR		EGFR	seq	1176	C	G -> A (het)	4% (6)   [4% (3) / 4% (3)]					n.1176G>A						distinct	
+144	EGFR		EGFR	seq	2715	C	G -> A (het)	48% (82)   [48% (41) / 48% (41)]					n.2715G>A						distinct	
+145	EGFR		EGFR	seq	3063	C	T -> C (homo)	100% (342)   [100% (171) / 100% (171)]					n.3063T>C						distinct	
+146	EGLN1	ENST00000366641	EGLN1-E01-E05	E2	83 (974)   [chr1:g.231556661 (HomoSapiens)]	C	C -> A (het)	8% (36)   [8% (18) / 8% (18)]	T -> K (325)				c.974C>A	p.Thr325Lys					distinct	
+147	EGLN1	ENST00000366641	EGLN1-E01-E05	E2	90..91 (981..982) / 2bp   [chr1:g.231556653_231556654 (HomoSapiens)]	Indel	AT -> TAC (het)	8% (36)   [8% (18) / 8% (18)]	[STOP] AA 331 (E2/100)		RF changed		c.981_982delinsTAC	p.Tyr328Thrfs*4					distinct	
+148	EGLN1	ENST00000366641	EGLN1-E01-E05	E2	96..97 (987..988) / 2bp   [chr1:g.231556647_231556648 (HomoSapiens)]	Indel	TC -> CG (het)	8% (36)   [8% (18) / 8% (18)]	YL -> YV (329..330)				c.987_988delinsCG	p.Leu330Val					distinct	
+149	EGLN1	ENST00000366641	EGLN1-E01-E05	E2	102..109 (993..1000) / 8bp   [chr1:g.231556635_231556642 (HomoSapiens)]	Indel	TAAAGACT -> AGAAC (het)	8% (36)   [8% (18) / 8% (18)]	NKDW -> KER (331..334)				c.993_1000delinsAGAAC	p.Asn331_Trp334delinsLysGluArg					distinct	
+150	EGLN1	ENST00000366641	EGLN1-E01-E05	E3	29 (1040)   [chr1:g.231556595 (HomoSapiens)]	C	C -> T (het)	9% (38)   [9% (19) / 9% (19)]	P -> L (347)				c.1040C>T	p.Pro347Leu					distinct	
+151	EGLN1	ENST00000366641	EGLN1-E01-E05	E3	36 (1047)   [chr1:g.231556588 (HomoSapiens)]	C	C -> T (het)	8% (36)   [8% (18) / 8% (18)]	G -> G (349)				c.1047C>T	p.=					distinct	
+152	EGLN1	ENST00000366641	EGLN1-E01-E05	E3	43 (1054)   [chr1:g.231556581 (HomoSapiens)]	C	C -> T (het)	8% (36)   [8% (18) / 8% (18)]	Q -> [STOP] (352)				c.1054C>T	p.Gln352Ter					distinct	
+153	EGLN1	ENST00000366641	EGLN1-E01-E05	E5	44..48 (1260..1264) / 5bp   [chr1:g.231556371_231556375 (HomoSapiens)]	Indel	GGTCG -> AGTCA (het)	66% (365)   [66% (183) / 66% (182)]	SVG -> SVS (420..422)				c.1260_1264delinsAGTCA	p.Gly422Ser					distinct	
+154	EGLN1	ENST00000366641	EGLN1-E01-E05	E5	62 (1278)   [chr1:g.231556357 (HomoSapiens)]	C	C -> A (het)	66% (366)   [66% (183) / 66% (183)]	F -> L (426)				c.1278C>A	p.Phe426Leu					distinct	
+155	EGLN1	ENST00000366641	EGLN1-E01-E05	E5	104 / 1bp   [chr1:g.231556315_231556316 (HomoSapiens)]	I (Dup)	A (het)	66% (366)   [66% (183) / 66% (183)]	3' UTR				c.*38dupA						distinct	
+156	EGLN1	ENST00000366641	EGLN1-E01-E05	E5	109..111 / 3bp   [chr1:g.231556308_231556310 (HomoSapiens)]	Indel	AAC -> GACGC (het)	66% (366)   [66% (183) / 66% (183)]	3' UTR				c.*44_*45delinsGACG						distinct	
+157	EGLN1	ENST00000366641	EGLN1-E01-E05	E5	122   [chr1:g.231556297 (HomoSapiens)]	C	C -> T (het)	66% (366)   [66% (183) / 66% (183)]	3' UTR				c.*57C>T						distinct	
+158	ENO1	ENST00000234590	ENO1-E01-E12	E8	43 (710)   [chr1:g.8937920 (HomoSapiens)]	C	C -> G (het)	2% (98)   [2% (49) / 2% (49)]	T -> S (237)				c.710C>G	p.Thr237Ser					other	
+159	ENO1	ENST00000234590	ENO1-E01-E12	E9	113 (978)   [chr1:g.8937652 (HomoSapiens)]	C	G -> C (het)	1% (190)   [1% (95) / 1% (95)]	K -> N (326)				c.978G>C	p.Lys326Asn					other	
+160	EPAS1	ENST00000263734	EPAS1-E01-E16	E5	22 (476) / 1bp   [chr2:g.46525525_46525526 (HomoSapiens)]	I (Dup)	A (het)	1% (74)   [1% (37) / 1% (37)]	[STOP] AA 210 (E6/55)		RF changed		c.475dupA	p.Ser159Lysfs*52					other	
+161	EPAS1	ENST00000263734	EPAS1-E01-E16	E8	73 (959)   [chr2:g.46526009 (HomoSapiens)]	C	A -> T (het)	3% (44)   [3% (22) / 3% (22)]	E -> V (320)				c.959A>T	p.Glu320Val					distinct	
+162	EPAS1	ENST00000263734	EPAS1-E01-E16	E8	73 (959)   [chr2:g.46526009 (HomoSapiens)]	C	A -> G (het)	2% (32)   [2% (16) / 2% (16)]	E -> G (320)				c.959A>G	p.Glu320Gly					other	
+163	ERBB2	ENST00000269571	ERBB2-E01-E27	E3	166 (391)   [chr17:g.37856882 (HomoSapiens)]	C	G -> A (het)	2% (20)   [2% (10) / 2% (10)]	G -> R (131)				c.391G>A	p.Gly131Arg					other	
+164	ERBB2	ENST00000269571	ERBB2-E01-E27	E25	162 (3132)   [chr17:g.37859623 (HomoSapiens)]	C	C -> G (het)	39% (42)   [39% (21) / 39% (21)]	H -> Q (1044)				c.3132C>G	p.His1044Gln					distinct	
+165	ERBB3		ERBB3	seq	631	C	G -> A (het)	2% (8)   [2% (4) / 2% (4)]					n.631G>A						other	
+166	ERBB3		ERBB3	seq	631 / 1bp	D	G (het)	4% (16)   [4% (8) / 4% (8)]					n.631delG						distinct	
+167	ERBB3		ERBB3	seq	631	C	G -> T (het)	4% (17)   [4% (9) / 4% (8)]					n.631G>T						distinct	
+168	ERBB3		ERBB3	seq	631..632 / 2bp	D	GT (het)	1% (6)   [1% (3) / 1% (3)]					n.631_632delGT						other	
+169	ERBB3		ERBB3	seq	635	C	T -> C (het)	1% (6)   [1% (3) / 1% (3)]					n.635T>C						other	
+170	ERBB3		ERBB3	seq	1744	C	C -> T (het)	3% (58)   [3% (29) / 3% (29)]					n.1744C>T						other	
+171	ERBB3		ERBB3	seq	2633	C	T -> G (het)	8% (106)   [8% (53) / 8% (53)]					n.2633T>G						distinct	
+172	ERBB3		ERBB3	seq	3387	C	C -> G (het)	5% (18)   [5% (9) / 5% (9)]					n.3387C>G						distinct	
+173	ERBB4		ERBB4	seq	1973 / 45bp	I	CATAGGCTCAAGTATTGAAGACTGCATCGGCCTGATGGATAGGTG (het)	2% (20)   [2% (10) / 2% (10)]					n.1972_1973insCATAGGCTCAAGTATTGAAGACTGCATCGGCCTGATGGATAGGTG						other	
+174	ERBB4		ERBB4	seq	2819	C	A -> G (het)	19% (6)   [19% (3) / 19% (3)]					n.2819A>G						distinct	
+175	ERBB4		ERBB4	seq	3293	C	A -> G (het)	55% (12)   [55% (6) / 55% (6)]					n.3293A>G						distinct	
+176	FBP1	ENST00000375326	FBP1-E01-E07	E5	43 (610)   [chr9:g.97400983 (HomoSapiens)]	C	A -> T (het)	3% (149)   [3% (74) / 3% (75)]	K -> [STOP] (204)				c.610A>T	p.Lys204Ter					other	
+177	FBP1	ENST00000375326	FBP1-E01-E07	E5	86 (653)   [chr9:g.97400940 (HomoSapiens)]	C	G -> A (homo)	100% (5020)   [100% (2511) / 100% (2509)]	R -> K (218)				c.653G>A	p.Arg218Lys					distinct	
+178	FGFR2	ENST00000358487	FGFR2-E01-E18	E18	95 (2396) / 1bp   [chr10:g.123354930_123354931 (HomoSapiens)]	I (Dup)	T (het)	3% (10)   [3% (5) / 3% (5)]	[STOP] AA 820 (E18/157)		RF changed		c.2395dupT	p.Ser799Phefs*22					distinct	
+179	FH	ENST00000366560	FH-E01-E10	E2	57..78 (189..210) / 22bp   [chr1:g.241682813_241682834 (HomoSapiens)]	D	AAATGATAAGTATTATGGCGCC (het)	2% (8)   [2% (4) / 2% (4)]	[STOP] AA 66 (E2/64)		RF changed		c.189_210delAAATGATAAGTATTATGGCGCC	p.Asn64Argfs*3					other	
+180	FH	ENST00000366560	FH-E01-E10	E5	108..117 (663..672) / 10bp   [chr1:g.241682351_241682360 (HomoSapiens)]	Indel	ATCCAAAGAG -> CTC (het)	1% (6)   [1% (3) / 1% (3)]	[STOP] AA 253 (E6/19)		RF changed		c.663_672delinsCTC	p.Lys221Asnfs*33					other	
+181	FH	ENST00000366560	FH-E01-E10	E5	122..128 (677..683) / 7bp   [chr1:g.241682340_241682346 (HomoSapiens)]	Indel	CACAGAT -> GATTTTG (het)	1% (6)   [1% (3) / 1% (3)]	AQI -> GFC (226..228)				c.677_683delinsGATTTTG	p.Ala226_Ile228delinsGlyPheCys					other	
+182	FH	ENST00000366560	FH-E01-E10	E7	23 (927)   [chr1:g.241682096 (HomoSapiens)]	C	G -> A (het)	47% (130)   [47% (65) / 47% (65)]	P -> P (309)				c.927G>A	p.=					distinct	
+183	FH	ENST00000366560	FH-E01-E10	E7	117 (1021)   [chr1:g.241682002 (HomoSapiens)]	C	G -> A (het)	1% (8)   [1% (4) / 1% (4)]	D -> N (341)				c.1021G>A	p.Asp341Asn					other	
+184	FH	ENST00000366560	FH-E01-E10	E7	125 (1029)   [chr1:g.241681994 (HomoSapiens)]	C	A -> T (het)	2% (10)   [2% (5) / 2% (5)]	R -> R (343)				c.1029A>T	p.=					other	
+185	FH	ENST00000366560	FH-E01-E10	E7	129 (1033)   [chr1:g.241681990 (HomoSapiens)]	C	T -> C (het)	2% (10)   [2% (5) / 2% (5)]	L -> L (345)				c.1033T>C	p.=					other	
+186	FH	ENST00000366560	FH-E01-E10	E7	144 (1048)   [chr1:g.241681975 (HomoSapiens)]	C	C -> T (het)	2% (10)   [2% (5) / 2% (5)]	R -> W (350)				c.1048C>T	p.Arg350Trp					other	
+187	FH	ENST00000366560	FH-E01-E10	E7	162 (1066)   [chr1:g.241681957 (HomoSapiens)]	C	T -> C (het)	1% (10)   [1% (5) / 1% (5)]	L -> L (356)				c.1066T>C	p.=					other	
+188	FH	ENST00000366560	FH-E01-E10	E8	60..80 (1168..1188) / 21bp   [chr1:g.241681835_241681855 (HomoSapiens)]	Indel	AACCATGTTGCTGTCACTGTC -> TTTTGTGTGGCAGTAACCGTT (het)	19% (141)   [19% (71) / 19% (70)]	NHVAVTV -> FCVAVTV (390..396)				c.1168_1188delinsTTTTGTGTGGCAGTAACCGTT	p.Asn390_His391delinsPheCys					distinct	
+189	FH	ENST00000366560	FH-E01-E10	E8	87 (1195)   [chr1:g.241681828 (HomoSapiens)]	C	A -> G (het)	19% (142)   [19% (71) / 19% (71)]	S -> G (399)				c.1195A>G	p.Ser399Gly					distinct	
+190	FH	ENST00000366560	FH-E01-E10	E8	95 (1203)   [chr1:g.241681820 (HomoSapiens)]	C	A -> C (het)	19% (142)   [19% (71) / 19% (71)]	G -> G (401)				c.1203A>C	p.=					distinct	
+191	FH	ENST00000366560	FH-E01-E10	E8	108 (1216)   [chr1:g.241681807 (HomoSapiens)]	C	A -> G (het)	19% (142)   [19% (71) / 19% (71)]	N -> D (406)				c.1216A>G	p.Asn406Asp					distinct	
+192	FH	ENST00000366560	FH-E01-E10	E8	127 (1235)   [chr1:g.241681788 (HomoSapiens)]	C	T -> A (het)	7% (96)   [7% (48) / 7% (48)]	M -> K (412)				c.1235T>A	p.Met412Lys					distinct	
+193	FH	ENST00000366560	FH-E01-E10	E9	10..11 (1246..1247) / 2bp   [chr1:g.241681776_241681777 (HomoSapiens)]	Indel	GT -> TTAT (het)	10% (140)   [10% (70) / 10% (70)]	[STOP] AA 449 (E9/109)		RF changed		c.1246delinsTTA	p.Val416Leufs*34					distinct	
+194	FH	ENST00000366560	FH-E01-E10	E9	23..26 (1259..1262) / 4bp   [chr1:g.241681761_241681764 (HomoSapiens)]	D	CCAG (het)	10% (142)   [10% (71) / 10% (71)]	[STOP] AA 447 (E9/103)		RF changed		c.1259_1262delCCAG	p.Ala420Glyfs*28					distinct	
+195	FH	ENST00000366560	FH-E01-E10	E9	35 (1271)   [chr1:g.241681752 (HomoSapiens)]	C	G -> C (het)	1% (8)   [1% (4) / 1% (4)]	G -> A (424)				c.1271G>C	p.Gly424Ala					other	
+196	FH	ENST00000366560	FH-E01-E10	E10	18..20 (1408..1410) / 3bp   [chr1:g.241681613_241681615 (HomoSapiens)]	Indel	AAG -> GA (het)	24% (56)   [24% (28) / 24% (28)]	[STOP] AA 482 (E10/54)		RF changed		c.1408_1410delinsGA	p.Lys470Glufs*13					distinct	
+197	FH	ENST00000366560	FH-E01-E10	E10	33..39 (1423..1429) / 7bp   [chr1:g.241681594_241681600 (HomoSapiens)]	Indel	GCACACA -> ACACCCC (het)	27% (55)   [27% (27) / 28% (28)]	AHK -> TPQ (475..477)				c.1423_1429delinsACACCCC	p.Ala475_Lys477delinsThrProGln					distinct	
+198	FH	ENST00000366560	FH-E01-E10	E10	68..71 (1458..1461) / 4bp   [chr1:g.241681562_241681565 (HomoSapiens)]	Indel	TATC -> CGTT (het)	27% (54)   [27% (27) / 27% (27)]	AI -> AV (486..487)				c.1458_1461delinsCGTT	p.Ile487Val					distinct	
+199	FH	ENST00000366560	FH-E01-E10	E10	82 (1472)   [chr1:g.241681551 (HomoSapiens)]	C	A -> C (het)	27% (55)   [27% (27) / 28% (28)]	Y -> S (491)				c.1472A>C	p.Tyr491Ser					distinct	
+200	FH	ENST00000366560	FH-E01-E10	E10	104 (1494)   [chr1:g.241681529 (HomoSapiens)]	C	C -> T (het)	28% (57)   [28% (28) / 29% (29)]	D -> D (498)				c.1494C>T	p.=					distinct	
+201	FOLH1	ENST00000256999	FOLH1-E01-E19	E3	106 (330)   [chr11:g.49229632 (HomoSapiens)]	C	A -> G (het)	9% (92)   [9% (46) / 9% (46)]	L -> L (110)				c.330A>G	p.=					distinct	
+202	FOLH1	ENST00000256999	FOLH1-E01-E19	E6	93 (732)   [chr11:g.49229230 (HomoSapiens)]	C	T -> C (het)	7% (35)   [7% (17) / 7% (18)]	D -> D (244)				c.732T>C	p.=					distinct	
+203	FOLH1	ENST00000256999	FOLH1-E01-E19	E16	215 (1838)   [chr11:g.49228124 (HomoSapiens)]	C	G -> A (het)	18% (34)   [18% (17) / 18% (17)]	S -> N (613)				c.1838G>A	p.Ser613Asn					distinct	
+204	FOLH1	ENST00000256999	FOLH1-E01-E19	E16	256 (1879)   [chr11:g.49228083 (HomoSapiens)]	C	G -> T (het)	18% (35)   [18% (17) / 19% (18)]	V -> L (627)				c.1879G>T	p.Val627Leu					distinct	
+205	FOLH1	ENST00000256999	FOLH1-E01-E19	E17	23 (1911)   [chr11:g.49228051 (HomoSapiens)]	C	G -> A (het)	18% (34)   [18% (17) / 18% (17)]	K -> K (637)				c.1911G>A	p.=					distinct	
+206	G6PC	ENST00000253801	G6PC-E01-E05	E4	47 (493)   [chr17:g.41053386 (HomoSapiens)]	C	A -> G (het)	5% (24)   [5% (12) / 5% (12)]	N -> D (165)				c.493A>G	p.Asn165Asp					distinct	
+207	G6PD	ENST00000393562	G6PD-E01-E13	E6	1 (576) / 3bp   [chrX:g.153774510_153774511 (HomoSapiens)]	I	CAG (het)	18% (120)   [18% (60) / 18% (60)]	I -> IR (192)				c.576-1_576insCAG	p.Ile192_Gly193insArg					distinct	
+208	GAD1	ENST00000358196	GAD1-E01-E17	E3	29 (111)   [chr2:g.171673732 (HomoSapiens)]	C	T -> C (homo)	100% (26)   [100% (13) / 100% (13)]	H -> H (37)				c.111T>C	p.=					distinct	
+209	GAD1	ENST00000358196	GAD1-E01-E17	E5	132 (436)   [chr2:g.171674057 (HomoSapiens)]	C	C -> T (het)	16% (44)   [16% (22) / 16% (22)]	Q -> [STOP] (146)				c.436C>T	p.Gln146Ter					distinct	
+210	GAPDH	ENST00000229239	GAPDH-E01-E09	E8	80 (605) / 1bp   [chr12:g.6644362_6644363 (HomoSapiens)]	I (Dup)	G (het)	2% (14)   [2% (7) / 2% (7)]	[STOP] AA 223 (E8/142)		RF changed		c.604dupG	p.Ala202Glyfs*22					other	
+211	GAPDH	ENST00000229239	GAPDH-E01-E09	E8	184 (709)   [chr12:g.6644467 (HomoSapiens)]	C	A -> G (het)	1% (10)   [1% (5) / 1% (5)]	T -> A (237)				c.709A>G	p.Thr237Ala					other	
+212	GCLC	ENST00000229416	GCLC-E01-E16	E15	18 (1599)   [chr6:g.53407845 (HomoSapiens)]	C	A -> C (het)	12% (138)   [12% (69) / 12% (69)]	G -> G (533)				c.1599A>C	p.=					distinct	
+213	GCLM	ENST00000370238	GCLM-E01-E07	E5	24 (361)   [chr1:g.94374359 (HomoSapiens)]	C	C -> G (het)	2% (8)   [2% (4) / 2% (4)]	Q -> E (121)				c.361C>G	p.Gln121Glu					other	
+214	GFPT1	ENST00000357308	GFPT1-E01-E20	E6	98 (506)   [chr2:g.69613698 (HomoSapiens)]	C	G -> A (het)	19% (80)   [19% (40) / 19% (40)]	S -> N (169)				c.506G>A	p.Ser169Asn					distinct	
+215	GFPT1	ENST00000357308	GFPT1-E01-E20	E15	85 (1409)   [chr2:g.69612795 (HomoSapiens)]	C	G -> A (het)	5% (42)   [5% (21) / 5% (21)]	S -> N (470)				c.1409G>A	p.Ser470Asn					distinct	
+216	GFPT1	ENST00000357308	GFPT1-E01-E20	E18	36 (1761)   [chr2:g.69612443 (HomoSapiens)]	C	C -> G (het)	1% (8)   [1% (4) / 1% (4)]	G -> G (587)				c.1761C>G	p.=					other	
+217	GLS	ENST00000338435	GLS-E01-E15	E14	60 (1617) / 1bp   [chr2:g.191747427 (HomoSapiens)]	D	A (het)	1% (26)   [1% (13) / 1% (13)]	[STOP] AA 567 (E15/49)		RF changed		c.1617delA	p.Lys539Asnfs*29					homopolymer	
+218	GLS	ENST00000338435	GLS-E01-E15	E14	61 (1618) / 1bp   [chr2:g.191747427_191747428 (HomoSapiens)]	I (Dup)	A (het)	1% (26)   [1% (13) / 1% (13)]	[STOP] AA 541 (E14/64)		RF changed		c.1617dupA	p.Leu540Thrfs*2					other	
+219	GLUD1	ENST00000277865	GLUD1-E01-E13	E8	92 (1151)   [chr10:g.88853376 (HomoSapiens)]	C	G -> C (het)	1% (54)   [1% (27) / 1% (27)]	S -> T (384)				c.1151G>C	p.Ser384Thr					other	
+220	GLUD2	ENST00000328078	GLUD2-E01	E1	923 (846)   [chrX:g.120182384 (HomoSapiens)]	C	C -> T (homo)	96% (1328)   [96% (662) / 96% (666)]	N -> N (282)				c.846C>T	p.=					distinct	
+221	GOT1		GOT1_TB	seq	1046..1050 / 5bp	Indel	AGCAT -> GAGTTACAGC (het)	4% (8)   [8% (8) / 0% (0)]					n.1046_1050delinsGAGTTACAGC						forced,distinct	
+222	GOT1		GOT1_TB	seq	1131	C	C -> G (het)	2% (20)   [2% (10) / 2% (10)]					n.1131C>G						other	
+223	GPI	ENST00000356487	GPI-E01-E18	E16	56 (1454)   [chr19:g.34857625 (HomoSapiens)]	C	T -> C (het)	5% (92)   [5% (46) / 5% (46)]	F -> S (485)				c.1454T>C	p.Phe485Ser					distinct	
+224	GPI	ENST00000588991	GPI-E01-E19	E17	22 (1420)   [chr19:g.34857351 (HomoSapiens)]	C	A -> G (het)	15% (115)   [15% (57) / 15% (58)]	T -> A (474)				c.1420A>G	p.Thr474Ala					distinct	
+225	GPI	ENST00000588991	GPI-E01-E19	E17	22 (1420)   [chr19:g.34857351 (HomoSapiens)]	C	A -> C (het)	6% (46)   [6% (23) / 6% (23)]	T -> P (474)				c.1420A>C	p.Thr474Pro					distinct	
+226	GPT	ENST00000394955	GPT-E01-E11	E1	155..170 / 16bp   [chr8:g.145729619_145729634 (HomoSapiens)]	D	GCTGTCGCCATTCCCA (het)	3% (14)   [3% (7) / 3% (7)]	5' UTR				c.-69_-54delGCTGTCGCCATTCCCA						other	
+227	GPT	ENST00000394955	GPT-E01-E11	E1	263 (40)   [chr8:g.145729727 (HomoSapiens)]	C	C -> A (het)	62% (594)   [62% (297) / 62% (297)]	H -> N (14)				c.40C>A	p.His14Asn					distinct	
+228	GPT	ENST00000394955	GPT-E01-E11	E3	1..38 (253..290) / 38bp   [chr8:g.145729940_145729977 (HomoSapiens)]	D	GTCTTGGCCCTCTGTGTTAACCCTGATCTTCTGAGCAG (het)	2% (10)   [2% (5) / 2% (5)]	[STOP] AA 89 (E3/13)		RF changed		c.253_290delGTCTTGGCCCTCTGTGTTAACCCTGATCTTCTGAGCAG	p.Val85Profs*5					other	
+229	HK1	ENST00000359426	HK1-E01-E18	E2	15 (78)   [chr10:g.71078781 (HomoSapiens)]	C	C -> G (het)	64% (102)   [64% (51) / 64% (51)]	L -> L (26)				c.78C>G	p.=					distinct	
+230	IDH1	ENST00000345146	IDH1-E01-E10	E3	30 (14) / 1bp   [chr2:g.209119559_209119560 (HomoSapiens)]	I (Dup)	A (het)	2% (18)   [2% (9) / 2% (9)]	[STOP] AA 17 (E3/65)		RF changed		c.13dupA	p.Ile5Asnfs*13					other	
+231	IDH1	ENST00000345146	IDH1-E01-E10	E3	108 (92)   [chr2:g.209119481 (HomoSapiens)]	C	T -> C (het)	2% (76)   [2% (38) / 2% (38)]	I -> T (31)				c.92T>C	p.Ile31Thr					other	
+232	IDH2	ENST00000330062	IDH2-E01-E11	E4	48 (421)   [chr15:g.90645202 (HomoSapiens)]	C	A -> G (het)	6% (102)   [6% (51) / 6% (51)]	N -> D (141)				c.421A>G	p.Asn141Asp					distinct	
+233	IDH3A	ENST00000299518	IDH3A-E01-E11	E4	25 (199)   [chr15:g.78441944 (HomoSapiens)]	C	A -> C (het)	21% (24)   [21% (12) / 21% (12)]	N -> H (67)				c.199A>C	p.Asn67His					distinct	
+234	IDH3A	ENST00000299518	IDH3A-E01-E11	E6	97 (574)   [chr15:g.78442319 (HomoSapiens)]	C	C -> T (het)	9% (8)   [9% (4) / 9% (4)]	R -> W (192)				c.574C>T	p.Arg192Trp					distinct	
+235	IDH3B	ENST00000380843	IDH3B-E01-E12	E4	68 (284)   [chr20:g.2644551 (HomoSapiens)]	C	A -> T (het)	2% (6)   [2% (3) / 2% (3)]	E -> V (95)				c.284A>T	p.Glu95Val					other	
+236	IDH3B	ENST00000380843	IDH3B-E01-E12	E6	2 (400) / 79bp   [chr20:g.2644435_2644436 (HomoSapiens)]	I	TAGGTGGTCTGGGTGGGGTGAATGGTTGAGAGGTGCCAGGGCACCAGGAGCAGAGCTGATGGCCCTGCCCACCCTCAGG (het)	8% (81)   [8% (41) / 8% (40)]	[STOP] AA 134 (E6/2)		RF changed		c.399_400insTAGGTGGTCTGGGTGGGGTGAATGGTTGAGAGGTGCCAGGGCACCAGGAGCAGAGCTGATGGCCCTGCCCACCCTCAGG	p.Arg134Ter					distinct	
+237	IDH3B	ENST00000380843	IDH3B-E01-E12	E9	1 (769) / 86bp   [chr20:g.2644066_2644067 (HomoSapiens)]	I	GTGAGGCCTCCCCACATCTCTACTCATGGGGCGGAGGAGGAGGGTGGGGAGTGGAATTTACTTCATGCCTGCATCTCACCCTCTAG (het)	2% (47)   [2% (22) / 2% (25)]	[STOP] AA 297 (E9/121)		RF changed		c.769-1_769insGTGAGGCCTCCCCACATCTCTACTCATGGGGCGGAGGAGGAGGGTGGGGAGTGGAATTTACTTCATGCCTGCATCTCACCCTCTAG	p.Leu257Valfs*41					other	
+238	IDH3G	ENST00000370092	IDH3G-E01-E12	E4	96 (231)   [chrX:g.153059551 (HomoSapiens)]	C	C -> G (het)	1% (26)   [1% (13) / 1% (13)]	F -> L (77)				c.231C>G	p.Phe77Leu					other	
+239	IDH3G	ENST00000370092	IDH3G-E01-E12	E10	85 (862)   [chrX:g.153058920 (HomoSapiens)]	C	G -> A (het)	3% (8)   [3% (4) / 3% (4)]	V -> I (288)				c.862G>A	p.Val288Ile					other	
+240	IGF1R	ENST00000268035	IGF1R-E01-E21	E18	60 (3357)   [chr15:g.99196167 (HomoSapiens)]	C	T -> A (het)	6% (10)   [8% (7) / 3% (3)]	I -> I (1119)				c.3357T>A	p.=					distinct	
+241	IGF1R	ENST00000268035	IGF1R-E01-E21	E21	327 (4049)   [chr15:g.99196859 (HomoSapiens)]	C	A -> C (het)	12% (15)   [1% (1) / 25% (14)]	N -> T (1350)				c.4049A>C	p.Asn1350Thr					distinct	
+242	KDR	ENST00000263923	KDR-E01-E30	E7	14 (812)   [chr4:g.55990649 (HomoSapiens)]	C	A -> C (het)	4% (6)   [4% (3) / 4% (3)]	K -> T (271)				c.812A>C	p.Lys271Thr					distinct	
+243	KDR	ENST00000263923	KDR-E01-E30	E29	2 (3764)   [chr4:g.55987697 (HomoSapiens)]	C	A -> C (het)	1% (6)   [1% (3) / 1% (3)]	D -> A (1255)				c.3764A>C	p.Asp1255Ala					other	
+244	KIT		KIT	seq	882	C	T -> G (het)	2% (6)   [2% (3) / 2% (3)]					n.882T>G						other	
+245	KIT		KIT	seq	882 / 1bp	D	T (het)	4% (9)   [4% (5) / 3% (4)]					n.882delT						distinct	
+246	KIT		KIT	seq	2230..2232 / 3bp	D	AGC (het)	23% (34)   [23% (17) / 23% (17)]					n.2230_2232delAGC						distinct	
+247	KRAS		KRAS_TB	seq	675	C	G -> A (homo)	97% (29)   [100% (15) / 93% (14)]					n.675G>A						distinct	
+248	KRAS		KRAS_TB	seq	723..765 / 43bp	Indel	TCCTGGCTGTGTGAAAATTAAAAAATGCATTATAATGTAATCT -> AAGACA (het)	18% (6)   [18% (3) / 18% (3)]					n.723_765delinsAAGACA						distinct	
+249	L2HGDH	ENST00000267436	L2HGDH-E01-E10	E2	19 (159)   [chr14:g.50778710 (HomoSapiens)]	C	C -> T (homo)	100% (30)   [100% (15) / 100% (15)]	I -> I (53)				c.159C>T	p.=					distinct	
+250	LDHA	ENST00000430553	LDHA-E01-E07	E4	118 (362) / 1bp   [chr11:g.18416569 (HomoSapiens)]	D	G (het)	2% (8)   [2% (4) / 2% (4)]	[STOP] AA 125 (E4/129)		RF changed		c.362delG	p.Gly121Glufs*5					homopolymer	
+251	LDHA	ENST00000430553	LDHA-E01-E07	E4	119 (363)   [chr11:g.18416570 (HomoSapiens)]	C	A -> T (het)	3% (15)   [3% (7) / 4% (8)]	G -> G (121)				c.363A>T	p.=					distinct	
+252	LDHB	ENST00000396076	LDHB-E01-E08	E4	14 (261)   [chr12:g.21810135 (HomoSapiens)]	C	T -> C (homo)	100% (13341)   [100% (6679) / 100% (6662)]	T -> T (87)				c.261T>C	p.=					distinct	
+253	LDHB	ENST00000396076	LDHB-E01-E08	E5	64 (485)   [chr12:g.21809911 (HomoSapiens)]	C	G -> A (het)	11% (114)   [11% (57) / 11% (57)]	S -> N (162)				c.485G>A	p.Ser162Asn					distinct	
+254	LDHB	ENST00000396076	LDHB-E01-E08	E5	65 (486) / 1bp   [chr12:g.21809910 (HomoSapiens)]	D	T (het)	3% (29)   [3% (16) / 3% (13)]	[STOP] AA 205 (E6/18)		RF changed		c.486delT	p.Ser162Argfs*44					other	
+255	LDHB	ENST00000396076	LDHB-E01-E08	E5	65 (486)   [chr12:g.21809910 (HomoSapiens)]	C	T -> N (het)	2% (24)   [2% (12) / 2% (12)]	S -> R (162)				c.486T>N	p.Ser162Arg					distinct	
+256	LDHB	ENST00000396076	LDHB-E01-E08	E6	66 (661)   [chr12:g.21809735 (HomoSapiens)]	C	A -> T (het)	2% (206)   [2% (103) / 2% (103)]	T -> S (221)				c.661A>T	p.Thr221Ser					other	
+257	LDHB	ENST00000396076	LDHB-E01-E08	E8	5 (842)   [chr12:g.21809554 (HomoSapiens)]	C	T -> G (het)	8% (452)   [8% (226) / 8% (226)]	M -> R (281)				c.842T>G	p.Met281Arg					distinct	
+258	MAPK8		MAPK8_TB	seq	1371 / 5bp	I	CACAG (het)	84% (124)   [84% (62) / 84% (62)]					n.1370_1371insCACAG						distinct	
+259	MDH1	ENST00000539945	MDH1-E01-E09	E4	6 (259)   [chr2:g.63816720 (HomoSapiens)]	C	A -> T (het)	2% (54)   [2% (27) / 2% (27)]	I -> F (87)				c.259A>T	p.Ile87Phe					other	
+260	MDH1	ENST00000539945	MDH1-E01-E09	E4	6..7 (259..260) / 2bp   [chr2:g.63816720_63816721 (HomoSapiens)]	Indel	AT -> TTTAAAA (het)	1% (34)   [1% (17) / 1% (17)]	[STOP] AA 122 (E4/111)		RF changed		c.259_260delinsTTTAAAA	p.Ile87Phefs*36					other	
+261	MDH1	ENST00000539945	MDH1-E01-E09	E4	74..83 (327..336) / 10bp   [chr2:g.63816788_63816797 (HomoSapiens)]	Indel	AAGAAGGGAA -> TTCCCTTCTT (het)	2% (40)   [2% (20) / 2% (20)]	PRRE -> PSLL (109..112)				c.327_336delinsTTCCCTTCTT	p.Arg110_Glu112delinsSerLeuLeu					other	
+262	MDH2		MDH2_TB	seq	155..185 / 31bp	D	CTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC (het)	7% (276)   [7% (138) / 7% (138)]					n.155_185delCTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC						distinct	
+263	MDH2		MDH2_TB	seq	571..602 / 32bp	Indel	GGGTTTGGATCCAGCTCGAGTCAACGTCCCTG -> AGT (het)	49% (19)   [50% (19) / 0% (0)]					n.571_602delinsAGT						forced,distinct	
+264	MDH2		MDH2_TB	seq	575..603 / >29bp	D	TTGGATCCAGCTCGAGTCAACGTCCCTGT* (het)	46% (18)   [47% (18) / 0% (0)]											forced,distinct	
+265	MERTK		MERTK	seq	732	C	A -> T (het)	4% (44)   [4% (22) / 4% (22)]					n.732A>T						distinct	
+266	MERTK		MERTK	seq	1673	C	A -> G (homo)	100% (40)   [100% (20) / 100% (20)]					n.1673A>G						distinct	
+267	MERTK		MERTK	seq	2301..2310 / 10bp	Indel	GAAACTGCAT -> TCTGTAG (het)	4% (24)   [4% (11) / 5% (13)]					n.2301_2310delinsTCTGTAG						distinct	
+268	MET control intron 19_FA		MET control intron 19_FASTA	seq	8908	C	A -> G (het)	24% (6)   [36% (5) / 9% (1)]					n.8908A>G						distinct	
+269	MET control intron 19_FA		MET control intron 19_FASTA	seq	8983	C	G -> A (het)	7% (12)   [25% (1) / 6% (11)]					n.8983G>A						distinct	
+270	MET control intron 19_FA		MET control intron 19_FASTA	seq	8987	C	G -> C (het)	16% (36)   [50% (1) / 16% (35)]					n.8987G>C						distinct	
+271	MET control intron 1_FAS		MET control intron 1_FASTA	seq	3760	C	T -> C (het)	45% (36)   [45% (18) / 45% (18)]					n.3760T>C						distinct	
+272	MET var1		MET full	seq	2318	C	A -> G (homo)	100% (28)   [100% (14) / 100% (14)]					n.2318A>G						distinct	
+273	MET var1		MET full	seq	2848	C	A -> T (het)	1% (6)   [1% (3) / 1% (3)]					n.2848A>T						other	
+274	MYC	ENST00000377970	MYC-E01-E03	E1	523 (523) / 1bp   [chr8:g.128748851_128748852 (HomoSapiens)]	I (Dup)	T (het)	6% (20)   [6% (10) / 6% (10)]	[STOP] AA 39 (E1/115)		RF changed		c.522dupT	p.Arg39Serfs*1					distinct	
+275	MYC	ENST00000377970	MYC-E01-E03	E2	2..4 (542..544) / 3bp   [chr8:g.128748871_128748873 (HomoSapiens)]	D	AGC (het)	10% (33)   [10% (17) / 10% (16)]	QP -> P (181..182)				c.542_544delAGC	p.Gln181del					distinct	
+276	MYC	ENST00000377970	MYC-E01-E03	E3	121..157 (1433..1469) / 37bp   [chr8:g.128749762_128749798 (HomoSapiens)]	D	GCCCACTGGTCCTCAAGAGGTGCCACGTCTCCACACA (het)	2% (19)   [2% (10) / 2% (9)]	[STOP] AA 506 (E3/204)		RF changed		c.1433_1469delGCCCACTGGTCCTCAAGAGGTGCCACGTCTCCACACA	p.Ser478Ilefs*29					other	
+277	NOX4	ENST00000263317	NOX4-E01-E18	E9	84..111 (713..740) / 28bp   [chr11:g.89223675_89223702 (HomoSapiens)]	D	CCTTACCAGAGTATTTCTCAGAACATTT (het)	3% (150)   [3% (75) / 3% (75)]	[STOP] AA 258 (E9/143)		RF changed		c.713_740delCCTTACCAGAGTATTTCTCAGAACATTT	p.Ser238Phefs*21					distinct	
+278	NOX4	ENST00000263317	NOX4-E01-E18	E13	44 (1179)   [chr11:g.89223236 (HomoSapiens)]	C	C -> T (het)	42% (147)   [42% (73) / 42% (74)]	S -> S (393)				c.1179C>T	p.=					distinct	
+279	NOX4	ENST00000263317	NOX4-E01-E18	E17	2..4 (1517..1519) / 3bp   [chr11:g.89222896_89222898 (HomoSapiens)]	D	AGA (het)	5% (18)   [5% (9) / 5% (9)]	KI -> I (506..507)				c.1517_1519delAGA	p.Lys506del					distinct	
+280	NQO1	ENST00000320623	NQO1-E01-E06	E5	75 (492)   [chr16:g.69759851 (HomoSapiens)]	C	C -> G (het)	47% (40)   [47% (20) / 47% (20)]	D -> E (164)				c.492C>G	p.Asp164Glu					distinct	
+281	NQO1	ENST00000320623	NQO1-E01-E06	E6	158 (677)   [chr16:g.69759666 (HomoSapiens)]	C	G -> C (het)	2% (32)   [2% (16) / 2% (16)]	S -> T (226)				c.677G>C	p.Ser226Thr					other	
+282	NTRK1	ENST00000524377	NTRK1-E01-E17	E11	86 (1337)   [chr1:g.156832063 (HomoSapiens)]	C	A -> G (het)	8% (12)   [8% (6) / 8% (6)]	N -> S (446)				c.1337A>G	p.Asn446Ser					distinct	
+283	NTRK2	ENST00000376214	NTRK2-E01-E21	E11	263 (1116)   [chr9:g.87285519 (HomoSapiens)]	C	A -> G (het)	5% (16)   [5% (8) / 5% (8)]	K -> K (372)				c.1116A>G	p.=					distinct	
+284	OGDH	ENST00000443864	OGDH-E01-E09	E2	193 (166)   [chr7:g.44646445 (HomoSapiens)]	C	A -> G (het)	2% (154)   [2% (77) / 2% (77)]	N -> D (56)				c.166A>G	p.Asn56Asp					other	
+285	OGDH	ENST00000443864	OGDH-E01-E09	E8	1 (936) / 33bp   [chr7:g.44647214_44647215 (HomoSapiens)]	I	GCTCTGCTCACCCTACTCGCCCATACGTTCCAG (het)	7% (72)   [7% (36) / 7% (36)]	R -> RLCSPYSPIRSR (312)				c.936-1_936insGCTCTGCTCACCCTACTCGCCCATACGTTCCAG	p.Arg312_Gly313insLeuCysSerProTyrSerProIleArgSerArg					distinct	
+286	PARP1	ENST00000366794	PARP1-E01-E23	E1	128   [chr1:g.226595647 (HomoSapiens)]	C	G -> C (het)	31% (22)   [31% (11) / 31% (11)]	5' UTR				c.-17G>C						distinct	
+287	PARP1	ENST00000366794	PARP1-E01-E23	E17	8 (2285)   [chr1:g.226593346 (HomoSapiens)]	C	T -> C (het)	52% (32)   [52% (16) / 52% (16)]	V -> A (762)				c.2285T>C	p.Val762Ala					distinct	
+288	PC	ENST00000393958	PC-E01-E22	E17	158..166 (2381..2389) / 9bp   [chr11:g.66723365_66723373 (HomoSapiens)]	D	TGGATGTGG (het)	2% (16)   [2% (8) / 2% (8)]	VDVA -> A (794..797)				c.2381_2389delTGGATGTGG	p.Val794_Val796del					other	
+289	PDGFRA	ENST00000257290	PDGFRA-E01-E23	E3	298 (347)   [chr4:g.55095941 (HomoSapiens)]	C	A -> G (het)	1% (50)   [1% (25) / 1% (25)]	H -> R (116)				c.347A>G	p.His116Arg					other	
+290	PDGFRA	ENST00000257290	PDGFRA-E01-E23	E16	4 (2160)   [chr4:g.55097754 (HomoSapiens)]	C	T -> C (het)	3% (6)   [3% (3) / 3% (3)]	Y -> Y (720)				c.2160T>C	p.=					other	
+291	PDGFRA	ENST00000257290	PDGFRA-E01-E23	E22	192 (3072)   [chr4:g.55098666 (HomoSapiens)]	C	C -> T (het)	5% (12)   [5% (6) / 5% (6)]	D -> D (1024)				c.3072C>T	p.=					distinct	
+292	PDGFRB	ENST00000261799	PDGFRB-E01-E23	E4	60 (424)   [chr5:g.149534530 (HomoSapiens)]	C	A -> G (het)	12% (24)   [12% (12) / 12% (12)]	I -> V (142)				c.424A>G	p.Ile142Val					distinct	
+293	PDGFRB	ENST00000261799	PDGFRB-E01-E23	E4	119..146 (483..510) / 28bp   [chr5:g.149534444_149534471 (HomoSapiens)]	Indel	CGAGAAGAAAGGGGACGTTGCACTGCCT -> AC (het)	3% (6)   [3% (3) / 3% (3)]	[STOP] AA 165 (E4/129)		RF changed		c.483_510delinsAC	p.His161Glnfs*5					other	
+294	PDK1	ENST00000392571	PDK1-E01-E12	E10	1 (1006) / 35bp   [chr2:g.173421883_173421884 (HomoSapiens)]	I	GATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG (het)	5% (8)   [5% (4) / 5% (4)]	[STOP] AA 348 (E10/37)		RF changed		c.1006-1_1006insGATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG	p.Met336Aspfs*13					distinct	
+295	PDK1	ENST00000392571	PDK1-E01-E12	E11	57 (1173)   [chr2:g.173422051 (HomoSapiens)]	C	A -> C (het)	10% (38)   [10% (19) / 10% (19)]	G -> G (391)				c.1173A>C	p.=					distinct	
+296	PDK1	ENST00000392571	PDK1-E01-E12	E12	2 (1232) / 15bp   [chr2:g.173422109_173422110 (HomoSapiens)]	I	TTTTTCTTTTTCAGG (het)	3% (10)   [3% (5) / 3% (5)]	A -> VFLFQA (411)				c.1231_1232insTTTTTCTTTTTCAGG	p.Lys410_Ala411insValPheLeuPheGln					other	
+297	PFKM	ENST00000340802	PFKM-E01-E25	E7	50 (500)   [chr12:g.48500429 (HomoSapiens)]	C	A -> G (het)	1% (22)   [1% (11) / 1% (11)]	E -> G (167)				c.500A>G	p.Glu167Gly					other	
+298	PFKM	ENST00000340802	PFKM-E01-E25	E7	62 (512)   [chr12:g.48500441 (HomoSapiens)]	C	G -> A (homo)	100% (1922)   [100% (961) / 100% (961)]	R -> Q (171)				c.512G>A	p.Arg171Gln					distinct	
+299	PFKM	ENST00000340802	PFKM-E01-E25	E23	77 (2282)   [chr12:g.48502211 (HomoSapiens)]	C	A -> G (het)	50% (75)   [50% (38) / 50% (37)]	K -> R (761)				c.2282A>G	p.Lys761Arg					distinct	
+300	PGAM1	ENST00000334828	PGAM1-E01-E04	E3	32 (446)   [chr10:g.99186510 (HomoSapiens)]	C	A -> T (het)	1% (12)   [1% (6) / 1% (6)]	Q -> L (149)				c.446A>T	p.Gln149Leu					other	
+301	PGAM1	ENST00000334828	PGAM1-E01-E04	E3	60 (474)   [chr10:g.99186538 (HomoSapiens)]	C	T -> C (het)	1% (12)   [1% (6) / 1% (6)]	D -> D (158)				c.474T>C	p.=					other	
+302	PGAM1	ENST00000334828	PGAM1-E01-E04	E3	79 (493)   [chr10:g.99186557 (HomoSapiens)]	C	C -> A (het)	1% (12)   [1% (6) / 1% (6)]	P -> T (165)				c.493C>A	p.Pro165Thr					other	
+303	PGAM1	ENST00000334828	PGAM1-E01-E04	E4	15 (610)   [chr10:g.99186674 (HomoSapiens)]	C	G -> A (het)	2% (10)   [2% (5) / 2% (5)]	A -> T (204)				c.610G>A	p.Ala204Thr					other	
+304	PGAM1	ENST00000334828	PGAM1-E01-E04	E4	67 (662)   [chr10:g.99186726 (HomoSapiens)]	C	A -> G (het)	4% (44)   [4% (22) / 4% (22)]	D -> G (221)				c.662A>G	p.Asp221Gly					distinct	
+305	PGD	ENST00000270776	PGD-E01-E13	E3	2 (86) / 17bp   [chr1:g.10459259_10459260 (HomoSapiens)]	I	ACTTTTGTCCTTCTAGG (het)	2% (32)   [2% (16) / 2% (16)]	[STOP] AA 64 (E3/106)		RF changed		c.85_86insACTTTTGTCCTTCTAGG	p.Val29Aspfs*36					other	
+306	PGD	ENST00000270776	PGD-E01-E13	E3	36 (120)   [chr1:g.10459294 (HomoSapiens)]	C	T -> C (het)	48% (700)   [48% (350) / 48% (350)]	D -> D (40)				c.120T>C	p.=					distinct	
+307	PGD	ENST00000270776	PGD-E01-E13	E8	78 (732)   [chr1:g.10459906 (HomoSapiens)]	C	C -> T (het)	54% (90)   [54% (45) / 54% (45)]	D -> D (244)				c.732C>T	p.=					distinct	
+308	PGD	ENST00000270776	PGD-E01-E13	E10	107 (1082)   [chr1:g.10460256 (HomoSapiens)]	C	T -> A (het)	1% (8)   [1% (4) / 1% (4)]	M -> K (361)				c.1082T>A	p.Met361Lys					other	
+309	PGD	ENST00000270776	PGD-E01-E13	E10	107 (1082)   [chr1:g.10460256 (HomoSapiens)]	C	T -> C (het)	2% (10)   [2% (5) / 2% (5)]	M -> T (361)				c.1082T>C	p.Met361Thr					other	
+310	PGK1	ENST00000373316	PGK1-E01-E11	E3	132 (248)   [chrX:g.77360085 (HomoSapiens)]	C	T -> A (het)	9% (138)   [9% (69) / 9% (69)]	V -> E (83)				c.248T>A	p.Val83Glu					distinct	
+311	PGK1	ENST00000373316	PGK1-E01-E11	E3	137 (253)   [chrX:g.77360090 (HomoSapiens)]	C	C -> T (het)	1% (20)   [1% (10) / 1% (10)]	L -> F (85)				c.253C>T	p.Leu85Phe					other	
+312	PGK1	ENST00000373316	PGK1-E01-E11	E4	19 (291)   [chrX:g.77360128 (HomoSapiens)]	C	G -> A (het)	1% (22)   [1% (11) / 1% (11)]	K -> K (97)				c.291G>A	p.=					other	
+313	PGK1	ENST00000373316	PGK1-E01-E11	E8	63 (819)   [chrX:g.77360656 (HomoSapiens)]	C	T -> C (het)	2% (18)   [2% (9) / 2% (9)]	A -> A (273)				c.819T>C	p.=					other	
+314	PGK1	ENST00000373316	PGK1-E01-E11	E9	168 (1104)   [chrX:g.77360941 (HomoSapiens)]	C	C -> T (het)	1% (18)   [1% (9) / 2% (9)]	I -> I (368)				c.1104C>T	p.=					other	
+315	PGK1	ENST00000373316	PGK1-E01-E11	E10	9 (1123)   [chrX:g.77360960 (HomoSapiens)]	C	G -> A (het)	2% (28)   [2% (14) / 2% (14)]	D -> N (375)				c.1123G>A	p.Asp375Asn					other	
+316	PGK1	ENST00000373316	PGK1-E01-E11	E10	41 (1155)   [chrX:g.77360992 (HomoSapiens)]	C	G -> A (het)	2% (30)   [2% (15) / 2% (15)]	T -> T (385)				c.1155G>A	p.=					other	
+317	PGK1	ENST00000373316	PGK1-E01-E11	E10	51 (1165)   [chrX:g.77361002 (HomoSapiens)]	C	G -> A (het)	2% (26)   [2% (13) / 2% (13)]	V -> I (389)				c.1165G>A	p.Val389Ile					other	
+318	PGK1	ENST00000373316	PGK1-E01-E11	E10	56 (1170)   [chrX:g.77361007 (HomoSapiens)]	C	C -> A (het)	2% (26)   [2% (13) / 2% (13)]	S -> R (390)				c.1170C>A	p.Ser390Arg					other	
+319	PGK1	ENST00000373316	PGK1-E01-E11	E10	69..70 (1183..1184) / 2bp   [chrX:g.77361020_77361021 (HomoSapiens)]	Indel	GG -> AC (het)	2% (26)   [2% (13) / 2% (13)]	G -> T (395)				c.1183_1184delinsAC	p.Gly395Thr					other	
+320	PKM		PKM_CDS_fa	seq	818	C	A -> C (het)	1% (110)   [1% (55) / 1% (55)]					n.818A>C						other	
+321	PLXND1		PLXND1	seq	3564	C	A -> C (het)	21% (6)   [21% (3) / 21% (3)]					n.3564A>C						distinct	
+322	PLXND1		PLXND1	seq	3656	C	T -> C (het)	5% (12)   [5% (6) / 5% (6)]					n.3656T>C						distinct	
+323	PLXND1		PLXND1	seq	3863	C	A -> G (het)	3% (6)   [3% (3) / 3% (3)]					n.3863A>G						other	
+324	PLXND1		PLXND1	seq	5721	C	T -> C (het)	5% (59)   [5% (28) / 5% (31)]					n.5721T>C						distinct	
+325	PRDX1	ENST00000262746	PRDX1-E01-E06	E2	20 (9)   [chr1:g.45987261 (HomoSapiens)]	C	A -> T (het)	2% (16)   [2% (8) / 2% (8)]	S -> S (3)				c.9A>T	p.=					other	
+326	PRDX1	ENST00000262746	PRDX1-E01-E06	E2	20 (9)   [chr1:g.45987261 (HomoSapiens)]	C	A -> C (het)	3% (26)   [3% (13) / 3% (13)]	S -> S (3)				c.9A>C	p.=					distinct	
+327	PRKAA1	ENST00000397128	PRKAA1-E01-E09	E7	366 (1187)   [chr5:g.40797105 (HomoSapiens)]	C	A -> C (het)	8% (14)   [8% (7) / 8% (7)]	K -> T (396)				c.1187A>C	p.Lys396Thr					distinct	
+328	PRKAA2	ENST00000371244	PRKAA2-E01-E09	E9	1 (1421) / 90bp   [chr1:g.57112480_57112481 (HomoSapiens)]	I	GTAAGGAAGCTATGCATGCATGAGCTCTGAGAAGATAAAACTTGGCACTAGTTGACCAGATGTTAAAATCATCTCGAAGACATCCGGTGG (het)	5% (9)   [4% (4) / 5% (5)]	D -> GKEAMHA[STOP] (474)				c.1421-1_1421insGTAAGGAAGCTATGCATGCATGAGCTCTGAGAAGATAAAACTTGGCACTAGTTGACCAGATGTTAAAATCATCTCGAAGACATCCGGTGG	p.Asp474delinsGlyLysGluAlaMetHisAlaTer					distinct	
+329	PTEN		PTEN	seq	1658	C	A -> G (het)	2% (30)   [2% (15) / 2% (15)]					n.1658A>G						other	
+330	PTEN		PTEN	seq	1658	C	A -> C (het)	4% (62)   [4% (31) / 4% (31)]					n.1658A>C						distinct	
+331	PTEN		PTEN	seq	2197	C	A -> G (het)	2% (23)   [2% (13) / 1% (10)]					n.2197A>G						other	
+332	PTEN		PTEN	seq	2254 / 1bp	I (Dup)	T (het)	9% (61)   [9% (31) / 9% (30)]					n.2253dupT						distinct	
+333	SDHA	ENST00000510361	SDHA-E01-E14	E1	66..71 (28..33) / 6bp   [chr5:g.218498_218503 (HomoSapiens)]	Indel	CTGCTG -> TTGCCA (het)	55% (349)   [55% (175) / 55% (174)]	LL -> LP (10..11)				c.28_33delinsTTGCCA	p.Leu11Pro					distinct	
+334	SDHA	ENST00000510361	SDHA-E01-E14	E1	71 (33)   [chr5:g.218503 (HomoSapiens)]	C	G -> A (het)	14% (92)   [15% (46) / 15% (46)]	L -> L (11)				c.33G>A	p.=					distinct	
+335	SDHA	ENST00000510361	SDHA-E01-E14	E1	84 (46) / 6bp   [chr5:g.218515_218516 (HomoSapiens)]	I	TTGGCG (het)	42% (267)   [42% (134) / 42% (133)]	 -> LA (16)				c.45_46insTTGGCG	p.Leu18_Ala19dup					distinct	
+336	SDHA	ENST00000510361	SDHA-E01-E14	E1	95 (57) / 6bp   [chr5:g.218526_218527 (HomoSapiens)]	I (Dup)	GCTGGC (het)	28% (176)   [28% (88) / 28% (88)]	A -> ALA (19)				c.51_56dupGCTGGC	p.Leu18_Ala19dup					distinct	
+337	SDHA	ENST00000510361	SDHA-E01-E14	E1	101 (63)   [chr5:g.218533 (HomoSapiens)]	C	G -> T (het)	21% (132)   [21% (66) / 21% (66)]	A -> A (21)				c.63G>T	p.=					distinct	
+338	SDHA	ENST00000510361	SDHA-E01-E14	E2	34 (97)   [chr5:g.218567 (HomoSapiens)]	C	T -> G (het)	69% (440)   [69% (219) / 69% (221)]	F -> V (33)				c.97T>G	p.Phe33Val					distinct	
+339	SDHA	ENST00000510361	SDHA-E01-E14	E2	51 (114)   [chr5:g.218584 (HomoSapiens)]	C	T -> A (het)	70% (443)   [69% (221) / 70% (222)]	D -> E (38)				c.114T>A	p.Asp38Glu					distinct	
+340	SDHA	ENST00000510361	SDHA-E01-E14	E2	54 (117) / 1bp   [chr5:g.218587 (HomoSapiens)]	D	G (het)	69% (443)   [69% (221) / 69% (222)]	[STOP] AA 57 (E3/19)		RF changed		c.117delG	p.Asn40Thrfs*18					distinct	
+341	SDHA	ENST00000510361	SDHA-E01-E14	E2	58 (121)   [chr5:g.218591 (HomoSapiens)]	C	A -> G (het)	70% (441)   [69% (220) / 70% (221)]	K -> E (41)				c.121A>G	p.Lys41Glu					distinct	
+342	SDHA	ENST00000510361	SDHA-E01-E14	E3	72 (222) / 1bp   [chr5:g.218691_218692 (HomoSapiens)]	I (Dup)	T (het)	21% (887)   [22% (462) / 21% (425)]	[STOP] AA 82 (E3/94)		RF changed		c.221dupT	p.Leu74Phefs*9					distinct	
+343	SDHA	ENST00000510361	SDHA-E01-E14	E3	93 (243)   [chr5:g.218713 (HomoSapiens)]	C	T -> C (het)	95% (677)   [92% (357) / 99% (320)]	S -> S (81)				c.243T>C	p.=					distinct	
+344	SDHA	ENST00000510361	SDHA-E01-E14	E3	101 (251)   [chr5:g.218721 (HomoSapiens)]	C	G -> A (het)	95% (680)   [92% (358) / 99% (322)]	G -> E (84)				c.251G>A	p.Gly84Glu					distinct	
+345	SDHA	ENST00000510361	SDHA-E01-E14	E3	106 (256)   [chr5:g.218726 (HomoSapiens)]	C	A -> G (het)	95% (680)   [92% (358) / 99% (322)]	N -> D (86)				c.256A>G	p.Asn86Asp					distinct	
+346	SDHA	ENST00000510361	SDHA-E01-E14	E3	159..+1 (309..312) / 5bp   [chr5:g.218779_218783 (HomoSapiens)]	Indel	ACAGC -> GCAGG (het)	31% (108)   [39% (54) / 26% (54)]	splicing				c.309_312+1delinsGCAGG						distinct	
+347	SDHA	ENST00000510361	SDHA-E01-E14	E3	159 (309)   [chr5:g.218779 (HomoSapiens)]	C	A -> G (het)	15% (50)   [18% (25) / 13% (25)]	A -> A (103)				c.309A>G	p.=					distinct	
+348	SDHA	ENST00000510361	SDHA-E01-E14	E4	1 (313)   [chr5:g.218783 (HomoSapiens)]	C	C -> G (het)	32% (135)   [42% (58) / 27% (77)]	L -> V (105)				c.313C>G	p.Leu105Val					distinct	
+349	SDHA	ENST00000510361	SDHA-E01-E14	E4	66 (378)   [chr5:g.218848 (HomoSapiens)]	C	T -> C (het)	56% (1195)   [60% (601) / 53% (594)]	G -> G (126)				c.378T>C	p.=					distinct	
+350	SDHA	ENST00000510361	SDHA-E01-E14	E4	72 (384)   [chr5:g.218854 (HomoSapiens)]	C	G -> C (het)	56% (1196)   [60% (601) / 53% (595)]	Q -> H (128)				c.384G>C	p.Gln128His					distinct	
+351	SDHA	ENST00000510361	SDHA-E01-E14	E4	94 (406)   [chr5:g.218876 (HomoSapiens)]	C	G -> A (het)	34% (577)   [35% (302) / 33% (275)]	G -> R (136)				c.406G>A	p.Gly136Arg					distinct	
+352	SDHA	ENST00000510361	SDHA-E01-E14	E4	106 (418)   [chr5:g.218888 (HomoSapiens)]	C	C -> G (het)	23% (388)   [23% (194) / 23% (194)]	R -> G (140)				c.418C>G	p.Arg140Gly					distinct	
+353	SDHA	ENST00000510361	SDHA-E01-E14	E4	132 (444)   [chr5:g.218914 (HomoSapiens)]	C	T -> C (het)	57% (967)   [58% (496) / 56% (471)]	T -> T (148)				c.444T>C	p.=					distinct	
+354	SDHA	ENST00000510361	SDHA-E01-E14	E4	141..142 (453..454) / 2bp   [chr5:g.218923_218924 (HomoSapiens)]	Indel	GC -> AA (het)	57% (965)   [58% (495) / 56% (470)]	SL -> SI (151..152)				c.453_454delinsAA	p.Leu152Ile					distinct	
+355	SDHA	ENST00000510361	SDHA-E01-E14	E4	155 (467)   [chr5:g.218937 (HomoSapiens)]	C	T -> C (het)	24% (2118)   [24% (1072) / 24% (1046)]	L -> S (156)				c.467T>C	p.Leu156Ser					distinct	
+356	SDHA	ENST00000510361	SDHA-E01-E14	E4	159..162 (471..474) / 4bp   [chr5:g.218941_218944 (HomoSapiens)]	Indel	TGGA -> CGGG (het)	3% (250)   [3% (125) / 3% (125)]	YG -> YG (157..158)				c.471_474delinsCGGG	p.=					other	
+357	SDHA	ENST00000510361	SDHA-E01-E14	E4	162 (474)   [chr5:g.218944 (HomoSapiens)]	C	A -> G (het)	39% (3453)   [39% (1740) / 39% (1713)]	G -> G (158)				c.474A>G	p.=					distinct	
+358	SDHA	ENST00000510361	SDHA-E01-E14	E5	7 (484)   [chr5:g.218954 (HomoSapiens)]	C	C -> A (het)	19% (1385)   [19% (693) / 19% (692)]	R -> R (162)				c.484C>A	p.=					distinct	
+359	SDHA	ENST00000510361	SDHA-E01-E14	E5	23 (500)   [chr5:g.218970 (HomoSapiens)]	C	A -> G (het)	38% (2743)   [38% (1372) / 38% (1371)]	Y -> C (167)				c.500A>G	p.Tyr167Cys					distinct	
+360	SDHA	ENST00000510361	SDHA-E01-E14	E5	57 (534)   [chr5:g.219004 (HomoSapiens)]	C	G -> A (het)	20% (1398)   [20% (699) / 20% (699)]	M -> I (178)				c.534G>A	p.Met178Ile					distinct	
+361	SDHA	ENST00000510361	SDHA-E01-E14	E5	63..64 (540..541) / 2bp   [chr5:g.219010_219011 (HomoSapiens)]	Indel	TG -> CA (het)	19% (1394)   [19% (698) / 19% (696)]	NG -> NR (180..181)				c.540_541delinsCA	p.Gly181Arg					distinct	
+362	SDHA	ENST00000510361	SDHA-E01-E14	E5	82 (559)   [chr5:g.219029 (HomoSapiens)]	C	A -> T (het)	19% (1363)   [19% (680) / 19% (683)]	I -> F (187)				c.559A>T	p.Ile187Phe					distinct	
+363	SDHA	ENST00000510361	SDHA-E01-E14	E5	84 (561)   [chr5:g.219031 (HomoSapiens)]	C	C -> T (het)	19% (1391)   [19% (695) / 19% (696)]	I -> I (187)				c.561C>T	p.=					distinct	
+364	SDHA	ENST00000510361	SDHA-E01-E14	E5	97 (574)   [chr5:g.219044 (HomoSapiens)]	C	G -> C (het)	9% (10)   [9% (5) / 9% (5)]	E -> Q (192)				c.574G>C	p.Glu192Gln					distinct	
+365	SDHA	ENST00000510361	SDHA-E01-E14	E5	132..136 (609..613) / 5bp   [chr5:g.219079_219083 (HomoSapiens)]	Indel	CACTG -> TACTA (het)	9% (10)   [9% (5) / 9% (5)]	NTV -> NTI (203..205)				c.609_613delinsTACTA	p.Val205Ile					distinct	
+366	SDHA	ENST00000510361	SDHA-E01-E14	E6	1..2 (627..628) / 2bp   [chr5:g.219097_219098 (HomoSapiens)]	D	AG (het)	37% (439)   [37% (220) / 37% (219)]	[STOP] AA 271 (E7/60)		RF changed		c.627_628delAG	p.Gly210Leufs*62					distinct	
+367	SDHA	ENST00000510361	SDHA-E01-E14	E6	1 (627)   [chr5:g.219097 (HomoSapiens)]	C	A -> G (het)	8% (90)   [8% (45) / 8% (45)]	G -> G (209)				c.627A>G	p.=					distinct	
+368	SDHA	ENST00000510361	SDHA-E01-E14	E6	8 (634)   [chr5:g.219104 (HomoSapiens)]	C	G -> T (het)	3% (32)   [3% (16) / 3% (16)]	G -> W (212)				c.634G>T	p.Gly212Trp					other	
+369	SDHA	ENST00000510361	SDHA-E01-E14	E6	12..15 (638..641) / 4bp   [chr5:g.219108_219111 (HomoSapiens)]	Indel	GCAC -> ACAA (het)	7% (82)   [7% (41) / 7% (41)]	RT -> HN (213..214)				c.638_641delinsACAA	p.Arg213_Thr214delinsHisAsn					distinct	
+370	SDHA	ENST00000510361	SDHA-E01-E14	E6	15 (641)   [chr5:g.219111 (HomoSapiens)]	C	C -> A (het)	3% (32)   [3% (16) / 3% (16)]	T -> N (214)				c.641C>A	p.Thr214Asn					other	
+371	SDHA	ENST00000510361	SDHA-E01-E14	E6	22 (648)   [chr5:g.219118 (HomoSapiens)]	C	C -> G (het)	41% (439)   [41% (220) / 41% (219)]	F -> L (216)				c.648C>G	p.Phe216Leu					distinct	
+372	SDHA	ENST00000510361	SDHA-E01-E14	E6	49..50 (675..676) / 2bp   [chr5:g.219145_219146 (HomoSapiens)]	Indel	TG -> CA (het)	41% (439)   [41% (220) / 41% (219)]	TG -> TS (225..226)				c.675_676delinsCA	p.Gly226Ser					distinct	
+373	SDHA	ENST00000510361	SDHA-E01-E14	E6	100 (726)   [chr5:g.219196 (HomoSapiens)]	C	A -> C (het)	58% (1471)   [58% (736) / 58% (735)]	L -> L (242)				c.726A>C	p.=					distinct	
+374	SDHA	ENST00000510361	SDHA-E01-E14	E6	121 (747)   [chr5:g.219217 (HomoSapiens)]	C	T -> C (het)	83% (1229)   [83% (615) / 83% (614)]	P -> P (249)				c.747T>C	p.=					distinct	
+375	SDHA	ENST00000510361	SDHA-E01-E14	E7	4 (755)   [chr5:g.219225 (HomoSapiens)]	C	T -> C (het)	69% (1031)   [69% (516) / 69% (515)]	I -> T (252)				c.755T>C	p.Ile252Thr					distinct	
+376	SDHA	ENST00000510361	SDHA-E01-E14	E7	101..103 (852..854) / 3bp   [chr5:g.219322_219324 (HomoSapiens)]	Indel	TGT -> CAC (het)	11% (14)   [12% (7) / 12% (7)]	PV -> PT (284..285)				c.852_854delinsCAC	p.Val285Thr					distinct	
+377	SDHA	ENST00000510361	SDHA-E01-E14	E7	101..102 (852..853) / 2bp   [chr5:g.219322_219323 (HomoSapiens)]	Indel	TG -> CA (het)	21% (26)   [21% (13) / 21% (13)]	PV -> PI (284..285)				c.852_853delinsCA	p.Val285Ile					distinct	
+378	SDHA	ENST00000510361	SDHA-E01-E14	E7	142..143 (893..894) / 2bp   [chr5:g.219363_219364 (HomoSapiens)]	Indel	CC -> GG (het)	31% (40)   [31% (20) / 31% (20)]	S -> W (298)				c.893_894delinsGG	p.Ser298Trp					distinct	
+379	SDHA	ENST00000510361	SDHA-E01-E14	E8	61 (981)   [chr5:g.219451 (HomoSapiens)]	C	G -> A (het)	2% (18)   [2% (9) / 2% (9)]	Q -> Q (327)				c.981G>A	p.=					other	
+380	SDHA	ENST00000510361	SDHA-E01-E14	E9	62 (1178)   [chr5:g.219648 (HomoSapiens)]	C	C -> G (het)	2% (30)   [2% (15) / 2% (15)]	A -> G (393)				c.1178C>G	p.Ala393Gly					other	
+381	SDHA	ENST00000510361	SDHA-E01-E14	E9	75..77 (1191..1193) / 3bp   [chr5:g.219661_219663 (HomoSapiens)]	Indel	GGT -> TGC (het)	43% (302)   [43% (151) / 43% (151)]	SV -> SA (397..398)				c.1191_1193delinsTGC	p.Val398Ala					distinct	
+382	SDHA	ENST00000510361	SDHA-E01-E14	E9	86 (1202)   [chr5:g.219672 (HomoSapiens)]	C	C -> T (het)	43% (302)   [43% (151) / 43% (151)]	A -> V (401)				c.1202C>T	p.Ala401Val					distinct	
+383	SDHA	ENST00000510361	SDHA-E01-E14	E9	90..93 (1206..1209) / 4bp   [chr5:g.219676_219679 (HomoSapiens)]	Indel	CCGC -> TCGG (het)	13% (92)   [13% (46) / 13% (46)]	NR -> NR (402..403)				c.1206_1209delinsTCGG	p.=					distinct	
+384	SDHA	ENST00000510361	SDHA-E01-E14	E9	107..111 (1223..1227) / 5bp   [chr5:g.219693_219697 (HomoSapiens)]	Indel	CGCTC -> TGCTA (het)	1% (10)   [1% (5) / 1% (5)]	SL -> LL (408..409)				c.1223_1227delinsTGCTA	p.Ser408Leu					other	
+385	SDHA	ENST00000510361	SDHA-E01-E14	E9	111 (1227)   [chr5:g.219697 (HomoSapiens)]	C	C -> A (het)	22% (158)   [22% (79) / 22% (79)]	L -> L (409)				c.1227C>A	p.=					distinct	
+386	SDHA	ENST00000510361	SDHA-E01-E14	E9	118 (1234)   [chr5:g.219704 (HomoSapiens)]	C	C -> T (het)	13% (94)   [13% (47) / 13% (47)]	L -> L (412)				c.1234C>T	p.=					distinct	
+387	SDHA	ENST00000510361	SDHA-E01-E14	E9	128..129 (1244..1245) / 2bp   [chr5:g.219714_219715 (HomoSapiens)]	D	TT (het)	41% (292)   [41% (146) / 41% (146)]	[STOP] AA 431 (E10/3)		RF changed		c.1244_1245delTT	p.Phe415Trpfs*17					distinct	
+388	SDHA	ENST00000510361	SDHA-E01-E14	E9	134 (1250)   [chr5:g.219720 (HomoSapiens)]	C	G -> A (het)	55% (386)   [55% (193) / 55% (193)]	R -> Q (417)				c.1250G>A	p.Arg417Gln					distinct	
+389	SDHA	ENST00000510361	SDHA-E01-E14	E9	136 (1252)   [chr5:g.219722 (HomoSapiens)]	C	G -> A (het)	1% (10)   [1% (5) / 1% (5)]	A -> T (418)				c.1252G>A	p.Ala418Thr					other	
+390	SDHA	ENST00000510361	SDHA-E01-E14	E9	155 (1271)   [chr5:g.219741 (HomoSapiens)]	C	A -> C (het)	39% (916)   [39% (458) / 39% (458)]	E -> A (424)				c.1271A>C	p.Glu424Ala					distinct	
+391	SDHA	ENST00000510361	SDHA-E01-E14	E9	162 (1278)   [chr5:g.219748 (HomoSapiens)]	C	A -> G (het)	39% (918)   [40% (459) / 39% (459)]	S -> S (426)				c.1278A>G	p.=					distinct	
+392	SDHA	ENST00000510361	SDHA-E01-E14	E10	29 (1317)   [chr5:g.219787 (HomoSapiens)]	C	C -> T (het)	38% (623)   [38% (307) / 39% (316)]	N -> N (439)				c.1317C>T	p.=					distinct	
+393	SDHA	ENST00000510361	SDHA-E01-E14	E10	49..52 (1337..1340) / 4bp   [chr5:g.219807_219810 (HomoSapiens)]	Indel	TGAA -> CGAG (het)	3% (53)   [3% (23) / 4% (30)]	MN -> TS (446..447)				c.1337_1340delinsCGAG	p.Met446_Asn447delinsThrSer					distinct	
+394	SDHA	ENST00000510361	SDHA-E01-E14	E10	49 (1337)   [chr5:g.219807 (HomoSapiens)]	C	T -> C (het)	35% (575)   [35% (287) / 35% (288)]	M -> T (446)				c.1337T>C	p.Met446Thr					distinct	
+395	SDHA	ENST00000510361	SDHA-E01-E14	E10	54 (1342)   [chr5:g.219812 (HomoSapiens)]	C	C -> G (het)	24% (1817)   [24% (915) / 24% (902)]	L -> V (448)				c.1342C>G	p.Leu448Val					distinct	
+396	SDHA	ENST00000510361	SDHA-E01-E14	E10	83 (1371) / 3bp   [chr5:g.219840_219841 (HomoSapiens)]	I (Dup)	AAG (het)	32% (1928)   [32% (983) / 31% (945)]	S -> RS (457)				c.1368_1370dupAAG	p.Gly456_Ser457insArg					distinct	
+397	SDHA	ENST00000510361	SDHA-E01-E14	E11	5 (1412)   [chr5:g.219882 (HomoSapiens)]	C	T -> C (het)	31% (1860)   [31% (927) / 31% (933)]	M -> T (471)				c.1412T>C	p.Met471Thr					distinct	
+398	SDHA	ENST00000510361	SDHA-E01-E14	E11	40 (1447)   [chr5:g.219917 (HomoSapiens)]	C	G -> T (het)	77% (5298)   [77% (2678) / 77% (2620)]	V -> L (483)				c.1447G>T	p.Val483Leu					distinct	
+399	SDHA	ENST00000510361	SDHA-E01-E14	E11	86..87 (1493..1494) / 2bp   [chr5:g.219963_219964 (HomoSapiens)]	Indel	TA -> GG (het)	16% (1093)   [16% (553) / 16% (540)]	L -> R (498)				c.1493_1494delinsGG	p.Leu498Arg					distinct	
+400	SDHA	ENST00000510361	SDHA-E01-E14	E11	87 (1494)   [chr5:g.219964 (HomoSapiens)]	C	A -> G (het)	61% (4210)   [61% (2128) / 62% (2082)]	L -> L (498)				c.1494A>G	p.=					distinct	
+401	SDHA	ENST00000510361	SDHA-E01-E14	E11	93 (1500)   [chr5:g.219970 (HomoSapiens)]	C	C -> T (het)	52% (5408)   [52% (2733) / 51% (2675)]	H -> H (500)				c.1500C>T	p.=					distinct	
+402	SDHA	ENST00000510361	SDHA-E01-E14	E11	105..109 (1512..1516) / 5bp   [chr5:g.219982_219986 (HomoSapiens)]	Indel	CGACC -> TGACT (het)	17% (1814)   [17% (915) / 17% (899)]	FDR -> FDW (504..506)				c.1512_1516delinsTGACT	p.Arg506Trp					distinct	
+403	SDHA	ENST00000510361	SDHA-E01-E14	E11	105 (1512)   [chr5:g.219982 (HomoSapiens)]	C	C -> T (het)	34% (3590)   [34% (1816) / 34% (1774)]	F -> F (504)				c.1512C>T	p.=					distinct	
+404	SDHA	ENST00000510361	SDHA-E01-E14	E11	111 (1518)   [chr5:g.219988 (HomoSapiens)]	C	G -> A (het)	4% (450)   [4% (213) / 5% (237)]	R -> R (506)				c.1518G>A	p.=					distinct	
+405	SDHA	ENST00000510361	SDHA-E01-E14	E12	51 (1570)   [chr5:g.220040 (HomoSapiens)]	C	A -> G (het)	2% (72)   [2% (36) / 2% (36)]	M -> V (524)				c.1570A>G	p.Met524Val					other	
+406	SDHA	ENST00000510361	SDHA-E01-E14	E12	56 (1575)   [chr5:g.220045 (HomoSapiens)]	C	G -> A (het)	9% (420)   [9% (210) / 9% (210)]	L -> L (525)				c.1575G>A	p.=					distinct	
+407	SDHA	ENST00000510361	SDHA-E01-E14	E12	62 (1581)   [chr5:g.220051 (HomoSapiens)]	C	G -> A (het)	3% (158)   [3% (79) / 3% (79)]	A -> A (527)				c.1581G>A	p.=					distinct	
+408	SDHA	ENST00000510361	SDHA-E01-E14	E12	68..77 (1587..1596) / 10bp   [chr5:g.220057_220066 (HomoSapiens)]	Indel	GACCATCTAC -> AACCGTCAAT (het)	3% (156)   [3% (78) / 3% (78)]	QTIY -> QTVN (529..532)				c.1587_1596delinsAACCGTCAAT	p.Ile531_Tyr532delinsValAsn					distinct	
+409	SDHA	ENST00000510361	SDHA-E01-E14	E12	72..77 (1591..1596) / 6bp   [chr5:g.220061_220066 (HomoSapiens)]	Indel	ATCTAC -> GTCAAT (het)	10% (478)   [10% (240) / 10% (238)]	IY -> VN (531..532)				c.1591_1596delinsGTCAAT	p.Ile531_Tyr532delinsValAsn					distinct	
+410	SDHA	ENST00000510361	SDHA-E01-E14	E12	89..91 (1608..1610) / 3bp   [chr5:g.220078_220080 (HomoSapiens)]	Indel	ACG -> GCA (het)	12% (152)   [12% (76) / 12% (76)]	AR -> AQ (536..537)				c.1608_1610delinsGCA	p.Arg537Gln					distinct	
+411	SDHA	ENST00000510361	SDHA-E01-E14	E12	89..90 (1608..1609) / 2bp   [chr5:g.220078_220079 (HomoSapiens)]	Indel	AC -> GG (het)	30% (382)   [30% (191) / 30% (191)]	AR -> AG (536..537)				c.1608_1609delinsGG	p.Arg537Gly					distinct	
+412	SDHA	ENST00000510361	SDHA-E01-E14	E12	89 (1608)   [chr5:g.220078 (HomoSapiens)]	C	A -> G (het)	17% (210)   [17% (105) / 17% (105)]	A -> A (536)				c.1608A>G	p.=					distinct	
+413	SDHA	ENST00000510361	SDHA-E01-E14	E12	108 (1627)   [chr5:g.220097 (HomoSapiens)]	C	G -> A (het)	17% (210)   [17% (105) / 17% (105)]	A -> T (543)				c.1627G>A	p.Ala543Thr					distinct	
+414	SDHA	ENST00000510361	SDHA-E01-E14	E12	113..114 (1632..1633) / 2bp   [chr5:g.220102_220103 (HomoSapiens)]	Indel	TG -> CA (het)	15% (192)   [15% (96) / 15% (96)]	HA -> HT (544..545)				c.1632_1633delinsCA	p.Ala545Thr					distinct	
+415	SDHA	ENST00000510361	SDHA-E01-E14	E12	113..117 (1632..1636) / 5bp   [chr5:g.220102_220106 (HomoSapiens)]	Indel	TGCCA -> CGCCG (het)	27% (344)   [27% (172) / 27% (172)]	HAR -> HAG (544..546)				c.1632_1636delinsCGCCG	p.Arg546Gly					distinct	
+416	SDHA	ENST00000510361	SDHA-E01-E14	E12	113 (1632)   [chr5:g.220102 (HomoSapiens)]	C	T -> C (het)	16% (208)   [17% (104) / 17% (104)]	H -> H (544)				c.1632T>C	p.=					distinct	
+417	SDHA	ENST00000510361	SDHA-E01-E14	E12	124 (1643)   [chr5:g.220113 (HomoSapiens)]	C	A -> G (het)	16% (208)   [16% (104) / 16% (104)]	D -> G (548)				c.1643A>G	p.Asp548Gly					distinct	
+418	SDHA	ENST00000510361	SDHA-E01-E14	E13	5 (1655)   [chr5:g.220125 (HomoSapiens)]	C	G -> A (het)	20% (528)   [20% (264) / 20% (264)]	R -> Q (552)				c.1655G>A	p.Arg552Gln					distinct	
+419	SDHA	ENST00000510361	SDHA-E01-E14	E13	18..22 (1668..1672) / 5bp   [chr5:g.220138_220142 (HomoSapiens)]	Indel	CGATT -> TGATC (het)	12% (321)   [12% (161) / 12% (160)]	YDY -> YDH (556..558)				c.1668_1672delinsTGATC	p.Tyr558His					distinct	
+420	SDHA	ENST00000510361	SDHA-E01-E14	E13	22 (1672)   [chr5:g.220142 (HomoSapiens)]	C	T -> C (het)	17% (448)   [17% (224) / 17% (224)]	Y -> H (558)				c.1672T>C	p.Tyr558His					distinct	
+421	SDHA	ENST00000510361	SDHA-E01-E14	E13	65 (1715)   [chr5:g.220185 (HomoSapiens)]	C	A -> T (het)	4% (56)   [4% (28) / 4% (28)]	E -> V (572)				c.1715A>T	p.Glu572Val					distinct	
+422	SDHA	ENST00000510361	SDHA-E01-E14	E13	67 (1717)   [chr5:g.220187 (HomoSapiens)]	C	C -> T (het)	12% (156)   [12% (78) / 12% (78)]	H -> Y (573)				c.1717C>T	p.His573Tyr					distinct	
+423	SDHA	ENST00000510361	SDHA-E01-E14	E13	102..103 (1752..1753) / 2bp   [chr5:g.220222_220223 (HomoSapiens)]	Indel	TG -> CA (het)	1% (18)   [1% (9) / 1% (9)]	VG -> VS (584..585)				c.1752_1753delinsCA	p.Gly585Ser					other	
+424	SDHA	ENST00000510361	SDHA-E01-E14	E13	102 (1752)   [chr5:g.220222 (HomoSapiens)]	C	T -> C (het)	16% (214)   [16% (107) / 16% (107)]	V -> V (584)				c.1752T>C	p.=					distinct	
+425	SDHA	ENST00000510361	SDHA-E01-E14	E14	7 (1771)   [chr5:g.220241 (HomoSapiens)]	C	C -> G (het)	7% (72)   [7% (36) / 7% (36)]	L -> V (591)				c.1771C>G	p.Leu591Val					distinct	
+426	SDHA	ENST00000510361	SDHA-E01-E14	E14	22..24 (1786..1788) / 3bp   [chr5:g.220256_220258 (HomoSapiens)]	Indel	GTG -> ATA (het)	6% (68)   [6% (34) / 6% (34)]	V -> I (596)				c.1786_1788delinsATA	p.Val596Ile					distinct	
+427	SDHA	ENST00000510361	SDHA-E01-E14	E14	60 (1824)   [chr5:g.220294 (HomoSapiens)]	C	C -> T (het)	3% (32)   [3% (16) / 3% (16)]	T -> T (608)				c.1824C>T	p.=					other	
+428	SDHA	ENST00000510361	SDHA-E01-E14	E14	66 (1830)   [chr5:g.220300 (HomoSapiens)]	C	G -> C (het)	7% (78)   [7% (39) / 7% (39)]	P -> P (610)				c.1830G>C	p.=					distinct	
+429	SDHA	ENST00000510361	SDHA-E01-E14	E14	77 (1841)   [chr5:g.220311 (HomoSapiens)]	C	G -> A (het)	3% (32)   [3% (16) / 3% (16)]	R -> H (614)				c.1841G>A	p.Arg614His					other	
+430	SDHB	ENST00000375499	SDHB-E01-E08	E1	189 (38)   [chr1:g.17380477 (HomoSapiens)]	C	T -> C (het)	2% (12)   [2% (6) / 2% (6)]	L -> S (13)				c.38T>C	p.Leu13Ser					other	
+431	SDHB	ENST00000375499	SDHB-E01-E08	E3	21 (221)   [chr1:g.17380294 (HomoSapiens)]	C	A -> G (het)	3% (24)   [3% (12) / 3% (12)]	D -> G (74)				c.221A>G	p.Asp74Gly					other	
+432	SDHB	ENST00000375499	SDHB-E01-E08	E6	40 (580)   [chr1:g.17379935 (HomoSapiens)]	C	A -> T (het)	3% (30)   [3% (15) / 3% (15)]	T -> S (194)				c.580A>T	p.Thr194Ser					distinct	
+433	SDHC	ENST00000367975	SDHC-E01-E06	E3	45 (122)   [chr1:g.161284317 (HomoSapiens)]	C	T -> C (het)	1% (8)   [1% (4) / 1% (4)]	F -> S (41)				c.122T>C	p.Phe41Ser					other	
+434	SDHD	ENST00000375549	SDHD-E01-E04	E2	11 (63)   [chr11:g.111957694 (HomoSapiens)]	C	T -> G (het)	2% (8)   [2% (4) / 2% (4)]	L -> L (21)				c.63T>G	p.=					other	
+435	SLC16A1	ENST00000538576	SLC16A1-E01-E05	E5	132..146 (1360..1374) / 15bp   [chr1:g.113496480_113496494 (HomoSapiens)]	D	GCAAACGAGCAGAAA (het)	2% (6)   [2% (3) / 2% (3)]	ANEQK ->  (454..458)				c.1360_1374delGCAAACGAGCAGAAA	p.Ala454_Lys458del					other	
+436	SLC16A1	ENST00000538576	SLC16A1-E01-E05	E5	242 (1470)   [chr1:g.113496384 (HomoSapiens)]	C	T -> A (het)	79% (259)   [79% (130) / 79% (129)]	D -> E (490)				c.1470T>A	p.Asp490Glu					distinct	
+437	SLC16A3	ENST00000392341	SLC16A3-E01-E05	E4	666 (1033)   [chr17:g.80187464 (HomoSapiens)]	C	G -> T (het)	4% (6)   [4% (3) / 4% (3)]	A -> S (345)				c.1033G>T	p.Ala345Ser					distinct	
+438	SLC16A7	ENST00000552432	SLC16A7-E01-E06	E3	1 / 20bp   [chr12:g.59990116_59990117 (HomoSapiens)]	I	GTTACTTGAATTTCCACTAG (homo)	97% (260)   [97% (130) / 98% (130)]	5' UTR				c.-10-1_-10insGTTACTTGAATTTCCACTAG						distinct	
+439	SLC16A7	ENST00000552432	SLC16A7-E01-E06	E5	252 (613)   [chr12:g.59990739 (HomoSapiens)]	C	T -> A (het)	7% (22)   [7% (11) / 7% (11)]	S -> T (205)				c.613T>A	p.Ser205Thr					distinct	
+440	SLC16A7	ENST00000552432	SLC16A7-E01-E06	E5	591 (952)   [chr12:g.59991078 (HomoSapiens)]	C	A -> G (het)	2% (12)   [2% (6) / 2% (6)]	S -> G (318)				c.952A>G	p.Ser318Gly					other	
+441	SLC16A7	ENST00000552432	SLC16A7-E01-E06	E6	153 (1333)   [chr12:g.59991459 (HomoSapiens)]	C	A -> T (het)	48% (32)   [48% (16) / 47% (16)]	T -> S (445)				c.1333A>T	p.Thr445Ser					distinct	
+442	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E2	103 (214)   [chrX:g.118602692 (HomoSapiens)]	C	C -> G (het)	25% (2674)   [25% (1336) / 25% (1338)]	R -> G (72)				c.214C>G	p.Arg72Gly					distinct	
+443	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E2	310 (421) / 1bp   [chrX:g.118602899 (HomoSapiens)]	D	C (het)	4% (95)   [4% (49) / 4% (46)]	[STOP] AA 141 (E2/310)		RF changed		c.421delC	p.Leu141Ter					distinct	
+444	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E2	310..312 (421..423) / 3bp   [chrX:g.118602899_118602901 (HomoSapiens)]	Indel	CTA -> TAAA (het)	6% (159)   [6% (80) / 6% (79)]	[STOP] AA 141 (E2/310)		RF changed		c.421_422delinsTAA	p.Leu141Ter					distinct	
+445	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E2	310 (421)   [chrX:g.118602899 (HomoSapiens)]	C	C -> T (het)	41% (1061)   [41% (530) / 41% (531)]	L -> L (141)				c.421C>T	p.=					distinct	
+446	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E3	101 (699)   [chrX:g.118603177 (HomoSapiens)]	C	T -> C (het)	32% (64)   [32% (32) / 32% (32)]	T -> T (233)				c.699T>C	p.=					distinct	
+447	SLC2A1	ENST00000426263	SLC2A1-E01-E10	E8	71 (1043)   [chr1:g.43423280 (HomoSapiens)]	C	C -> A (het)	7% (10)   [7% (5) / 7% (5)]	A -> D (348)				c.1043C>A	p.Ala348Asp					distinct	
+448	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	43 (716)   [chr12:g.8087915 (HomoSapiens)]	C	T -> A (het)	5% (46)   [5% (23) / 5% (23)]	I -> N (239)				c.716T>A	p.Ile239Asn					distinct	
+449	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	54 (727)   [chr12:g.8087904 (HomoSapiens)]	C	A -> C (het)	5% (46)   [5% (23) / 5% (23)]	K -> Q (243)				c.727A>C	p.Lys243Gln					distinct	
+450	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	75 (748)   [chr12:g.8087883 (HomoSapiens)]	C	T -> G (het)	2% (18)   [2% (9) / 2% (9)]	S -> A (250)				c.748T>G	p.Ser250Ala					other	
+451	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	95 (768)   [chr12:g.8087863 (HomoSapiens)]	C	C -> T (het)	2% (18)   [2% (9) / 2% (9)]	T -> T (256)				c.768C>T	p.=					other	
+452	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	101..105 (774..778) / 5bp   [chr12:g.8087853_8087857 (HomoSapiens)]	Indel	AGAGC -> GGAGT (het)	5% (46)   [5% (23) / 5% (23)]	LEL -> LEF (258..260)				c.774_778delinsGGAGT	p.Leu260Phe					distinct	
+453	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	101 (774)   [chr12:g.8087857 (HomoSapiens)]	C	A -> G (het)	3% (22)   [3% (11) / 3% (11)]	L -> L (258)				c.774A>G	p.=					other	
+454	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	116 (789)   [chr12:g.8087842 (HomoSapiens)]	C	G -> A (het)	7% (64)   [7% (32) / 7% (32)]	V -> V (263)				c.789G>A	p.=					distinct	
+455	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	127 (800)   [chr12:g.8087831 (HomoSapiens)]	C	G -> A (het)	5% (46)   [5% (23) / 5% (23)]	R -> Q (267)				c.800G>A	p.Arg267Gln					distinct	
+456	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E6	134 (807)   [chr12:g.8087824 (HomoSapiens)]	C	C -> A (het)	5% (46)   [5% (23) / 5% (23)]	P -> P (269)				c.807C>A	p.=					distinct	
+457	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	4..6 (1072..1074) / 3bp   [chr12:g.8087557_8087559 (HomoSapiens)]	Indel	AAC -> GAG (het)	12% (16)   [12% (8) / 12% (8)]	N -> E (358)				c.1072_1074delinsGAG	p.Asn358Glu					distinct	
+458	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	29..33 (1097..1101) / 5bp   [chr12:g.8087530_8087534 (HomoSapiens)]	Indel	GTATT -> TTATC (het)	12% (16)   [12% (8) / 12% (8)]	CI -> FI (366..367)				c.1097_1101delinsTTATC	p.Cys366Phe					distinct	
+459	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	54 (1122)   [chr12:g.8087509 (HomoSapiens)]	C	A -> G (het)	10% (14)   [10% (7) / 10% (7)]	V -> V (374)				c.1122A>G	p.=					distinct	
+460	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	60..62 (1128..1130) / 3bp   [chr12:g.8087501_8087503 (HomoSapiens)]	D	CTT (het)	10% (14)   [10% (7) / 10% (7)]	FF -> F (376..377)				c.1128_1130delCTT	p.Phe377del					distinct	
+461	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	78 (1146)   [chr12:g.8087485 (HomoSapiens)]	C	C -> T (het)	12% (16)   [12% (8) / 12% (8)]	G -> G (382)				c.1146C>T	p.=					distinct	
+462	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E9	85 (1153)   [chr12:g.8087478 (HomoSapiens)]	C	C -> T (het)	12% (16)   [12% (8) / 12% (8)]	P -> S (385)				c.1153C>T	p.Pro385Ser					distinct	
+463	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	86..92 (1358..1364) / 7bp   [chr12:g.8087267_8087273 (HomoSapiens)]	Indel	CCCGTGG -> TGTGTTA (het)	9% (579)   [10% (289) / 10% (290)]	TRG -> MCY (453..455)				c.1358_1364delinsTGTGTTA	p.Thr453_Gly455delinsMetCysTyr					distinct	
+464	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	102..103 (1374..1375) / 2bp   [chr12:g.8087256_8087257 (HomoSapiens)]	Indel	TG -> CA (het)	10% (592)   [10% (296) / 10% (296)]	FE -> FK (458..459)				c.1374_1375delinsCA	p.Glu459Lys					distinct	
+465	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	115..116 (1387..1388) / 2bp   [chr12:g.8087243_8087244 (HomoSapiens)]	Indel	CG -> TA (het)	10% (596)   [10% (298) / 10% (298)]	R -> [STOP] (463)				c.1387_1388delinsTA	p.Arg463Ter					distinct	
+466	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	126 (1398)   [chr12:g.8087233 (HomoSapiens)]	C	A -> G (het)	10% (596)   [10% (298) / 10% (298)]	E -> E (466)				c.1398A>G	p.=					distinct	
+467	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	140 (1412)   [chr12:g.8087219 (HomoSapiens)]	C	G -> A (het)	10% (600)   [10% (300) / 10% (300)]	G -> D (471)				c.1412G>A	p.Gly471Asp					distinct	
+468	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	145 (1417)   [chr12:g.8087214 (HomoSapiens)]	C	G -> A (het)	10% (598)   [10% (299) / 10% (299)]	D -> N (473)				c.1417G>A	p.Asp473Asn					distinct	
+469	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	158 (1430) / 1bp   [chr12:g.8087201 (HomoSapiens)]	D	A (het)	10% (598)   [10% (299) / 10% (299)]	[STOP] AA 483 (E10/175)		RF changed		c.1430delA	p.Lys477Argfs*7					homopolymer	
+470	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	163..165 (1435..1437) / 3bp   [chr12:g.8087194_8087196 (HomoSapiens)]	Indel	GGC -> TGT (het)	10% (596)   [10% (298) / 10% (298)]	G -> C (479)				c.1435_1437delinsTGT	p.Gly479Cys					distinct	
+471	SLC2A3	ENST00000075120	SLC2A3-E01-E10	E10	183..187 (1455..1459) / 5bp   [chr12:g.8087172_8087176 (HomoSapiens)]	Indel	CATCG -> TATCC (het)	10% (591)   [10% (295) / 10% (296)]	SIE -> SIQ (485..487)				c.1455_1459delinsTATCC	p.Glu487Gln					distinct	
+472	SLC5A1	ENST00000543737	SLC5A1-E01-E14	E11	152 (1051)   [chr22:g.32456556 (HomoSapiens)]	C	A -> G (het)	12% (14)   [12% (7) / 12% (7)]	K -> E (351)				c.1051A>G	p.Lys351Glu					distinct	
+473	SLC9A1	ENST00000263980	SLC9A1-E01-E12	E12	340   [chr1:g.27478376 (HomoSapiens)]	C	A -> G (homo)	100% (40)   [100% (20) / 100% (20)]	3' UTR				c.*2A>G						distinct	
+474	SOD1	ENST00000270142	SOD1-E01-E05	E2	38 (110)   [chr21:g.33032192 (HomoSapiens)]	C	A -> G (het)	11% (120)   [11% (60) / 11% (60)]	K -> R (37)				c.110A>G	p.Lys37Arg					distinct	
+475	SOD1	ENST00000270142	SOD1-E01-E05	E4	59 (298)   [chr21:g.33032380 (HomoSapiens)]	C	A -> G (het)	1% (34)   [1% (17) / 1% (17)]	I -> V (100)				c.298A>G	p.Ile100Val					other	
+476	SOD2	ENST00000538183	SOD2-E01-E05	E5	55 (578)   [chr6:g.160113622 (HomoSapiens)]	C	A -> C (het)	4% (8)   [4% (4) / 4% (4)]	Y -> S (193)				c.578A>C	p.Tyr193Ser					distinct	
+477	TALDO1	ENST00000319006	TALDO1-E01-E08	E4	32 (361)   [chr11:g.747842 (HomoSapiens)]	C	A -> G (het)	4% (10)   [4% (5) / 4% (5)]	R -> G (121)				c.361A>G	p.Arg121Gly					distinct	
+478	TALDO1	ENST00000319006	TALDO1-E01-E08	E7	18 (853)   [chr11:g.748334 (HomoSapiens)]	C	G -> A (het)	1% (16)   [1% (8) / 1% (8)]	E -> K (285)				c.853G>A	p.Glu285Lys					other	
+479	TALDO1	ENST00000319006	TALDO1-E01-E08	E7	25 (860) / 1bp   [chr11:g.748340_748341 (HomoSapiens)]	I (Dup)	A (het)	1% (14)   [1% (7) / 1% (7)]	[STOP] AA 291 (E7/36)		RF changed		c.859dupA	p.Ile287Asnfs*5					other	
+480	TALDO1	ENST00000319006	TALDO1-E01-E08	E7	82 (917)   [chr11:g.748398 (HomoSapiens)]	C	A -> T (het)	3% (18)   [3% (9) / 3% (9)]	E -> V (306)				c.917A>T	p.Glu306Val					distinct	
+481	TP53	ENST00000269305	TP53-E01-E11	E4	119 (215)   [chr17:g.7590452 (HomoSapiens)]	C	C -> G (homo)	100% (142)   [100% (71) / 100% (71)]	P -> R (72)			rs1042522 (MutDB)	c.215C>G	p.Pro72Arg	0/1 of 1	PA1; LH1_SNP			distinct	
+482	TP53I3	ENST00000238721	TP53I3-E01-E05	E4	150 (769)   [chr2:g.24306428 (HomoSapiens)]	C	A -> G (het)	2% (10)   [2% (5) / 2% (5)]	K -> E (257)				c.769A>G	p.Lys257Glu					other	
+483	TUBB	ENST00000327892	TUBB-E01-E04	E4	137 (414)   [chr6:g.30688697 (HomoSapiens)]	C	A -> C (het)	52% (1288)   [52% (645) / 52% (643)]	S -> S (138)				c.414A>C	p.=					distinct	
+484	TUBB	ENST00000327892	TUBB-E01-E04	E4	138 (415)   [chr6:g.30688698 (HomoSapiens)]	C	C -> A (het)	3% (68)   [3% (34) / 3% (34)]	L -> M (139)				c.415C>A	p.Leu139Met					other	
+485	TUBB	ENST00000327892	TUBB-E01-E04	E4	143 (420)   [chr6:g.30688703 (HomoSapiens)]	C	C -> T (het)	52% (1290)   [52% (646) / 52% (644)]	G -> G (140)				c.420C>T	p.=					distinct	
+486	TUBB	ENST00000327892	TUBB-E01-E04	E4	144..155 (421..432) / 12bp   [chr6:g.30688704_30688715 (HomoSapiens)]	D	GGGGGCACAGGC (het)	3% (68)   [3% (34) / 3% (34)]	GGTG ->  (141..144)				c.421_432delGGGGGCACAGGC	p.Gly141_Gly144del					other	
+487	TUBB	ENST00000327892	TUBB-E01-E04	E4	149..155 (426..432) / 7bp   [chr6:g.30688709_30688715 (HomoSapiens)]	Indel	CACAGGC -> GACTGGG (het)	52% (1284)   [52% (643) / 52% (641)]	GTG -> GTG (142..144)				c.426_432delinsGACTGGG	p.=					distinct	
+488	TUBB	ENST00000327892	TUBB-E01-E04	E4	161 (438)   [chr6:g.30688721 (HomoSapiens)]	C	A -> G (het)	52% (1288)   [52% (645) / 52% (643)]	G -> G (146)				c.438A>G	p.=					distinct	
+489	TUBB	ENST00000327892	TUBB-E01-E04	E4	167..170 (444..447) / 4bp   [chr6:g.30688727_30688730 (HomoSapiens)]	Indel	CACT -> TACC (het)	52% (1286)   [52% (644) / 52% (642)]	GT -> GT (148..149)				c.444_447delinsTACC	p.=					distinct	
+490	TUBB	ENST00000327892	TUBB-E01-E04	E4	167 (444)   [chr6:g.30688727 (HomoSapiens)]	C	C -> T (het)	3% (70)   [3% (35) / 3% (35)]	G -> G (148)				c.444C>T	p.=					other	
+491	TUBB	ENST00000327892	TUBB-E01-E04	E4	174 (451)   [chr6:g.30688734 (HomoSapiens)]	C	C -> T (het)	3% (68)   [3% (34) / 3% (34)]	L -> F (151)				c.451C>T	p.Leu151Phe					other	
+492	TUBB	ENST00000327892	TUBB-E01-E04	E4	176 (453)   [chr6:g.30688736 (HomoSapiens)]	C	T -> C (het)	52% (1286)   [52% (644) / 52% (642)]	L -> L (151)				c.453T>C	p.=					distinct	
+493	TUBB	ENST00000327892	TUBB-E01-E04	E4	191..197 (468..474) / 7bp   [chr6:g.30688751_30688757 (HomoSapiens)]	Indel	AGAAGAA -> GGAGGAG (het)	52% (1281)   [52% (642) / 52% (639)]	REE -> REE (156..158)				c.468_474delinsGGAGGAG	p.=					distinct	
+494	TUBB	ENST00000327892	TUBB-E01-E04	E4	197..199 (474..476) / 3bp   [chr6:g.30688757_30688759 (HomoSapiens)]	Indel	ATA -> GTG (het)	3% (68)   [3% (34) / 3% (34)]	EY -> EC (158..159)				c.474_476delinsGTG	p.Tyr159Cys					other	
+495	TUBB	ENST00000327892	TUBB-E01-E04	E4	203..209 (480..486) / 7bp   [chr6:g.30688763_30688769 (HomoSapiens)]	Indel	TGATCGC -> AGACAGG (het)	52% (1275)   [52% (638) / 52% (637)]	PDR -> PDR (160..162)				c.480_486delinsAGACAGG	p.=					distinct	
+496	TUBB	ENST00000327892	TUBB-E01-E04	E4	207 (484)   [chr6:g.30688767 (HomoSapiens)]	C	C -> T (het)	3% (70)   [3% (35) / 3% (35)]	R -> C (162)				c.484C>T	p.Arg162Cys					other	
+497	TUBB	ENST00000327892	TUBB-E01-E04	E4	218..224 (495..501) / 7bp   [chr6:g.30688778_30688784 (HomoSapiens)]	Indel	TACCTTC -> CACGTTT (het)	52% (1281)   [52% (640) / 52% (641)]	NTF -> NTF (165..167)				c.495_501delinsCACGTTT	p.=					distinct	
+498	TUBB	ENST00000327892	TUBB-E01-E04	E4	218..222 (495..499) / 5bp   [chr6:g.30688778_30688782 (HomoSapiens)]	Indel	TACCT -> CACCC (het)	3% (68)   [3% (34) / 3% (34)]	NTF -> NTL (165..167)				c.495_499delinsCACCC	p.Phe167Leu					other	
+499	TXN		TXN_TB	seq	386 / 1bp	I (Dup)	T (het)	2% (14)   [2% (7) / 2% (7)]					n.385dupT						other	
+500	VEGF189_FASTA		VEGF189_FASTA	seq	1464 / 1bp	D	A (het)	2% (8)   [2% (4) / 2% (4)]					n.1464delA						homopolymer	
+501	VEGF189_FASTA		VEGF189_FASTA	seq	1465 / 1bp	I (Dup)	A (het)	2% (8)   [2% (4) / 2% (4)]					n.1464dupA						other	
+502	VEGF_full_length_206_FAS		VEGF_full_length_206_FASTA	seq	104	C	A -> G (het)	15% (10)   [15% (5) / 15% (5)]					n.104A>G						distinct	
+503	VEGF_full_length_206_FAS		VEGF_full_length_206_FASTA	seq	191 / 1bp	D	T (het)	2% (6)   [2% (3) / 2% (3)]					n.191delT						homopolymer	
+504	VEGF_full_length_206_FAS		VEGF_full_length_206_FASTA	seq	192 / 1bp	I (Dup)	T (het)	5% (20)   [5% (10) / 5% (10)]					n.191dupT						distinct	
+505	VEGF_full_length_206_FAS		VEGF_full_length_206_FASTA	seq	405	C	C -> G (homo)	100% (68)   [100% (34) / 100% (34)]					n.405C>G						distinct	

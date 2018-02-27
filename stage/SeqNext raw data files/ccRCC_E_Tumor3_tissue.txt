@@ -1,0 +1,143 @@
+Gene,Transcript ID,Name,Location,Pos.,Type,Coverage,Nuc Change,AA Change,Hint,c.HGVS,p.HGVS,mut Entry,mut Effect,Weighting
+ACLY,ENST00000353196,ACLY-E01-E28,E2,1 / 4bp   [chr17:g.40075132_40075133 (HomoSapiens)],I,28% (26)   [28% (13) / 28% (13)],ACAG (het),5' UTR,,c.-23-1_-23insACAG,,,,distinct
+ACSS2,ENST00000360596,ACSS2-E01-E18,E2,98 (276)   [chr20:g.33464724 (HomoSapiens)],C,100% (200)   [100% (103) / 100% (97)],C -> T (homo),F -> F (92),,c.276C>T,p.=,,,distinct
+ACTB,ENST00000331789,ACTB-E01-E06,E4,195 (558)   [chr7:g.5569591 (HomoSapiens)],C,83% (111)   [83% (55) / 84% (56)],T -> C (het),T -> T (186),,c.558T>C,p.=,,,distinct
+ACTB,,ACTB-E01-E06,,,,,,,,,,,,
+ACTB,ENST00000331789,ACTB-E01-E06,E4,219 (582)   [chr7:g.5569567 (HomoSapiens)],C,84% (113)   [84% (56) / 84% (57)],C -> T (het),T -> T (194),,c.582C>T,p.=,,,distinct
+ACTB,ENST00000331789,ACTB-E01-E06,E4,225 (588)   [chr7:g.5569561 (HomoSapiens)],C,84% (114)   [84% (56) / 84% (58)],C -> A (het),R -> R (196),,c.588C>A,p.=,,,distinct
+ACTB,ENST00000331789,ACTB-E01-E06,E4,267 (630)   [chr7:g.5569519 (HomoSapiens)],C,86% (120)   [87% (60) / 86% (60)],T -> C (het),R -> R (210),,c.630T>C,p.=,,,distinct
+ACTB,ENST00000331789,ACTB-E01-E06,E4,273 (636)   [chr7:g.5569513 (HomoSapiens)],C,87% (121)   [87% (60) / 87% (61)],T -> C (het),I -> I (212),,c.636T>C,p.=,,,distinct
+ADPGK,ENST00000311669,ADPGK-E01-E07,E7,117 (1056)   [chr15:g.73074977 (HomoSapiens)],C,28% (22)   [28% (11) / 28% (11)],C -> G (het),G -> G (352),,c.1056C>G,p.=,,,distinct
+AR,ENST00000374690,AR-E01-E08,E7,104 (2553)   [chrX:g.66767541 (HomoSapiens)],C,24% (8)   [24% (4) / 24% (4)],A -> G (het),T -> T (851),,c.2553A>G,p.=,,,distinct
+ATP5C1,ENST00000356708,ATP5C1-E01-E10,E2,13 (69)   [chr10:g.7830239 (HomoSapiens)],C,22% (118)   [22% (59) / 22% (59)],A -> G (het),R -> R (23),,c.69A>G,p.=,,,distinct
+ATP5C1,ENST00000356708,ATP5C1-E01-E10,E8,9 (802)   [chr10:g.7830972 (HomoSapiens)],C,29% (30)   [29% (15) / 29% (15)],A -> G (het),I -> V (268),,c.802A>G,p.Ile268Val,,,distinct
+AXL,,AXL,seq,2340,C,5% (8)   [5% (4) / 5% (4)],A -> C (het),,,n.2340A>C,,,,other
+AXL,,AXL,seq,2605,C,10% (6)   [10% (3) / 10% (3)],A -> G (het),,,n.2605A>G,,,,distinct
+CA12,ENST00000344366,CA12-E01-E10,E9,1 (875) / 33bp   [chr15:g.63673045_63673046 (HomoSapiens)],I,88% (2632)   [88% (1320) / 87% (1312)],TGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG (het),G -> VQVCTAAGLSLG (292),,c.875-1_875insTGCAAGTCTGTACTGCGGCAGGACTGAGTCTGG,p.Gln291_Gly292insValGlnValCysThrAlaAlaGlyLeuSerLeu,,,distinct
+CHKA,ENST00000356135,CHKA-E01-E11,E3,12 (474) / 1bp   [chr11:g.67888171 (HomoSapiens)],D,21% (6)   [21% (3) / 21% (3)],C (het),[STOP] AA 196 (E4/10),RF changed,c.474delC,p.Met159Trpfs*38,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,101 (93)   [chr7:g.25164718 (HomoSapiens)],C,15% (8)   [15% (4) / 15% (4)],A -> T (het),P -> P (31),,c.93A>T,p.=,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,119 (111)   [chr7:g.25164700 (HomoSapiens)],C,23% (6)   [23% (3) / 23% (3)],T -> C (het),F -> F (37),,c.111T>C,p.=,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,124 (116)   [chr7:g.25164695 (HomoSapiens)],C,23% (6)   [23% (3) / 23% (3)],G -> A (het),R -> Q (39),,c.116G>A,p.Arg39Gln,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,142 (134)   [chr7:g.25164677 (HomoSapiens)],C,23% (6)   [23% (3) / 23% (3)],C -> T (het),P -> L (45),,c.134C>T,p.Pro45Leu,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,148 (140)   [chr7:g.25164671 (HomoSapiens)],C,24% (6)   [23% (3) / 25% (3)],A -> T (het),Y -> F (47),,c.140A>T,p.Tyr47Phe,,,distinct
+CYCS,ENST00000305786,CYCS-E01-E03,E2,160 (152)   [chr7:g.25164659 (HomoSapiens)],C,23% (6)   [23% (3) / 23% (3)],C -> A (het),A -> D (51),,c.152C>A,p.Ala51Asp,,,distinct
+EGFR,,EGFR,seq,2715,C,69% (18)   [69% (9) / 69% (9)],G -> A (het),,,n.2715G>A,,,,distinct
+EGFR,,EGFR,seq,2964,C,7% (6)   [7% (3) / 7% (3)],T -> C (het),,,n.2964T>C,,,,other
+EGFR,,EGFR,seq,3063,C,100% (88)   [100% (44) / 100% (44)],T -> C (homo),,,n.3063T>C,,,,distinct
+EGLN1,ENST00000366641,EGLN1-E01-E05,E5,62 (1278)   [chr1:g.231556357 (HomoSapiens)],C,27% (34)   [27% (17) / 27% (17)],C -> A (het),F -> L (426),,c.1278C>A,p.Phe426Leu,,,distinct
+EGLN1,ENST00000366641,EGLN1-E01-E05,E5,104 / 1bp   [chr1:g.231556315_231556316 (HomoSapiens)],I (Dup),27% (34)   [27% (17) / 27% (17)],A (het),3' UTR,,c.*38dupA,,,,distinct
+EGLN1,ENST00000366641,EGLN1-E01-E05,E5,44..48 (1260..1264) / 5bp   [chr1:g.231556371_231556375 (HomoSapiens)],Indel,26% (32)   [27% (17) / 24% (15)],GGTCG -> AGTCA (het),SVG -> SVS (420..422),,c.1260_1264delinsAGTCA,p.Gly422Ser,,,distinct
+EGLN1,ENST00000366641,EGLN1-E01-E05,E5,122   [chr1:g.231556297 (HomoSapiens)],C,28% (34)   [28% (17) / 27% (17)],C -> T (het),3' UTR,,c.*57C>T,,,,distinct
+EGLN1,ENST00000366641,EGLN1-E01-E05,E5,109..111 / 3bp   [chr1:g.231556308_231556310 (HomoSapiens)],Indel,27% (33)   [26% (16) / 27% (17)],AAC -> GACGC (het),3' UTR,,c.*44_*45delinsGACG,,,,distinct
+EPCAM,ENST00000263735,EPCAM-E01-E09,E3,160 (344)   [chr2:g.47596988 (HomoSapiens)],C,60% (30)   [60% (15) / 60% (15)],T -> C (het),M -> T (115),,c.344T>C,p.Met115Thr,,,distinct
+ERBB3,,ERBB3,seq,2633,C,6% (17)   [6% (8) / 7% (9)],T -> G (het),,,n.2633T>G,,,,other
+FBP1,ENST00000375326,FBP1-E01-E07,E5,86 (653)   [chr9:g.97400940 (HomoSapiens)],C,100% (164)   [100% (82) / 100% (82)],G -> A (homo),R -> K (218),,c.653G>A,p.Arg218Lys,,,distinct
+FGFR2,ENST00000358487,FGFR2-E01-E18,E8,95..145 (1034..1084) / 51bp   [chr10:g.123356242_123356292 (HomoSapiens)],D,12% (6)   [12% (3) / 12% (3)],GTAATTCTATTGGGATATCCTTTCACTCTGCATGGTTGACAGTTCTGCCAG (het),GNSIGISFHSAWLTVLPA -> A (345..362),,c.1034_1084delGTAATTCTATTGGGATATCCTTTCACTCTGCATGGTTGACAGTTCTGCCAG,p.Gly345_Pro361del,,,distinct
+FOLH1,ENST00000256999,FOLH1-E01-E19,E3,106 (330)   [chr11:g.49229632 (HomoSapiens)],C,9% (53)   [8% (26) / 9% (27)],A -> G (het),L -> L (110),,c.330A>G,p.=,,,other
+G6PD,ENST00000393562,G6PD-E01-E13,E6,1 (576) / 3bp   [chrX:g.153774510_153774511 (HomoSapiens)],I,12% (48)   [12% (24) / 12% (24)],CAG (het),I -> IR (192),,c.576-1_576insCAG,p.Ile192_Gly193insArg,,,distinct
+GAD1,ENST00000358196,GAD1-E01-E17,E5,132 (436)   [chr2:g.171674057 (HomoSapiens)],C,16% (10)   [16% (5) / 16% (5)],C -> T (het),Q -> [STOP] (146),,c.436C>T,p.Gln146Ter,,,distinct
+GCLC,ENST00000229416,GCLC-E01-E16,E15,18 (1599)   [chr6:g.53407845 (HomoSapiens)],C,8% (28)   [8% (14) / 8% (14)],A -> C (het),G -> G (533),,c.1599A>C,p.=,,,other
+GFPT1,ENST00000357308,GFPT1-E01-E20,E6,98 (506)   [chr2:g.69613698 (HomoSapiens)],C,15% (26)   [15% (13) / 15% (13)],G -> A (het),S -> N (169),,c.506G>A,p.Ser169Asn,,,distinct
+GLS,,GLS-E01-E15,,,,,,,,,,,,
+GLUD1,ENST00000277865,GLUD1-E01-E13,E4,53 (635) / 1bp   [chr10:g.88853892 (HomoSapiens)],D,7% (19)   [7% (10) / 7% (9)],A (het),[STOP] AA 226 (E5/30),RF changed,c.635delA,p.Lys212Argfs*15,,,homopolymer
+GLUD2,ENST00000328078,GLUD2-E01,E1,923 (846)   [chrX:g.120182384 (HomoSapiens)],C,96% (47)   [96% (23) / 96% (24)],C -> T (homo),N -> N (282),,c.846C>T,p.=,,,distinct
+GOT2,ENST00000245206,GOT2-E01-E10,E2,139 (228)   [chr16:g.58767905 (HomoSapiens)],C,47% (74)   [47% (37) / 47% (37)],T -> G (het),V -> V (76),,c.228T>G,p.=,,,distinct
+GOT2,ENST00000245206,GOT2-E01-E10,E5,127 (562)   [chr16:g.58767571 (HomoSapiens)],C,59% (56)   [60% (28) / 58% (28)],G -> A (het),G -> S (188),,c.562G>A,p.Gly188Ser,,,distinct
+GOT2,ENST00000245206,GOT2-E01-E10,E9,18 (1037)   [chr16:g.58767096 (HomoSapiens)],C,57% (32)   [59% (17) / 56% (15)],T -> G (het),V -> G (346),,c.1037T>G,p.Val346Gly,,,distinct
+GPI,ENST00000588991,GPI-E01-E19,E17,22 (1420)   [chr19:g.34857351 (HomoSapiens)],C,17% (8)   [17% (4) / 18% (4)],A -> G (het),T -> A (474),,c.1420A>G,p.Thr474Ala,,,distinct
+HK2,ENST00000290573,HK2-E01-E18,E16,79 (2298)   [chr2:g.75064005 (HomoSapiens)],C,52% (58)   [52% (29) / 52% (29)],A -> G (het),L -> L (766),,c.2298A>G,p.=,,,distinct
+LDHB,ENST00000396076,LDHB-E01-E08,E4,14 (261)   [chr12:g.21810135 (HomoSapiens)],C,100% (2182)   [100% (1081) / 100% (1101)],T -> C (homo),T -> T (87),,c.261T>C,p.=,,,distinct
+LDHB,ENST00000396076,LDHB-E01-E08,E8,5 (842)   [chr12:g.21809554 (HomoSapiens)],C,6% (19)   [6% (9) / 6% (10)],T -> G (het),M -> R (281),,c.842T>G,p.Met281Arg,,,other
+MDH2,,MDH2_TB,seq,155..185 / 31bp,D,5% (18)   [5% (9) / 5% (9)],CTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC (het),,,n.155_185delCTCGCCCGGCCTGCCAGCGCTGCTCTCCGCC,,,,other
+MERTK,,MERTK,seq,1673,C,100% (26)   [100% (13) / 100% (13)],A -> G (homo),,,n.1673A>G,,,,distinct
+MERTK,,MERTK,seq,3037,C,65% (26)   [65% (13) / 65% (13)],G -> A (het),,,n.3037G>A,,,,distinct
+MET control intron 19_FA,,MET control intron 19_FASTA,seq,8951..8955 / 5bp,Indel,29% (6)   [0% (0) / 29% (6)],TCCCT -> CCCCC (het),,,n.8951_8955delinsCCCCC,,,,distinct
+MET control intron 19_FA,,MET control intron 19_FASTA,seq,8960..8962 / 3bp,Indel,59% (13)   [0% (0) / 59% (13)],TCA -> CCC (het),,,n.8960_8962delinsCCC,,,,distinct
+MET control intron 19_FA,,MET control intron 19_FASTA,seq,8968..8969 / 2bp,Indel,52% (12)   [0% (0) / 52% (12)],GA -> CC (het),,,n.8968_8969delinsCC,,,,distinct
+MYC,ENST00000377970,MYC-E01-E03,E2,47 (587)   [chr8:g.128748916 (HomoSapiens)],C,59% (154)   [60% (78) / 59% (76)],A -> G (het),N -> S (196),,c.587A>G,p.Asn196Ser,,,distinct
+MYC,ENST00000377970,MYC-E01-E03,E1,523 (523) / 1bp   [chr8:g.128748851_128748852 (HomoSapiens)],I (Dup),5% (14)   [5% (7) / 5% (7)],T (het),[STOP] AA 39 (E1/115),RF changed,c.522dupT,p.Arg39Serfs*1,,,homopolymer
+MYC,ENST00000377970,MYC-E01-E03,E2,2..4 (542..544) / 3bp   [chr8:g.128748871_128748873 (HomoSapiens)],D,11% (30)   [11% (15) / 11% (15)],AGC (het),QP -> P (181..182),,c.542_544delAGC,p.Gln181del,,,distinct
+NQO1,ENST00000320623,NQO1-E01-E06,E5,75 (492)   [chr16:g.69759851 (HomoSapiens)],C,18% (10)   [17% (5) / 18% (5)],C -> G (het),D -> E (164),,c.492C>G,p.Asp164Glu,,,distinct
+NQO1,ENST00000320623,NQO1-E01-E06,E6,158 (677)   [chr16:g.69759666 (HomoSapiens)],C,6% (20)   [6% (10) / 6% (10)],G -> C (het),S -> T (226),,c.677G>C,p.Ser226Thr,,,other
+PARP1,ENST00000366794,PARP1-E01-E23,E17,8 (2285)   [chr1:g.226593346 (HomoSapiens)],C,52% (22)   [52% (11) / 52% (11)],T -> C (het),V -> A (762),,c.2285T>C,p.Val762Ala,,,distinct
+PDGFRB,ENST00000261799,PDGFRB-E01-E23,E4,60 (424)   [chr5:g.149534530 (HomoSapiens)],C,8% (8)   [8% (4) / 8% (4)],A -> G (het),I -> V (142),,c.424A>G,p.Ile142Val,,,other
+PDK1,ENST00000392571,PDK1-E01-E12,E10,1 (1006) / 35bp   [chr2:g.173421883_173421884 (HomoSapiens)],I,7% (10)   [7% (5) / 7% (5)],GATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG (het),[STOP] AA 348 (E10/37),RF changed,c.1006-1_1006insGATAAATTTCTGGAAGTGACATTGTTGTGTGAAAG,p.Met336Aspfs*13,,,other
+PGD,ENST00000270776,PGD-E01-E13,E3,36 (120)   [chr1:g.10459294 (HomoSapiens)],C,51% (141)   [51% (70) / 51% (71)],T -> C (het),D -> D (40),,c.120T>C,p.=,,,distinct
+PGK1,ENST00000373316,PGK1-E01-E11,E3,132 (248)   [chrX:g.77360085 (HomoSapiens)],C,5% (38)   [5% (19) / 5% (19)],T -> A (het),V -> E (83),,c.248T>A,p.Val83Glu,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E3,93 (243)   [chr5:g.218713 (HomoSapiens)],C,93% (55)   [90% (28) / 96% (27)],T -> C (het),S -> S (81),,c.243T>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E3,72 (222) / 1bp   [chr5:g.218691_218692 (HomoSapiens)],I (Dup),9% (67)   [10% (34) / 9% (33)],T (het),[STOP] AA 82 (E3/94),RF changed,c.221dupT,p.Leu74Phefs*9,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E6,1..2 (627..628) / 2bp   [chr5:g.219097_219098 (HomoSapiens)],D,16% (54)   [16% (27) / 16% (27)],AG (het),[STOP] AA 271 (E7/60),RF changed,c.627_628delAG,p.Gly210Leufs*62,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E3,159..+1 (309..312) / 5bp   [chr5:g.218779_218783 (HomoSapiens)],Indel,45% (13)   [54% (7) / 38% (6)],ACAGC -> GCAGG (het),splicing,,c.309_312+1delinsGCAGG,,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E3,101 (251)   [chr5:g.218721 (HomoSapiens)],C,95% (57)   [91% (29) / 100% (28)],G -> A (het),G -> E (84),,c.251G>A,p.Gly84Glu,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E10,83 (1371) / 3bp   [chr5:g.219840_219841 (HomoSapiens)],I (Dup),11% (102)   [11% (51) / 11% (51)],AAG (het),S -> RS (457),,c.1368_1370dupAAG,p.Gly456_Ser457insArg,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,128..129 (1244..1245) / 2bp   [chr5:g.219714_219715 (HomoSapiens)],D,25% (14)   [25% (7) / 25% (7)],TT (het),[STOP] AA 431 (E10/3),RF changed,c.1244_1245delTT,p.Phe415Trpfs*17,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E4,141..142 (453..454) / 2bp   [chr5:g.218923_218924 (HomoSapiens)],Indel,22% (70)   [22% (35) / 22% (35)],GC -> AA (het),SL -> SI (151..152),,c.453_454delinsAA,p.Leu152Ile,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E3,106 (256)   [chr5:g.218726 (HomoSapiens)],C,92% (57)   [88% (29) / 97% (28)],A -> G (het),N -> D (86),,c.256A>G,p.Asn86Asp,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E5,63..64 (540..541) / 2bp   [chr5:g.219010_219011 (HomoSapiens)],Indel,9% (148)   [9% (73) / 9% (75)],TG -> CA (het),NG -> NR (180..181),,c.540_541delinsCA,p.Gly181Arg,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E4,66 (378)   [chr5:g.218848 (HomoSapiens)],C,26% (86)   [26% (43) / 26% (43)],T -> C (het),G -> G (126),,c.378T>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E6,49..50 (675..676) / 2bp   [chr5:g.219145_219146 (HomoSapiens)],Indel,16% (51)   [16% (25) / 16% (26)],TG -> CA (het),TG -> TS (225..226),,c.675_676delinsCA,p.Gly226Ser,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E4,72 (384)   [chr5:g.218854 (HomoSapiens)],C,25% (86)   [26% (43) / 25% (43)],G -> C (het),Q -> H (128),,c.384G>C,p.Gln128His,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,75..77 (1191..1193) / 3bp   [chr5:g.219661_219663 (HomoSapiens)],Indel,25% (14)   [25% (7) / 25% (7)],GGT -> TGC (het),SV -> SA (397..398),,c.1191_1193delinsTGC,p.Val398Ala,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E4,94 (406)   [chr5:g.218876 (HomoSapiens)],C,13% (40)   [13% (20) / 13% (20)],G -> A (het),G -> R (136),,c.406G>A,p.Gly136Arg,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,90..93 (1206..1209) / 4bp   [chr5:g.219676_219679 (HomoSapiens)],Indel,25% (14)   [25% (7) / 25% (7)],CCGC -> TCGG (het),NR -> NR (402..403),,c.1206_1209delinsTCGG,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E4,106 (418)   [chr5:g.218888 (HomoSapiens)],C,9% (27)   [8% (13) / 9% (14)],C -> G (het),R -> G (140),,c.418C>G,p.Arg140Gly,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E11,86..87 (1493..1494) / 2bp   [chr5:g.219963_219964 (HomoSapiens)],Indel,20% (58)   [19% (28) / 21% (30)],TA -> GG (het),L -> R (498),,c.1493_1494delinsGG,p.Leu498Arg,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E4,132 (444)   [chr5:g.218914 (HomoSapiens)],C,22% (68)   [22% (34) / 22% (34)],T -> C (het),T -> T (148),,c.444T>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,89..90 (1608..1609) / 2bp   [chr5:g.220078_220079 (HomoSapiens)],Indel,10% (9)   [11% (5) / 9% (4)],AC -> GG (het),AR -> AG (536..537),,c.1608_1609delinsGG,p.Arg537Gly,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E4,155 (467)   [chr5:g.218937 (HomoSapiens)],C,9% (183)   [9% (92) / 9% (91)],T -> C (het),L -> S (156),,c.467T>C,p.Leu156Ser,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E12,89..91 (1608..1610) / 3bp   [chr5:g.220078_220080 (HomoSapiens)],Indel,7% (6)   [7% (3) / 7% (3)],ACG -> GCA (het),AR -> AQ (536..537),,c.1608_1610delinsGCA,p.Arg537Gln,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E4,162 (474)   [chr5:g.218944 (HomoSapiens)],C,17% (321)   [16% (161) / 17% (160)],A -> G (het),G -> G (158),,c.474A>G,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,113..114 (1632..1633) / 2bp   [chr5:g.220102_220103 (HomoSapiens)],Indel,10% (9)   [9% (4) / 11% (5)],TG -> CA (het),HA -> HT (544..545),,c.1632_1633delinsCA,p.Ala545Thr,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E5,7 (484)   [chr5:g.218954 (HomoSapiens)],C,9% (149)   [9% (75) / 9% (74)],C -> A (het),R -> R (162),,c.484C>A,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E13,18..22 (1668..1672) / 5bp   [chr5:g.220138_220142 (HomoSapiens)],Indel,6% (10)   [6% (5) / 6% (5)],CGATT -> TGATC (het),YDY -> YDH (556..558),,c.1668_1672delinsTGATC,p.Tyr558His,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E5,23 (500)   [chr5:g.218970 (HomoSapiens)],C,16% (254)   [15% (126) / 16% (128)],A -> G (het),Y -> C (167),,c.500A>G,p.Tyr167Cys,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E5,57 (534)   [chr5:g.219004 (HomoSapiens)],C,9% (151)   [9% (75) / 9% (76)],G -> A (het),M -> I (178),,c.534G>A,p.Met178Ile,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E5,82 (559)   [chr5:g.219029 (HomoSapiens)],C,7% (111)   [7% (56) / 6% (55)],A -> T (het),I -> F (187),,c.559A>T,p.Ile187Phe,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E5,84 (561)   [chr5:g.219031 (HomoSapiens)],C,9% (152)   [9% (75) / 9% (77)],C -> T (het),I -> I (187),,c.561C>T,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E6,1 (627)   [chr5:g.219097 (HomoSapiens)],C,6% (20)   [6% (10) / 6% (10)],A -> G (het),G -> G (209),,c.627A>G,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E6,22 (648)   [chr5:g.219118 (HomoSapiens)],C,16% (51)   [16% (25) / 16% (26)],C -> G (het),F -> L (216),,c.648C>G,p.Phe216Leu,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E6,100 (726)   [chr5:g.219196 (HomoSapiens)],C,22% (111)   [22% (55) / 23% (56)],A -> C (het),L -> L (242),,c.726A>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E6,121 (747)   [chr5:g.219217 (HomoSapiens)],C,32% (59)   [32% (29) / 32% (30)],T -> C (het),P -> P (249),,c.747T>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E7,4 (755)   [chr5:g.219225 (HomoSapiens)],C,32% (59)   [32% (29) / 32% (30)],T -> C (het),I -> T (252),,c.755T>C,p.Ile252Thr,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,74 (1190)   [chr5:g.219660 (HomoSapiens)],C,11% (6)   [11% (3) / 11% (3)],C -> T (het),S -> L (397),,c.1190C>T,p.Ser397Leu,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,86 (1202)   [chr5:g.219672 (HomoSapiens)],C,25% (14)   [25% (7) / 25% (7)],C -> T (het),A -> V (401),,c.1202C>T,p.Ala401Val,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,111 (1227)   [chr5:g.219697 (HomoSapiens)],C,15% (8)   [15% (4) / 14% (4)],C -> A (het),L -> L (409),,c.1227C>A,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,111 (1227)   [chr5:g.219697 (HomoSapiens)],C,11% (6)   [11% (3) / 11% (3)],C -> G (het),L -> L (409),,c.1227C>G,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,118 (1234)   [chr5:g.219704 (HomoSapiens)],C,29% (16)   [29% (8) / 29% (8)],C -> T (het),L -> L (412),,c.1234C>T,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,134 (1250)   [chr5:g.219720 (HomoSapiens)],C,43% (23)   [43% (12) / 42% (11)],G -> A (het),R -> Q (417),,c.1250G>A,p.Arg417Gln,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,154 (1270)   [chr5:g.219740 (HomoSapiens)],C,21% (92)   [21% (46) / 21% (46)],G -> A (het),E -> K (424),,c.1270G>A,p.Glu424Lys,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E9,155 (1271)   [chr5:g.219741 (HomoSapiens)],C,9% (41)   [9% (20) / 10% (21)],A -> C (het),E -> A (424),,c.1271A>C,p.Glu424Ala,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E9,162 (1278)   [chr5:g.219748 (HomoSapiens)],C,9% (40)   [9% (20) / 9% (20)],A -> G (het),S -> S (426),,c.1278A>G,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E10,29 (1317)   [chr5:g.219787 (HomoSapiens)],C,7% (26)   [7% (13) / 7% (13)],C -> T (het),N -> N (439),,c.1317C>T,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E10,49 (1337)   [chr5:g.219807 (HomoSapiens)],C,7% (26)   [7% (13) / 7% (13)],T -> C (het),M -> T (446),,c.1337T>C,p.Met446Thr,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E10,54 (1342)   [chr5:g.219812 (HomoSapiens)],C,6% (74)   [6% (38) / 6% (36)],C -> G (het),L -> V (448),,c.1342C>G,p.Leu448Val,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E11,5 (1412)   [chr5:g.219882 (HomoSapiens)],C,11% (101)   [11% (50) / 11% (51)],T -> C (het),M -> T (471),,c.1412T>C,p.Met471Thr,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E11,40 (1447)   [chr5:g.219917 (HomoSapiens)],C,43% (122)   [42% (60) / 43% (62)],G -> T (het),V -> L (483),,c.1447G>T,p.Val483Leu,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E11,93 (1500)   [chr5:g.219970 (HomoSapiens)],C,19% (128)   [19% (64) / 19% (64)],C -> T (het),H -> H (500),,c.1500C>T,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E11,105 (1512)   [chr5:g.219982 (HomoSapiens)],C,19% (129)   [19% (65) / 19% (64)],C -> T (het),F -> F (504),,c.1512C>T,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,108 (1627)   [chr5:g.220097 (HomoSapiens)],C,22% (20)   [22% (10) / 22% (10)],G -> A (het),A -> T (543),,c.1627G>A,p.Ala543Thr,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,117 (1636)   [chr5:g.220106 (HomoSapiens)],C,7% (6)   [7% (3) / 7% (3)],A -> G (het),R -> G (546),,c.1636A>G,p.Arg546Gly,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E12,124 (1643)   [chr5:g.220113 (HomoSapiens)],C,22% (20)   [22% (10) / 22% (10)],A -> G (het),D -> G (548),,c.1643A>G,p.Asp548Gly,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E13,5 (1655)   [chr5:g.220125 (HomoSapiens)],C,17% (30)   [17% (15) / 17% (15)],G -> A (het),R -> Q (552),,c.1655G>A,p.Arg552Gln,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E13,67 (1717)   [chr5:g.220187 (HomoSapiens)],C,7% (6)   [7% (3) / 7% (3)],C -> T (het),H -> Y (573),,c.1717C>T,p.His573Tyr,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E13,102 (1752)   [chr5:g.220222 (HomoSapiens)],C,9% (8)   [9% (4) / 10% (4)],T -> C (het),V -> V (584),,c.1752T>C,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E14,24 (1788)   [chr5:g.220258 (HomoSapiens)],C,9% (24)   [9% (12) / 9% (12)],G -> A (het),V -> V (596),,c.1788G>A,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E14,66 (1830)   [chr5:g.220300 (HomoSapiens)],C,9% (23)   [8% (11) / 9% (12)],G -> C (het),P -> P (610),,c.1830G>C,p.=,,,other
+SDHA,ENST00000510361,SDHA-E01-E14,E4,1 (313)   [chr5:g.218783 (HomoSapiens)],C,27% (8)   [25% (3) / 28% (5)],C -> G (het),L -> V (105),,c.313C>G,p.Leu105Val,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E11,87 (1494)   [chr5:g.219964 (HomoSapiens)],C,23% (65)   [23% (33) / 22% (32)],A -> G (het),L -> L (498),,c.1494A>G,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,89 (1608)   [chr5:g.220078 (HomoSapiens)],C,24% (21)   [23% (10) / 26% (11)],A -> G (het),A -> A (536),,c.1608A>G,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E12,113 (1632)   [chr5:g.220102 (HomoSapiens)],C,29% (26)   [31% (14) / 27% (12)],T -> C (het),H -> H (544),,c.1632T>C,p.=,,,distinct
+SDHA,ENST00000510361,SDHA-E01-E14,E13,22 (1672)   [chr5:g.220142 (HomoSapiens)],C,8% (14)   [8% (7) / 8% (7)],T -> C (het),Y -> H (558),,c.1672T>C,p.Tyr558His,,,other
+SLC16A1,ENST00000538576,SLC16A1-E01-E05,E5,242 (1470)   [chr1:g.113496384 (HomoSapiens)],C,81% (196)   [81% (99) / 82% (97)],T -> A (het),D -> E (490),,c.1470T>A,p.Asp490Glu,,,distinct
+SLC16A7,ENST00000552432,SLC16A7-E01-E06,E3,1 / 20bp   [chr12:g.59990116_59990117 (HomoSapiens)],I,75% (21)   [79% (11) / 71% (10)],GTTACTTGAATTTCCACTAG (het),5' UTR,,c.-10-1_-10insGTTACTTGAATTTCCACTAG,,,,distinct
+SLC1A1,ENST00000262352,SLC1A1-E01-E12,E9,21 (896)   [chr9:g.4491575 (HomoSapiens)],C,6% (10)   [6% (5) / 6% (5)],T -> C (het),V -> A (299),,c.896T>C,p.Val299Ala,,,other
+SLC25A11,ENST00000225665,SLC25A11-E01-E08,E4,29 (484)   [chr17:g.4842722 (HomoSapiens)],C,21% (12)   [21% (6) / 21% (6)],A -> C (het),K -> Q (162),,c.484A>C,p.Lys162Gln,,,distinct
+SLC25A12,ENST00000422440,SLC25A12-E01-E18,E16,58 (1643)   [chr2:g.172749082 (HomoSapiens)],C,7% (12)   [7% (6) / 7% (6)],T -> C (het),V -> A (548),,c.1643T>C,p.Val548Ala,,,other
+SLC25A5,ENST00000317881,SLC25A5-E01-E04,E2,103 (214)   [chrX:g.118602692 (HomoSapiens)],C,19% (273)   [19% (135) / 20% (138)],C -> G (het),R -> G (72),,c.214C>G,p.Arg72Gly,,,distinct
+SLC25A5,ENST00000317881,SLC25A5-E01-E04,E2,310 (421)   [chrX:g.118602899 (HomoSapiens)],C,31% (106)   [30% (53) / 31% (53)],C -> T (het),L -> L (141),,c.421C>T,p.=,,,distinct
+SLC25A5,ENST00000317881,SLC25A5-E01-E04,E3,101 (699)   [chrX:g.118603177 (HomoSapiens)],C,100% (66)   [100% (33) / 100% (33)],T -> C (homo),T -> T (233),,c.699T>C,p.=,,,distinct
+SLC7A5,ENST00000261622,SLC7A5-E01-E10,E1,384 (318)   [chr16:g.87902711 (HomoSapiens)],C,47% (14)   [47% (7) / 47% (7)],C -> G (het),L -> L (106),,c.318C>G,p.=,,,distinct
+SOD2,ENST00000538183,SOD2-E01-E05,E2,24 (47)   [chr6:g.160114153 (HomoSapiens)],C,43% (375)   [43% (186) / 43% (189)],T -> C (het),V -> A (16),,c.47T>C,p.Val16Ala,,,distinct
+SOD2,ENST00000538183,SOD2-E01-E05,E5,55 (578)   [chr6:g.160113622 (HomoSapiens)],C,6% (126)   [6% (63) / 6% (63)],A -> C (het),Y -> S (193),,c.578A>C,p.Tyr193Ser,,,other
+TGFA,ENST00000295400,TGFA-E01-E06,E3,1..3 (95..97) / 3bp   [chr2:g.70780803_70780805 (HomoSapiens)],D,33% (28)   [33% (14) / 33% (14)],CAG (het),AD -> D (32..33),,c.95_97delCAG,p.Ala32del,,,distinct
+VHL,ENST00000256474,VHL-E01-E03_TB,E2,118 (458) / 1bp   [chr3:g.10183988_10183989 (HomoSapiens)],I (Dup),26% (14)   [26% (7) / 26% (7)],C (het),[STOP] AA 173 (E3/54),RF changed,c.457dupC,p.Leu153Profs*21,,,distinct

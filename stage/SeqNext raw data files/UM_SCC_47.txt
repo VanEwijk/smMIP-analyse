@@ -1,0 +1,16 @@
+Index	Gene	Transcript	Name	Location	Pos.	Type	Nuc Change	Coverage	AA Change	Condition	Hint	web Ref.	c. HGVS	p. HGVS	mut Entry	mut Effect	TValidation	MValidation	Weighting	Filter Step
+1	ACTB	ENST00000331789	ACTB-E01-E06	E3	129 (252)   [chr7:g.5569897 (HomoSapiens)]	C	A -> G (het)	2% (6)   [2% (3) / 2% (3)]	K -> K (84)				c.252A>G	p.=					other	
+2	ACTB	ENST00000331789	ACTB-E01-E06	E3	153 (276)   [chr7:g.5569873 (HomoSapiens)]	C	T -> C (het)	2% (6)   [2% (3) / 2% (3)]	N -> N (92)				c.276T>C	p.=					other	
+3	ACTB	ENST00000331789	ACTB-E01-E06	E3	162 (285)   [chr7:g.5569864 (HomoSapiens)]	C	T -> C (het)	2% (6)   [2% (3) / 2% (3)]	R -> R (95)				c.285T>C	p.=					other	
+4	ACTB	ENST00000331789	ACTB-E01-E06	E3	168..171 (291..294) / 4bp   [chr7:g.5569855_5569858 (HomoSapiens)]	Indel	TCCC -> CCCG (het)	2% (6)   [2% (3) / 2% (3)]	AP -> AP (97..98)				c.291_294delinsCCCG	p.=					other	
+5	ACTB	ENST00000331789	ACTB-E01-E06	E3	183 (306)   [chr7:g.5569843 (HomoSapiens)]	C	C -> A (het)	2% (6)   [2% (3) / 2% (3)]	P -> P (102)				c.306C>A	p.=					other	
+6	ACTB	ENST00000331789	ACTB-E01-E06	E3	223..225 (346..348) / 3bp   [chr7:g.5569801_5569803 (HomoSapiens)]	Indel	CGC -> AGA (het)	2% (6)   [2% (3) / 2% (3)]	R -> R (116)				c.346_348delinsAGA	p.=					other	
+7	ACTB	ENST00000331789	ACTB-E01-E06	E4	195 (558)   [chr7:g.5569591 (HomoSapiens)]	C	T -> C (het)	67% (16)   [67% (8) / 67% (8)]	T -> T (186)				c.558T>C	p.=					distinct	
+8	ACTB	ENST00000331789	ACTB-E01-E06	E4	219 (582)   [chr7:g.5569567 (HomoSapiens)]	C	C -> T (het)	67% (16)   [67% (8) / 67% (8)]	T -> T (194)				c.582C>T	p.=					distinct	
+9	ACTB	ENST00000331789	ACTB-E01-E06	E4	225 (588)   [chr7:g.5569561 (HomoSapiens)]	C	C -> A (het)	67% (16)   [67% (8) / 67% (8)]	R -> R (196)				c.588C>A	p.=					distinct	
+10	ACTB	ENST00000331789	ACTB-E01-E06	E4	267 (630)   [chr7:g.5569519 (HomoSapiens)]	C	T -> C (het)	67% (16)   [67% (8) / 67% (8)]	R -> R (210)				c.630T>C	p.=					distinct	
+11	ACTB	ENST00000331789	ACTB-E01-E06	E4	273 (636)   [chr7:g.5569513 (HomoSapiens)]	C	T -> C (het)	67% (16)   [67% (8) / 67% (8)]	I -> I (212)				c.636T>C	p.=					distinct	
+12	ATP5C1	ENST00000356708	ATP5C1-E01-E10	E2	13 (69)   [chr10:g.7830239 (HomoSapiens)]	C	A -> G (het)	32% (14)   [32% (7) / 32% (7)]	R -> R (23)				c.69A>G	p.=					distinct	
+13	GAPDH	ENST00000229239	GAPDH-E01-E09	E6	109 (436)   [chr12:g.6644194 (HomoSapiens)]	C	A -> G (het)	49% (262)   [49% (131) / 49% (131)]	I -> V (146)				c.436A>G	p.Ile146Val					distinct	
+14	LDHB	ENST00000396076	LDHB-E01-E08	E4	14 (261)   [chr12:g.21810135 (HomoSapiens)]	C	T -> C (homo)	99% (131)   [100% (66) / 98% (65)]	T -> T (87)				c.261T>C	p.=					distinct	
+15	SLC25A5	ENST00000317881	SLC25A5-E01-E04	E2	310 (421)   [chrX:g.118602899 (HomoSapiens)]	C	C -> T (het)	40% (12)   [40% (6) / 40% (6)]	L -> L (141)				c.421C>T	p.=					distinct	
