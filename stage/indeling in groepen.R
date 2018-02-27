@@ -174,12 +174,12 @@ wilcoxonOverGenen <- function(dfGroep1, dfGroep2, nummericDataFrame, benodigdeDa
     order_p.valueWilcoxon$p.adjust <- p.adjust(order_p.valueWilcoxon[,4], method = "BH", n = nrow(order_p.valueWilcoxon))
     
     #Headers maken voor het bestand order_p.valueWilcoxon_MetHeader.
-    order_p.valueWilcoxon_MetHeader <- rbind(c("gene", "mean Korte overleving", "mean Lange overleving","p-value", "FDR", "p.adjust"), order_p.valueWilcoxon)
+    order_p.valueWilcoxon_MetHeader <- rbind(c("Gene", "mean Korte overleving", "mean Lange overleving","p-value", "critical value", "p.adjust"), order_p.valueWilcoxon)
     #Weg schrijven van order_p.valueWilcoxon_MetHeader.
     if(parameter == "CA12"){
-      titel <- paste(opslaanPath, " 000 Wilcoxon over overleving ", soortGroep) #NAAM!!!
+      titel <- paste(opslaanPath, "000 Wilcoxon over ", soortGroep) #NAAM!!!
     }else{
-      titel <- paste(opslaanPath, " 000 Wilcoxon over overleving ", soortGroep, " ", kortDagen, " ", langDagen)
+      titel <- paste(opslaanPath, "000 Wilcoxon over overleving ", soortGroep, " ", kortDagen, " ", langDagen)
     }
     write.table(order_p.valueWilcoxon_MetHeader, file = titel, row.names=FALSE, na="",col.names=FALSE, sep=";")
   }
@@ -244,9 +244,9 @@ wilcoxonOverGenen <- function(dfGroep1, dfGroep2, nummericDataFrame, benodigdeDa
     order_p.valueWilcoxon$p.adjust <- p.adjust(order_p.valueWilcoxon[,5], method = "BH", n = nrow(order_p.valueWilcoxon))
     
     #Headers maken voor het bestand order_p.valueWilcoxon_MetHeader.
-    order_p.valueWilcoxon_MetHeader <- rbind(c("gene", "mean cluster A", "mean cluster B 1", "mean cluster B 2","p-value", "FDR", "p.adjust"), order_p.valueWilcoxon)
+    order_p.valueWilcoxon_MetHeader <- rbind(c("Gene", "mean cluster A", "mean cluster B 1", "mean cluster B 2","p-value", "critical value", "p.adjust"), order_p.valueWilcoxon)
     #Weg schrijven van order_p.valueWilcoxon_MetHeader.
-    titel <- paste(opslaanPath, " 000 Wilcoxon over overleving ", soortGroep)
+    titel <- paste(opslaanPath, "000 Wilcoxon over ", soortGroep)
     write.table(order_p.valueWilcoxon_MetHeader, file = titel, row.names = FALSE, na="", col.names = FALSE, sep=";")
     #write.table(order_p.valueWilcoxon_MetHeader, file = titel, row.names=FALSE, na="",col.names=FALSE, sep=";")
   }

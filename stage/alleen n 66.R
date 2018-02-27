@@ -11,10 +11,10 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
   langClusterA <- as.numeric(dlgInput("Lange overlevers cluster A aantal dagen:", Sys.info()["langClusterA"])$res)
   kortClusterB <- as.numeric(dlgInput("Korte overlevers cluster B aantal dagen:", Sys.info()["kortClusterB"])$res)
   langClusterB <- as.numeric(dlgInput("Lange overlevers cluster B aantal dagen:", Sys.info()["langClusterB"])$res)
-  kortClusterAB <- as.numeric(dlgInput("Korte overlevers gehle data aantal dagen:", Sys.info()["kortClusterAB"])$res)
-  langClusterAB <- as.numeric(dlgInput("Lange overlevers gehele data aantal dagen:", Sys.info()["langClusterAB"])$res)
+  kortClusterAB <- as.numeric(dlgInput("Korte overlevers cluster A en B aantal dagen:", Sys.info()["kortClusterAB"])$res)
+  langClusterAB <- as.numeric(dlgInput("Lange overlevers cluster A en B aantal dagen:", Sys.info()["langClusterAB"])$res)
 
-  #Bestanden inlezen. Dit zijn de bestanden over de overleving en andere informatie van de patienten.
+  #Bestanden inlezen. Dit zijn de bestanden over de overleving en andere informatie van de patienten (klinische informatie).
   clusterA <- read.csv(file = paste(wholePath,"Kopie van Kopie van smMIP_Glioma_excel_export_20171113124934 met idh bewerkt cluster A.csv", sep = ""),
                        header = TRUE, sep = ",", na.strings=c("","NA"))
   clusterB <- read.csv(file = paste(wholePath,"Kopie van Kopie van smMIP_Glioma_excel_export_20171113124934 met idh bewerkt cluster B.csv", sep = ""),
@@ -26,7 +26,7 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
   tweeMutantTegenA <- read.csv(file = paste(wholePath,"Kopie van smMIP_Glioma_excel_export_20171113124934 met idh bewerkt 2 mutant tegen A.csv", sep = ""),
                                header = TRUE, sep = ",")
   #Headers voor de bestanden met lange en korte overlevers (A, B en AB)
-  headers <- c("Gene", "c. HGVS", "p. HGVS", "mutatie kort overleven","wt kort overleven", "mutatie lang overleven", "wt lang overleven" ,
+  headers <- c("Gene", "c. HGVS", "p. HGVS", "MT kort overleven","WT kort overleven", "MT lang overleven", "WT lang overleven" ,
                 "p-value", "critical value", "p.adjust")
 
   source(paste(wholePath,"indeling in groepen.R", sep = ""))
@@ -47,7 +47,6 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
   na.exclude(clusterAB)
   #Lange vs korte overleving cluster AB
   kortLangOverlevingAB = maakGroepen(benodigdeData, clusterAB, kortClusterAB, langClusterAB,"clusterAB", "overleven", opslaanPath)
-  #print(kortLangOverlevingAB)
   samplesAB = lijstPatienten(kortLangOverlevingAB)
   if(length(kortLangOverlevingAB[[1]]) > 1 && length(kortLangOverlevingAB[[2]]) > 1){
     KijkenNaarMutaties(samplesAB, kortLangOverlevingAB, percentageCutOff, uniekeMutaties, kortClusterAB, langClusterAB ,"clusterAB", opslaanPath, headers, wholePath)
@@ -55,21 +54,22 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
 
   dagenGroep <- " "
   na.exclude(CA12IDHwt)
+  headersCA12 <- c("Gene (in IDH-WT groep)", "c. HGVS", "p. HGVS", "MT CA12-insert","WT CA12-insert", "MT CA12-del", "WT CA12-del" ,
+               "p-value", "critical value", "p.adjust")
   #CA12 var1 tegen CA12 var2 (in IDHwt)
   groep1Groep2CA12 = maakGroepen(benodigdeData, CA12IDHwt, dagenGroep, dagenGroep,"CA12 IDHwt", "CA12", opslaanPath)
-  #print(groep1Groep2CA12)
   samplesCA12 = lijstPatienten(groep1Groep2CA12)
   if(length(groep1Groep2CA12[[1]]) > 1 && length(groep1Groep2CA12[[2]]) > 1){
-    KijkenNaarMutaties(samplesCA12, groep1Groep2CA12, percentageCutOff, uniekeMutaties, dagenGroep, dagenGroep ,"CA12", opslaanPath, headers, wholePath)
+    KijkenNaarMutaties(samplesCA12, groep1Groep2CA12, percentageCutOff, uniekeMutaties, dagenGroep, dagenGroep ,"CA12", opslaanPath, headersCA12, wholePath)
   }
 
 
   #cluster A tegen twee mutanten cluster B
   groep1Groep2 = maakGroepen(benodigdeData, tweeMutantTegenA, dagenGroep, dagenGroep,"tweeVSa", "groep", opslaanPath)
   samplesTweeMutantA = lijstPatienten(groep1Groep2)
-  headersTweeMutantA <- c("Gene", "c. HGVS", "p. HGVS", "mutatie cluster A","wt cluster A", "mutatie cluster B", "wt cluster B" ,
+  headersTweeMutantA <- c("Gene", "c. HGVS", "p. HGVS", "MT cluster A","WT cluster A", "MT cluster B", "WT cluster B" ,
                           "p-value", "critical value", "p.adjust")
-  if(length(groep1Groep2CA12[[1]]) > 1 && length(groep1Groep2CA12[[2]]) > 1){
+  if(length(groep1Groep2[[1]]) > 1 && length(groep1Groep2[[2]]) > 1){
     KijkenNaarMutaties(samplesTweeMutantA, groep1Groep2, percentageCutOff, uniekeMutaties, dagenGroep, dagenGroep ,"tweeVSa", opslaanPath, headersTweeMutantA, wholePath)
   }
 
@@ -80,7 +80,7 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
     source(paste(wholePath,"statistiek op groepen (mutaties).R", sep = ""))
     valueAvalueO = scheidenHistType(geheleData, opslaanPath, "A", "O", wholePath)
     samplesAO = lijstPatienten(valueAvalueO)
-    headerAO <- c("Gene", "c. HGVS", "p. HGVS", "mutatie A","wt A", "mutatie O", "wt O" ,
+    headerAO <- c("Gene", "c. HGVS", "p. HGVS", "MT A","WT A", "MT O", "WT O" ,
                  "p-value", "critical value", "p.adjust")
     if(length(valueAvalueO[[1]]) > 1 && length(valueAvalueO[[2]]) > 1){
       KijkenNaarMutaties(samplesAO, valueAvalueO, percentageCutOff, uniekeMutaties, "", "" ,"AO", opslaanPath, headerAO, wholePath)
@@ -88,7 +88,7 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
 
     valueAvalueG = scheidenHistType(geheleData, opslaanPath, "A", "G", wholePath)
     samplesAG = lijstPatienten(valueAvalueG)
-    headerAG <- c("Gene", "c. HGVS", "p. HGVS", "mutatie A","wt A", "mutatie G", "wt G" ,
+    headerAG <- c("Gene", "c. HGVS", "p. HGVS", "MT A","WT A", "MT G", "WT G" ,
                  "p-value", "critical value", "p.adjust")
     if(length(valueAvalueG[[1]]) > 1 && length(valueAvalueG[[2]]) > 1){
       KijkenNaarMutaties(samplesAG, valueAvalueG, percentageCutOff, uniekeMutaties, "", "" ,"AG", opslaanPath, headerAG, wholePath)
@@ -96,30 +96,30 @@ alleenN66 <- function(benodigdeData, opslaanPath, percentageCutOff, uniekeMutati
 
     valueGvalueO = scheidenHistType(geheleData, opslaanPath, "G", "O", wholePath)
     samplesGO = lijstPatienten(valueGvalueO)
-    headerGO <- c("Gene", "c. HGVS", "p. HGVS", "mutatie G","wt G", "mutatie O", "wt O" ,
+    headerGO <- c("Gene", "c. HGVS", "p. HGVS", "MT G","WT G", "MT O", "WT O" ,
                  "p-value", "critical value", "p.adjust")
     if(length(valueGvalueO[[1]]) > 1 && length(valueGvalueO[[2]]) > 1){
       KijkenNaarMutaties(samplesGO, valueGvalueO, percentageCutOff, uniekeMutaties, "", "" ,"GO", opslaanPath, headerGO, wholePath)
     }
   }
-  # Indelen in groepen IDH-R132H en IDHwt
+  # Indelen in groepen IDH-R132H en IDHwt (met IDH2 en IDH1-other als WT)
   # En op deze groepen ook een wilcoxon test doen
   source(paste(wholePath,"indeling in groepen IDH1 R132H.R", sep = ""))
   source(paste(wholePath,"statistiek op groepen (mutaties).R", sep = ""))
-  wildtypeMutatieIDH = scheidenIDH(benodigdeData, opslaanPath, wholePath)
+  wildtypeMutatieIDH = scheidenIDH_Met(benodigdeData, opslaanPath, wholePath)
   samplesIDH = lijstPatienten(wildtypeMutatieIDH)
-  headerIDH <- c("Gene", "c. HGVS", "p. HGVS", "mutatie IDH-WT","wt IDH-WT", "mutatie IDH-R132H", "wt IDH-R132H" ,
+  headerIDH <- c("Gene", "c. HGVS", "p. HGVS", "MT IDH-WT (met IDH2 en IDH1-other)","WT IDH-WT (met IDH2 en IDH1-other)", "MT IDH-R132H", "WT IDH-R132H" ,
                 "p-value", "critical value", "p.adjust")
   if(length(wildtypeMutatieIDH[[1]]) > 1 && length(wildtypeMutatieIDH[[2]]) > 1){
     KijkenNaarMutaties(samplesIDH, wildtypeMutatieIDH, percentageCutOff, uniekeMutaties, "", "" ,"IDH", opslaanPath, headerIDH, wholePath)
   }
-  
-  source(paste(wholePath,"indeling in groepen IDH1 R132H.R", sep = ""))
-  source(paste(wholePath,"statistiek op groepen (mutaties).R", sep = ""))
-  wildtypeZonderIDHotherMutatieIDH = scheidenIDHwt(benodigdeData, opslaanPath, wholePath)
+  # Indelen in groepen IDH-R132H en IDHwt (zonder IDH2 en IDH1-other als WT)
+  # En op deze groepen ook een wilcoxon test doen
+  # source(paste(wholePath,"indeling in groepen IDH1 R132H.R", sep = ""))
+  # source(paste(wholePath,"statistiek op groepen (mutaties).R", sep = ""))
+  wildtypeZonderIDHotherMutatieIDH = scheidenIDH_Zonder(benodigdeData, opslaanPath, wholePath)
   samplesIDHzonder = lijstPatienten(wildtypeZonderIDHotherMutatieIDH)
-  print(samplesIDHzonder)
-  headerIDHzonder <- c("Gene", "c. HGVS", "p. HGVS", "mutatie IDH-WT","wt IDH-WT", "mutatie IDH-R132H", "wt IDH-R132H" ,
+  headerIDHzonder <- c("Gene", "c. HGVS", "p. HGVS", "MT IDH-WT (zonder IDH2 en IDH1-other)","WT IDH-WT (zonder IDH2 en IDH1-other)", "MT IDH-R132H", "WT IDH-R132H" ,
                  "p-value", "critical value", "p.adjust")
   if(length(wildtypeZonderIDHotherMutatieIDH[[1]]) > 1 && length(wildtypeZonderIDHotherMutatieIDH[[2]]) > 1){
     KijkenNaarMutaties(samplesIDHzonder, wildtypeZonderIDHotherMutatieIDH, percentageCutOff, uniekeMutaties, "", "" ,"IDH (zonder IDH1-other en IDH2)", opslaanPath, headerIDHzonder, wholePath)

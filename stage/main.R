@@ -23,7 +23,6 @@ geheleData <- ldply(path,function(x)
 #Aangeven wat voor een soort bestand het is.
 soortBestand <- switch(menu(c("n = 66","n = 75", "Nieren", "ADV", "anders"), graphics = TRUE, title = "soort bestand") + 1,
        cat("Nothing done\n"), "N 66", "N 75", "Nieren", "ADV", "anders")
-
 if(soortBestand == "anders"){
   soortBestand <- as.character(dlgInput("Wat voor een data staat er in het bestand?:", Sys.info()["soortBestand"])$res)
 }
@@ -39,12 +38,6 @@ plotAanUit <- switch(menu(c("plot AAN", "plot UIT"), graphics = TRUE, title = "p
                 cat("Nothing done\n"), "AAN", "UIT")
 #Hier moet het path staan die naar alle mutatiefiles leidt.
 pathMutatieBestanden <- paste(wholePath, "SeqNext raw data files", soortSlash, sep = "")
-
-# #Parameters die de gebruiker kan aanpassen
-# methodeDistanceMatrix = "manhattan" #"euclidean", "maximum", "manhattan", "canberra", "binary" or "minkowski"
-# methodeClusteren = "ward.D2" #"ward.D", "ward.D2", "single", "complete", "average", "mcquitty", "median" or "centroid".
-# #Cutoff voor percentage in mutatiefile.
-# percentageCutOff = 10
 
 methodeDistanceMatrix <- switch(menu(c("manhattan","euclidean", "maximum", "canberra", "binary", "minkowski"), graphics = TRUE, title = "Distance matrix") + 1,
                        cat("Nothing done\n"), "manhattan","euclidean", "maximum", "canberra", "binary", "minkowski")
@@ -76,7 +69,7 @@ clusterEenTwee = getClusters(histogram, benodigdeData, opslaanPath, wholePath)
 
 #Er wordt een lijst met sample nummers gemaakt -> samples.
 #En er wordt een lijst gemaakt met unieke mutaties.
-source(paste(wholePath,"bewerken bestand1.R", sep = ""))
+source(paste(wholePath,"bewerken bestand.R", sep = ""))
 samples = samplesLijstMaken(benodigdeData)
 uniekeMutaties = bestandBewerken(samples, percentageCutOff, pathMutatieBestanden, opslaanPath)
 
@@ -110,20 +103,10 @@ if(statusHistological == "histological"){
   }else{
     kleurenTabelStatusIDH = ""
   }
-  # #De heatmaps worden gemaakt.
-  # source(paste(wholePath,"heatmap met hist_type.R", sep = ""))
-  # orderOpMeanValues = bewerken(benodigdeData, opslaanPath)
-  # heatmapMaken(orderOpMeanValues, samples, dendrogram, kleurenTabelHistologicalType, kleurenTabelStatusIDH, soortBestand)
 }else{
   kleurenTabelStatusIDH = ""
   kleurenTabelHistologicalType = ""
 }
-# else{
-#   #Hierbij wordt er alleen een heatmap gemaakt en geen gekleurde balken.
-#   source(paste(wholePath,"heatmap zonder hist_type.R", sep = ""))
-#   orderOpMeanValues = bewerken(benodigdeData, opslaanPath)
-#   heatmapMaken(orderOpMeanValues, samples, dendrogram)
-# }
 source(paste(wholePath,"heatmap.R", sep = ""))
 orderOpMeanValues = maakFileOrder(benodigdeData, opslaanPath)
 heatmapMaken(orderOpMeanValues, samples, dendrogram, kleurenTabelHistologicalType, kleurenTabelStatusIDH, soortBestand, statusHistological)

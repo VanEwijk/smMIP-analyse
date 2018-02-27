@@ -3,7 +3,7 @@
 #
 ########################################################################################################################## 
 
-scheidenIDH <- function(benodigdeData, opslaanPath, wholePath){
+scheidenIDH_Met <- function(benodigdeData, opslaanPath, wholePath){
     #Haalt de volgende bestanden op.
     IDH1.395GA <- as.character(read.csv(file = paste(opslaanPath, "IDH1 c.395G)A 10", sep = " "), check.names = FALSE)[,2])
     #Beschouwd al de bovenstaande bestanden als mutanten.
@@ -11,15 +11,10 @@ scheidenIDH <- function(benodigdeData, opslaanPath, wholePath){
     #Het verschil tussen de mutanten en alle sampels zijn de wild types.
     WT <- setdiff(samples, MT)
     
-    print(WT)
-    print(length(WT))
-    print(MT)
-    print(length(MT))
-    
     source(paste(wholePath, "wilcoxon test over genen.R", sep = ""))
-    header <- c("gene", "mean IDH-WT", "mean IDH1-R132H", "p-value wilcoxon test", "FDR", "p.adjust")
-    naamWilcoxonBestand <- paste(opslaanPath, "000 wilcoxon test over genen - IDH1", sep = " ")
-    naamMeanEenMinMeanTwee <- paste(opslaanPath, "000 mean cluster een min mean cluster twee - IDH1", sep = " ")
+    header <- c("Gene", "mean IDH-WT (met IDH2 en IDH1-other)", "mean IDH1-R132H", "p-value", "critical value", "p.adjust")
+    naamWilcoxonBestand <- paste(opslaanPath, "000 Wilcoxon over genen - IDH1 (met IDH1-other en IDH2)", sep = " ")
+    naamMeanEenMinMeanTwee <- paste(opslaanPath, "000 mean cluster een min mean cluster twee - IDH1 (met IDH1-other en IDH2)", sep = " ")
     #Roept de functie alleExpressieWaardenPerGroep aan.
     alleExpressieWaardenPerGroep(WT, MT, benodigdeData, opslaanPath, header, naamWilcoxonBestand, naamMeanEenMinMeanTwee)
     
@@ -31,7 +26,7 @@ scheidenIDH <- function(benodigdeData, opslaanPath, wholePath){
 # Indelen in groepen van IDH. Met de rest (ook IDH1-other en IDH2) niet als wildtype.
 #
 ##########################################################################################################################
-scheidenIDHwt <- function(benodigdeData, opslaanPath, wholePath){
+scheidenIDH_Zonder <- function(benodigdeData, opslaanPath, wholePath){
   #Haalt de volgende bestanden op.
   IDH1.395GA <- as.character(read.csv(file = paste(opslaanPath, "IDH1 c.395G)A 10", sep = " "), check.names = FALSE)[,2])
   IDH1.532GA <- as.character(read.csv(file = paste(opslaanPath, "IDH1 c.532G)A 10", sep = " "), check.names = FALSE)[,2])
@@ -49,15 +44,13 @@ scheidenIDHwt <- function(benodigdeData, opslaanPath, wholePath){
   WT <- setdiff(samples, MT)
   
   source(paste(wholePath, "wilcoxon test over genen.R", sep = ""))
-  header <- c("gene", "mean IDH-WT", "mean IDH1-R132H", "p-value wilcoxon test", "FDR", "p.adjust")
-  naamWilcoxonBestand <- paste(opslaanPath, "000 wilcoxon test over genen - IDH1 wt (zonder IDH1-other en IDH2)", sep = " ")
+  header <- c("Gene", "mean IDH-WT (zonder IDH2 en IDH1-other)", "mean IDH1-R132H", "p-value", "critical value", "p.adjust")
+  naamWilcoxonBestand <- paste(opslaanPath, "000 Wilcoxon over genen - IDH1 wt (zonder IDH1-other en IDH2)", sep = " ")
   naamMeanEenMinMeanTwee <- paste(opslaanPath, "000 mean cluster een min mean cluster twee - IDH1 wt (zonder IDH1-other en IDH2)", sep = " ")
   #Roept de functie alleExpressieWaardenPerGroep aan.
   alleExpressieWaardenPerGroep(WT, onlyIDH1R132H, benodigdeData, opslaanPath, header, naamWilcoxonBestand, naamMeanEenMinMeanTwee)
   
   wildtypeZonderIDHotherMutatieIDH <- list(WT, onlyIDH1R132H)
-  print(length(WT))
-  print(length(onlyIDH1R132H))
   return(wildtypeZonderIDHotherMutatieIDH)
 }
   

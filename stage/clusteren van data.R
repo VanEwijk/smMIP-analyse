@@ -7,46 +7,17 @@ histogramMaken <- function(benodigdeData, methodeDistanceMatrix, methodeClustere
   #De data wordt nummeric gemaakt.
   nummericDataFrame <- apply(benodigdeData, 2, as.numeric)
   #De namen van de genen worden weer de namen van de rijen.
-  #rownames(nummericDataFrame) <- rownames(benodigdeData)
   colnames(nummericDataFrame) <- colnames(benodigdeData)
   #Bij alle expressie waarden wordt 0.01 opgeteld. Dit om te voorkomen dat er een log wordt genomen van 0.
   plusGegevens <- nummericDataFrame + 0.01
   #Neem de log2 van alle gen expressies
   logGegevens <- log2(plusGegevens)
-  
-  # library(ggfortify)
-  # logg <- autoplot(prcomp(t(logGegevens)), label = TRUE)
-  # #numericc <-autoplot(prcomp(nummericDataFrame))
-  # plot(logg)
-  # #plot(numericc)
-  
-  
-  
-  # omdraaiLogGegevens <- t(logGegevens)
-  # na.exclude(omdraaiLogGegevens)
-  # View(omdraaiLogGegevens)
-  # library(cluster)
-  # a <- autoplot(pam(omdraaiLogGegevens, 2), frame = TRUE, frame.type = 'norm', label = TRUE)
-  # plot(a)
-  # b <- autoplot(fanny(omdraaiLogGegevens, 2), frame = TRUE)
-  # plot(b)
-  
-  # 
-  # AA <- autoplot(prcomp(omdraaiLogGegevens), 
-  #          data = omdraaiLogGegevens, 
-  #          colour = 'blue', 
-  #          label = TRUE
-  # )
-  # plot(AA)
-  
-  
   #Maak een distance matrix. (Met t() draai je de rijen en kolommen om.)
   distanceMatrix <- dist(t(logGegevens), method = methodeDistanceMatrix)
   #Clusteren van de data
   histogram <- hclust(distanceMatrix, method = methodeClusteren)
   #plotten van histogram
   plot(histogram)
-  #title(main = "Histogram")
   return(histogram)
 }
 
@@ -59,7 +30,6 @@ dendrogramMaken <- function(histogram, soortBestand){
   #dendrogram maken
   dendrogram <- as.dendrogram(histogram)
   plot(dendrogram)
-  #title(main = "Dendrogram")
   return(dendrogram)
 }
 
@@ -99,8 +69,12 @@ getClusters <- function(histogram, benodigdeData, opslaanPath, wholePath){
   print("CLUSTER 2:")
   print(clusterTwee)
   
+  clusterPositie <- switch(menu(c("links", "rechts"), graphics = TRUE, title = "Zitten de patienten uit cluster 1 links of rechts?") + 1,
+                         cat("Nothing done\n"), "A", "B")
+  print(clusterPositie)
   
-  headerEenTwee <- c("gene", "mean cluster een", "mean cluster twee", "p-value wilcoxon test", "FDR", "p.adjust")
+  
+  headerEenTwee <- c("Gene", "mean cluster een", "mean cluster twee", "p-value", "critical value", "p.adjust")
   naamWilcoxonBestand <- paste(opslaanPath, "000 wilcoxon test over genen - Clusters", sep = " ")
   naamMeanEenMinMeanTwee <- paste(opslaanPath, "000 mean cluster een min mean cluster twee - Clusters", sep = " ")
   

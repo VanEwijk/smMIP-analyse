@@ -144,17 +144,17 @@ kleurenTabelMakenIDH <- function(IDH1.395GA, IDH1.532GA, IDH1.548AG, IDH1.395GA.
     if(length(IDH1.R132H) > 0){
       kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.R132H, replacement = "#FF0000")
     }else if(length(IDH1.V178I) > 0){
-      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.V178I, replacement = "#FFFFFF") #
+      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.V178I, replacement = "#FFFFFF") 
     }else if(length(IDH1.Y183C) > 0){
-      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.Y183C, replacement = "#FFFFFF") #
+      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.Y183C, replacement = "#FFFFFF") 
     }else if(length(IDH1.R132H.IDH1.V178I) > 0){
       kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH1.R132H.IDH1.V178I, replacement = "#FF0000")
     }else if(length(IDH2.R172K) > 0){
-      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172K, replacement = "#000000") ##
+      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172K, replacement = "#000000") 
     }else if(length(IDH2.R172W) > 0){
-      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172W, replacement = "#000000") ##
+      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172W, replacement = "#000000") 
     }else if(length(IDH2.R172M) > 0){
-      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172M, replacement = "#000000") ##
+      kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = IDH2.R172M, replacement = "#000000") 
     }else if(length(wildType) > 0){
       kleurenTabelStatusIDH = gsub(kleurenTabelStatusIDH, pattern = wildType, replacement = "#3333FF")
     }

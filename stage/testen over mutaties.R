@@ -18,19 +18,6 @@ testen <- function(samples, uniekeMutaties, dendrogram, methodeDistanceMatrix, m
   for(mutatie in 1:length(uniekeMutaties)){
     bezitMutatie <- c()
     mutatiePositie <- unlist(strsplit(as.character(uniekeMutaties[mutatie]), " ; "))
-    
-    
-    # source(paste(wholePath,"maken bezit mutatie.R",sep = ""))
-    # bezitMutatie <-maakBezitMutatieLijst(samples, uniekeMutaties, methodeDistanceMatrix, methodeClusteren,
-    #                                      percentageCutOff, opslaanPath, dataFrameFisherTest, mutatie, mutatiePositie, bezitMutatie)
-    # # dataFrameFisherTest <- aanroepenFisher(samples, uniekeMutaties, methodeDistanceMatrix, methodeClusteren,
-    #                                        percentageCutOff, opslaanPath, dataFrameFisherTest, mutatie, bezitMutatie, clusterEenTwee, mutatiePositie)
-   
-    
-    
-    # Een vector om de samples in te zetten die de mutatie hebben.
-    # bezitMutatie <- c()
-    # mutatiePositie <- unlist(strsplit(as.character(uniekeMutaties[mutatie]), " ; "))
     # Loopt over de samples.
     for(sample in 1:length(samples)){
       naamBestand <- paste(opslaanPath, "Bewerkt bestand", samples[sample], percentageCutOff, sep=" ")
@@ -39,7 +26,7 @@ testen <- function(samples, uniekeMutaties, dendrogram, methodeDistanceMatrix, m
         bewerktBestand <- ldply(naamBestand,function(x)
           if(grepl(",",readLines(x,n=1))){read.csv(x,sep=",", header = TRUE, na.strings = c("", "NA"))}
           else if(grepl(";",readLines(x,n=1))){read.csv(x,sep=";", header = TRUE, na.strings = c("", "NA"))}
-          else{read.csv(x,sep="\t", header = TRUE, na.strings = c("", "NA"))})#read.csv(file = naamBestand, header = TRUE, sep = ";")
+          else{read.csv(x,sep="\t", header = TRUE, na.strings = c("", "NA"))})
 
         #Namen van kolommen uit mutatie bestand.
         #Uit deze kolommen kunnen gegevens worden opgehaald (eventueel)
@@ -113,13 +100,11 @@ testen <- function(samples, uniekeMutaties, dendrogram, methodeDistanceMatrix, m
       plottenVanDendrogram(dendrogram, mutatiePositie, methodeDistanceMatrix, methodeClusteren, percentageCutOff, 
                           pValue, opslaanPath, bezitMutatie)
     }
-
-    #dataFrameBezitMutatie = as.data.frame(bezitMutatie)
+    
     #NulEen wordt aangeroepen
     erInOfNiet = NulEen(bezitMutatie, benodigdeData, uniekeMutaties[mutatie], samples)
     #Alle erInOfNiet lijsten worden toegevoegd aan lijst0en1
     lijst0en1 <- c(lijst0en1, erInOfNiet)
-    
     #De / eruit halen anders levert dit errors op.
     mutatiePositie[mutatie] = gsub(mutatiePositie[mutatie], pattern = "/", replacement = "")
     #Bestand wegschrijven.
@@ -144,10 +129,10 @@ testen <- function(samples, uniekeMutaties, dendrogram, methodeDistanceMatrix, m
   orderDataFrameFisherTest$p.adjust <- p.adjust(orderDataFrameFisherTest[,8], method = "BH", n = nrow(orderDataFrameFisherTest))
   
   #Headers maken voor het bestand orderDataFrameFisherTest.
-  orderDataFrameFisherTestMetHeader <- rbind(c("Gene mutatie",  "c. HGVS", "p. HGVS", "mutatie cluster 1",
-                                         "wild type cluster 1", "mutatie cluster 2", "wild type cluster 2" ,"p-value Fishers extact test","FDR","p.adjust"), orderDataFrameFisherTest)
+  orderDataFrameFisherTestMetHeader <- rbind(c("Gene",  "c. HGVS", "p. HGVS", "MT cluster 1",
+                                         "WT cluster 1", "MT cluster 2", "MT cluster 2" ,"p-value", "critical value","p.adjust"), orderDataFrameFisherTest)
   #Er wordt een naam voor het file gemaakt en het file wordt weggeschreven.
-  naamorderDataFrameFisherTestMetHeader <- paste(opslaanPath, "000 Fishers Exact test over mutaties", percentageCutOff, sep = " ")
+  naamorderDataFrameFisherTestMetHeader <- paste(opslaanPath, "000 Fishers Exact test over mutaties - Clusters", percentageCutOff, sep = " ")
   write.table(orderDataFrameFisherTestMetHeader, file = naamorderDataFrameFisherTestMetHeader,row.names=FALSE, na="",col.names=FALSE, sep=";")
 
   
@@ -185,43 +170,6 @@ NulEen <- function(bezitMutatie, benodigdeData, mutatie, samples){
   erInOfNietLijst <- as.list(erInOfNiet)
   return(erInOfNiet)
 } 
-
-
-# ########################################################################################################################## 
-# # Fisher's Exact Test wordt uitgevoerd.
-# #
-# ########################################################################################################################## 
-# fishersExactTest <- function(bezitMutatie, clusterEenTwee){
-#   #Count maken die tellen hoeveel samples in cluster Een en Twee de mutaties bevatten.
-#   welInEen = 0
-#   welInTwee = 0
-#   
-#   #Gekeken wordt hoeveel samples per cluster de mutatie bevatten.
-#   for(sample in 1:length(bezitMutatie)){
-#     #CLUSTER 1
-#     for(een in 1:length(clusterEenTwee[[1]])){
-#       if(bezitMutatie[sample] == clusterEenTwee[[1]][een]){
-#         welInEen = welInEen + 1
-#       }
-#     }
-#     #CLUSTER 2
-#     for(twee in 1:length(clusterEenTwee[[2]])){
-#       if(bezitMutatie[sample] == clusterEenTwee[[2]][twee]){
-#         welInTwee = welInTwee + 1
-#       }
-#     }
-#   }
-#   #Het verschil tussen alle samples uit cluster 1 of 2 en het aantal mutaties in dat cluster is het aantal samples dat de mutatie niet heeft.
-#   nietInEen <- length(clusterEenTwee[[1]]) - welInEen
-#   nietInTwee <- length(clusterEenTwee[[2]]) - welInTwee
-#   
-#   #Matrix maken om de fisher test later uit te voeren.
-#   matrixFisher <- matrix(c(welInEen, nietInEen, welInTwee, nietInTwee), nrow = 2)
-#   return(matrixFisher)
-# }
-
-
-
 
 
 ########################################################################################################################## 

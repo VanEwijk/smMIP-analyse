@@ -4,7 +4,6 @@
 ########################################################################################################################## 
 lijstPatienten <- function(groep1Groep2){
   samples <- c(groep1Groep2[[1]], groep1Groep2[[2]])
-  print(length(samples))
   return(samples)
 }
 
@@ -19,17 +18,7 @@ KijkenNaarMutaties <- function(samples, groep1Groep2, percentageCutOff, uniekeMu
   
   #Loopt over alle mutaies.
   for(mutatie in 1:length(uniekeMutaties)){
-    # print(uniekeMutaties[mutatie])
-    # bezitMutatie <- c()
-    # mutatiePositie <- unlist(strsplit(as.character(uniekeMutaties[mutatie]), " ; "))
-    # print(mutatiePositie)
-    # source(paste(wholePath,"maken bezit mutatie.R",sep = ""))
-    # bezitMutatie <-maakBezitMutatieLijst(samples, uniekeMutaties, methodeDistanceMatrix, methodeClusteren,
-    #                                      percentageCutOff, opslaanPath, dataFrameFisherTest, mutatie, mutatiePositie, bezitMutatie)
-    # print(bezitMutatie)
-    # dataFrameFisherTest <- aanroepenFisher(samples, uniekeMutaties, methodeDistanceMatrix, methodeClusteren,
-    #                                        percentageCutOff, opslaanPath, dataFrameFisherTest, mutatie, bezitMutatie, groep1Groep2, mutatiePositie)
-    # #Een vector om de samples in te zetten die de mutatie hebben.
+    #Een vector om de samples in te zetten die de mutatie hebben.
     bezitMutatie <- c()
     mutatiePositie <- unlist(strsplit(as.character(uniekeMutaties[mutatie]), " ; "))
     #Loopt over de samples.
@@ -38,7 +27,7 @@ KijkenNaarMutaties <- function(samples, groep1Groep2, percentageCutOff, uniekeMu
       bewerktBestand <- ldply(naamBestand,function(x)
         if(grepl(",",readLines(x,n=1))){read.csv(x,sep=",", header = TRUE, na.strings = c("", "NA"))}
         else if(grepl(";",readLines(x,n=1))){read.csv(x,sep=";", header = TRUE, na.strings = c("", "NA"))}
-        else{read.csv(x,sep="\t", header = TRUE, na.strings = c("", "NA"))})#read.csv(file = naamBestand, header = TRUE, sep = ";")
+        else{read.csv(x,sep="\t", header = TRUE, na.strings = c("", "NA"))})
       #Loopt over de rijen van het bestand van het sample.
       for(rij in 1:nrow(bewerktBestand)){
         #Wanneer de gen naam en de c. HGVS overeenkomen wordt het sample in de vector bezitMutatie geplaatst.
@@ -94,7 +83,7 @@ KijkenNaarMutaties <- function(samples, groep1Groep2, percentageCutOff, uniekeMu
   dataFrameFisherTestOrder$p.adjust <- p.adjust(dataFrameFisherTestOrder[,8], method = "BH", n = nrow(dataFrameFisherTestOrder))
   #Headers maken voor het bestand dataFrameFisherTestOrder
   dataFrameFisherTestVolledig <- rbind(headers, dataFrameFisherTestOrder)
-  # Er wordt een naam voor het file gemaakt en het file wordt weggeschreven.
+  #Er wordt een naam voor het file gemaakt en het file wordt weggeschreven.
   rownames(dataFrameFisherTestVolledig) <- NULL
   if(naam == "tweeVSa" || naam == "CA12" || naam == "nierNormaalTumor" || naam == "AO" || naam == "AG" || naam == "GO" || naam == "IDH" || naam == "IDH (zonder IDH1-other en IDH2)"){
     naamdataFrameFisherTestVolledig <- paste(opslaanPath, "000 Fishers Exact test over mutaties", percentageCutOff, "-",  naam, sep = " ")
@@ -103,38 +92,4 @@ KijkenNaarMutaties <- function(samples, groep1Groep2, percentageCutOff, uniekeMu
   }
    write.table(dataFrameFisherTestVolledig, file = naamdataFrameFisherTestVolledig, col.names=FALSE, row.names = FALSE, sep=";")
 }
-
-
-# ########################################################################################################################## 
-# # Fisher's Exact Test wordt uitgevoerd.
-# #
-# ########################################################################################################################## 
-# fishersExactTest2 <- function(bezitMutatie, groep1Groep2){
-#   #Count maken die tellen hoeveel samples in cluster Een en Twee de mutaties bevatten.
-#   welInGroep1 = 0
-#   welInGroep2 = 0
-#   
-#   #Gekeken wordt hoeveel samples per cluster de mutatie bevatten.
-#   for(sample in 1:length(bezitMutatie)){
-#     #GROEP 1
-#     for(gr1 in 1:length(groep1Groep2[[1]])){
-#       if(bezitMutatie[sample] == groep1Groep2[[1]][gr1]){
-#         welInGroep1 = welInGroep1 + 1
-#       }
-#     }
-#     #GROEP 2
-#     for(gr2 in 1:length(groep1Groep2[[2]])){
-#       if(bezitMutatie[sample] == groep1Groep2[[2]][gr2]){
-#         welInGroep2 = welInGroep2 + 1
-#       }
-#     }
-#   }
-#   #Het verschil tussen alle samples uit cluster 1 of 2 en het aantal mutaties in dat cluster is het aantal samples dat de mutatie niet heeft.
-#   nietInGroep1 <- length(groep1Groep2[[1]]) - welInGroep1
-#   nietInGroep2 <- length(groep1Groep2[[2]]) - welInGroep2
-#   
-#   #Matrix maken om de fisher test later uit te voeren.
-#   matrixFisher <- matrix(c(welInGroep1, nietInGroep1, welInGroep2, nietInGroep2), nrow = 2)
-#   return(matrixFisher)
-# }
 
