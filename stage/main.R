@@ -66,6 +66,7 @@ source(paste(wholePath, "clusteren van data.R", sep = ""))
 histogram = histogramMaken(benodigdeData, methodeDistanceMatrix, methodeClusteren, soortBestand)
 dendrogram = dendrogramMaken(histogram, soortBestand)
 clusterEenTwee = getClusters(histogram, benodigdeData, opslaanPath, wholePath)
+supervisedZelf(geheleData, opslaanPath, wholePath, statusHistological)
 
 #Er wordt een lijst met sample nummers gemaakt -> samples.
 #En er wordt een lijst gemaakt met unieke mutaties.

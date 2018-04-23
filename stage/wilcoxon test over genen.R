@@ -15,6 +15,7 @@ alleExpressieWaardenPerGroep <- function(groepEen, groepTwee, benodigdeData, ops
   dataFrameGroepTwee <- data.frame(matrix(nrow=nrow(nummericDataFrame),ncol= length(groepTwee)))
   countTwee = 1
   
+  
   #Loopt over alle kolommen van de benodigdeData (over alle samples).
   for(kolom in 1:length(benodigdeData)){
     #Pakt alle expressie waardes van alle samples die in groep 1 zitten en stopt dit in een dataframe.
@@ -79,6 +80,7 @@ wilcoxonGenen <- function(dataFrameGroepEen, dataFrameGroepTwee, nummericDataFra
     groepTweeMinSamples <- unname(groepTweeMinGen[c(1:length(groepTweeMinGen))])
     #Sorteer de genexpressies.
     sortTwee <- as.vector(sort(groepTweeMinSamples))
+
     
     #Mean berekenen per groep en deze toevoegen aan dataFrameWilcoxon.
     meanEen <- mean(sortEen)

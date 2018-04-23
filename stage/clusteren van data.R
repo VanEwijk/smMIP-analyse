@@ -69,9 +69,9 @@ getClusters <- function(histogram, benodigdeData, opslaanPath, wholePath){
   print("CLUSTER 2:")
   print(clusterTwee)
   
-  clusterPositie <- switch(menu(c("links", "rechts"), graphics = TRUE, title = "Zitten de patienten uit cluster 1 links of rechts?") + 1,
-                         cat("Nothing done\n"), "A", "B")
-  print(clusterPositie)
+  # clusterPositie <- switch(menu(c("links", "rechts"), graphics = TRUE, title = "Cluster 1 zit:") + 1,
+  #                        cat("Nothing done\n"), "A", "B")
+  # print(clusterPositie)
   
   
   headerEenTwee <- c("Gene", "mean cluster een", "mean cluster twee", "p-value", "critical value", "p.adjust")
@@ -87,5 +87,17 @@ getClusters <- function(histogram, benodigdeData, opslaanPath, wholePath){
   return(clusterEenTwee)
 }
 
+
+##########################################
+#
+##########################################
+supervisedZelf <- function(geheleData, opslaanPath, wholePath, statusHistological){
+  if(statusHistological == "histological"){
+    source(paste(wholePath, "indeling in groepen hist_Type.R", sep = ""))
+    value1 = scheidenHistType(geheleData, opslaanPath, "A", "O", wholePath)
+    value2 = scheidenHistType(geheleData, opslaanPath, "A", "G", wholePath)
+    value3 = scheidenHistType(geheleData, opslaanPath, "G", "O", wholePath)
+  }
+}
 
 
